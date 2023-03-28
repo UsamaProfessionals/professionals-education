@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Aos from 'aos';
 
 class Category extends Component {
 
@@ -27,7 +28,7 @@ class Category extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6" aos="fade-right" aos-duration="3000">
                             <div className="category__item mb-30 transition-3 d-flex align-items-center">
                                 <div className="category__icon mr-30">
                                 <svg viewBox="0 0 512 512">
