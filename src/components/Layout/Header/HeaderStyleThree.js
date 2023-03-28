@@ -48,7 +48,7 @@ const HeaderThree = () => {
                               <Link href="/">
                                  <a>
                                     <img className="logo-white" src="assets/img/logo/logo-2.png" alt="logo" />
-                                    <img className="logo-black" src="assets/img/logo/logo.png" alt="logo" />
+                                    <img className="logo-black img-fluid" src="assets/img/logo/logo (2).png" alt="logo" />
                                  </a>
                               </Link>
                            </div>

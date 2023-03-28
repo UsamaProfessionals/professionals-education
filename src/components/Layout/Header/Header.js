@@ -36,6 +36,12 @@ const Header = () => {
          <Head>
             <title>Educal – Online Course and Education React, Nextjs Template</title>
             <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+            <script>
+               AOS.init();
+            </script>
          </Head>
          <header>
             <div id="header-sticky" className="header__area header__transparent header__padding">
@@ -45,11 +51,11 @@ const Header = () => {
                         <div className="header__left d-flex">
                            <div className="logo">
                               <Link href="/">
-                                 <a><img src="assets/img/logo/logo.jpeg" alt="logo" /></a>
+                                 <a><img src="assets/img/logo/logo (2).png" alt="logo" className='img-fluid' style={{ maxWidth: "100px" }} /></a>
                               </Link>
                            </div>
                            <div className="header__category d-none d-lg-block">
-                              <nav>
+                              <nav style={{ marginTop: "35px" }}>
                                  <ul>
                                     <li>
                                        <Link href="/course-grid"><a className="cat-menu d-flex align-items-center">
@@ -70,7 +76,7 @@ const Header = () => {
                                                 </g>
                                              </svg>
                                           </div>
-                                          <span>Category Category</span>
+                                          <span>Category</span>
                                        </a>
                                        </Link>
                                        <ul className="cat-submenu">
