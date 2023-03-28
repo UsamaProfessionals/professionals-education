@@ -54,7 +54,7 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
           </div>
           <div className="sidebar__content">
               <div className="logo mb-40">
-                <Link href="/"><a><img src="assets/img/logo/logo.png" alt="logo"/></a></Link>
+                <Link href="/"><a><img src="assets/img/hero/logo (2).png" alt="logo" className='img-fluid w-50'/></a></Link>
               </div>
               <div className="mm-menu">
                 <ul>
