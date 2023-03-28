@@ -36,12 +36,6 @@ const Header = () => {
          <Head>
             <title>Educal – Online Course and Education React, Nextjs Template</title>
             <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-            <script>
-               AOS.init();
-            </script>
          </Head>
          <header>
             <div id="header-sticky" className="header__area header__transparent header__padding">
