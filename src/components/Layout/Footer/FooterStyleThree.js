@@ -14,7 +14,7 @@ const FooterThree = () => {
                            <div className="footer__widget mb-50">
                               <div className="footer__widget-head mb-22">
                                  <div className="footer__logo">
-                                    <Link href="/"><a><img src="assets/img/logo/logo-2.png" alt="img not found"/></a></Link>
+                                    <Link href="/"><a><img src="assets/img/hero/professional.png" alt="img not found" className='img-fluid' style={{maxWidth: "100px"}}/></a></Link>
                                  </div>
                               </div>
                               <div className="footer__widget-body">
