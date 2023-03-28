@@ -47,8 +47,8 @@ const HeaderStyleFive = () => {
                                     <div className="logo">
                                         <Link href="/">
                                             <a>
-                                                <img className="logo-white img-fluid" src="assets/img/logo/logo (2).png" alt="logo" style={{maxWidth: "100px"}}  />
-                                                <img className="logo-black img-fluid" src="assets/img/logo/logo (2).png" alt="logo" style={{maxWidth: "100px"}} />
+                                                <img className="logo-white img-fluid" src="assets/img/hero/logo (2).png" alt="logo" style={{maxWidth: "100px"}}  />
+                                                <img className="logo-black img-fluid" src="assets/img/hero/logo (2).png" alt="logo" style={{maxWidth: "100px"}} />
                                             </a>
                                         </Link>
                                     </div>

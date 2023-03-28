@@ -44,7 +44,7 @@ const HeaderFour = () => {
                                 <div className="header__left d-flex">
                                     <div className="logo">
                                         <Link href="/">
-                                            <a><img src="assets/img/logo/logo (2).png" alt="logo" className='img-fluid' /></a>
+                                            <a><img src="assets/img/hero/logo (2).png" alt="logo" className='img-fluid' /></a>
                                         </Link>
                                     </div>
                                     <div className="header__category d-none d-lg-block">
