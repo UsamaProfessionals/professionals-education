@@ -47,8 +47,8 @@ const HeaderStyleFive = () => {
                                     <div className="logo">
                                         <Link href="/">
                                             <a>
-                                                <img className="logo-white img-fluid" src="assets/img/hero/logo (2).png" alt="logo" style={{maxWidth: "100px"}}  />
-                                                <img className="logo-black img-fluid" src="assets/img/hero/logo (2).png" alt="logo" style={{maxWidth: "100px"}} />
+                                                <img className="logo-white img-fluid" src="assets/img/hero/professional.png" alt="logo" style={{maxWidth: "100px"}}  />
+                                                <img className="logo-black img-fluid" src="assets/img/hero/professional.png" alt="logo" style={{maxWidth: "100px"}} />
                                             </a>
                                         </Link>
                                     </div>
@@ -56,7 +56,7 @@ const HeaderStyleFive = () => {
                             </div>
                             <div className="col-xxl-5 col-xl-5 d-none d-xl-block">
                                 <div className="main-menu main-menu-3 d-none d-xl-block">
-                                    <nav id="mobile-menu">
+                                    <nav id="mobile-menu" style={{marginTop: "35px"}}>
                                         <ul>
                                             <li className="has-dropdown">
                                                 <Link href="/"><a>Home</a></Link>

@@ -7,7 +7,7 @@
 .category{
     &__item{
         padding: 20px 40px;
-        @include border-radius(6px);
+        @include border-radius(0.5rem);
         border: 2px solid $border;
 
         @media #{$lg}{
@@ -23,11 +23,12 @@
             padding-right: 30px;
         }
         &:hover{
-            background: $e-blue;
-            border-color: $e-blue;
-            @include box-shadow(0px 20px 30px 0px rgba(4, 23, 118, 0.3));
+            // background: $e-blue;
+            // border-color: $e-blue;
+            // @include box-shadow(0px 20px 30px 0px rgba(4, 23, 118, 0.3));
+            @include box-shadow(0px 5px 30px 5px #50C878);
             & .category__title{
-                color: $white;
+                color: $black-soft;
             }
             & svg{
                 & .st0,
@@ -35,12 +36,12 @@
                 & .st2,
                 & .st4,
                 & .st5{
-                    fill: $white;
+                    fill: #50C878;
                 }
             }
             & .category__content{
                 & p{
-                    color: $white;
+                    color: $black-soft;
                 }
             }
         }
@@ -74,6 +75,7 @@
     &__title{
         font-size: 20px;
         line-height: 1;
+        margin-top: 1rem;
         margin-bottom: 0;
     }
     &__content{

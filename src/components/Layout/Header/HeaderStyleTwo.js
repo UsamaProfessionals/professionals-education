@@ -44,7 +44,7 @@ const HeaderTwo = () => {
 								<div className="header__left d-flex">
 									<div className="logo">
 										<Link href="/">
-											<a><img src="assets/img/hero/logo (2).png" alt="logo" className='img-fluid' style={{maxWidth: "100px"}} /></a>
+											<a><img src="assets/img/hero/professional.png" alt="logo" className='img-fluid' style={{maxWidth: "100px"}} /></a>
 										</Link>
 									</div>
 									<div className="header__category d-none d-lg-block">
