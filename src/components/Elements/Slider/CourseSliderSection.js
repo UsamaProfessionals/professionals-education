@@ -35,7 +35,80 @@ class CourseSlider extends Component {
                         pagination={{ clickable: true }}
                     >
                         <SwiperSlide>
-                            <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                            <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
+
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.jpg)" }}>
+                                    {/* <Link href="/course-details"><a>
+                                        <img src="assets/img/course/new-course/new-course-img-1.jpg" alt="img not found" />
+                                    </a></Link> */}
+                                    <div className="course__tag">
+                                        <Link href="/course-details"><a>Art & Design</a></Link>
+                                    </div>
+                                    <div className="course__content">
+
+                                        <div className="course__meta d-none d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>43 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (44)</span>
+                                            </div>
+                                        </div>
+
+                                        <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>Become a product Manager learn the skills & job.</a></Link></h3>
+
+                                        <div className="course__teacher d-none d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div className='flip-box-back'>
+                                    <div className="course__content">
+                                        <div className="course__meta d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>43 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (44)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Become a product Manager learn the skills & job.</a></Link></h3>
+                                        <div className="course__teacher d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                        </div>
+                                        <div className="course__btn text-end">
+                                            <Link href="/course-details"><a className="link-btn">
+                                                Know Details
+                                                <i className="fas fa-arrow-right"></i>
+                                                <i className="fas fa-arrow-right"></i>
+                                            </a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="course__more d-flex justify-content-between align-items-center">
+                                    <div className="course__status">
+                                        <span>Free</span>
+                                    </div>
+                                    <div className="course__btn d-none">
+                                        <Link href="/course-details"><a className="link-btn">
+                                            Know Details
+                                            <i className="fas fa-arrow-right"></i>
+                                            <i className="fas fa-arrow-right"></i>
+                                        </a></Link>
+                                    </div>
+                                </div>
+
+                            </div>
+                            {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
                                     <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-1.jpg" alt="img not found" /></a></Link>
                                     <div className="course__tag">
@@ -71,11 +144,79 @@ class CourseSlider extends Component {
                                         </a></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                            <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-6.jpg)" }}>
+                                    {/* <Link href="/course-details"><a >
+                                        <img src="assets/img/course/new-course/new-course-img-6.jpg" alt="img not found" />
+                                    </a></Link> */}
+                                    <div className="course__tag">
+                                        <Link href="/course-details"><a className="pink">UX Design</a></Link>
+                                    </div>
+                                    <div className="course__content">
+                                        <div className="course__meta d-none d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>13 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (72)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>Creative writing through Storytelling</a></Link></h3>
+                                        <div className="course__teacher d-none d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Shahnewaz Sakil</a></Link></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="flip-box-back course__thumb w-img p-relative fix">
+                                    <div className="course__content">
+                                        <div className="course__meta d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>13 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (72)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Creative writing through Storytelling</a></Link></h3>
+                                        <div className="course__teacher d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Shahnewaz Sakil</a></Link></h6>
+                                        </div>
+                                        <div className="course__btn text-end">
+                                            <Link href="/course-details"><a className="link-btn">
+                                                Know Details
+                                                <i className="fas fa-arrow-right"></i>
+                                                <i className="fas fa-arrow-right"></i>
+                                            </a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="course__more d-flex justify-content-between align-items-center">
+                                    <div className="course__status d-flex align-items-center">
+                                        <span className="pink">$46.00</span>
+                                        <span className="old-price">$72.00</span>
+                                    </div>
+                                    <div className="course__btn d-none">
+                                        <Link href="/course-details"><a className="link-btn">
+                                            Know Details
+                                            <i className="fas fa-arrow-right"></i>
+                                            <i className="fas fa-arrow-right"></i>
+                                        </a></Link>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
                                     <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-2.jpg" alt="img not found" /></a></Link>
                                     <div className="course__tag">
@@ -112,11 +253,79 @@ class CourseSlider extends Component {
                                         </a></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                            <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-5.jpg)" }}>
+                                    {/* <Link href="/course-details"><a >
+                                        <img src="assets/img/course/new-course/new-course-img-5.jpg" alt="img not found" />
+                                    </a></Link> */}
+                                    <div className="course__tag">
+                                        <Link href="/course-details"><a className="orange">Audio & Music</a></Link>
+                                    </div>
+                                    <div className="course__content">
+                                        <div className="course__meta d-none d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>18 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (37)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>Build your media and Public presence</a></Link></h3>
+                                        <div className="course__teacher d-none d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Pelican Steve</a></Link></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="flip-box-back course__thumb w-img p-relative fix">
+                                    <div className="course__content">
+                                        <div className="course__meta d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>18 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (37)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Build your media and Public presence</a></Link></h3>
+                                        <div className="course__teacher d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Pelican Steve</a></Link></h6>
+                                        </div>
+                                        <div className="course__btn text-end">
+                                            <Link href="/course-details"><a className="link-btn">
+                                                Know Details
+                                                <i className="fas fa-arrow-right"></i>
+                                                <i className="fas fa-arrow-right"></i>
+                                            </a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="course__more d-flex justify-content-between align-items-center">
+                                    <div className="course__status d-flex align-items-center">
+                                        <span className="orange">$62.00</span>
+                                        <span className="old-price">$97.00</span>
+                                    </div>
+                                    <div className="course__btn d-none">
+                                        <Link href="/course-details"><a className="link-btn">
+                                            Know Details
+                                            <i className="fas fa-arrow-right"></i>
+                                            <i className="fas fa-arrow-right"></i>
+                                        </a></Link>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
                                     <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-3.jpg" alt="img not found" /></a></Link>
                                     <div className="course__tag">
@@ -153,11 +362,80 @@ class CourseSlider extends Component {
                                         </a></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                            <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.jpg)" }}>
+                                    {/* <Link href="/course-details"><a >
+                                        <img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" />
+                                    </a></Link> */}
+                                    <div className="course__tag">
+                                        <Link href="/course-details"><a className="blue">Marketing</a></Link>
+                                    </div>
+                                    <div className="course__content">
+                                        <div className="course__meta d-none d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>22 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (42)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
+                                        <div className="course__teacher d-none d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Eleanor Fant</a></Link></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="flip-box-back course__thumb w-img p-relative fix">
+                                    <div className="course__content">
+                                        <div className="course__meta d-flex align-items-center justify-content-between">
+                                            <div className="course__lesson">
+                                                <span><i className="fas fa-book"></i>22 Lesson</span>
+                                            </div>
+                                            <div className="course__rating">
+                                                <span><i className="fas fa-star"></i>4.5 (42)</span>
+                                            </div>
+                                        </div>
+                                        <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
+                                        <div className="course__teacher d-flex align-items-center">
+                                            <div className="course__teacher-thumb mr-15">
+                                                <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                            </div>
+                                            <h6><Link href="/instructor-details"><a>Eleanor Fant</a></Link></h6>
+                                        </div>
+                                        <div className="course__btn text-end">
+                                            <Link href="/course-details"><a className="link-btn">
+                                                Know Details
+                                                <i className="fas fa-arrow-right"></i>
+                                                <i className="fas fa-arrow-right"></i>
+                                            </a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="course__more d-flex justify-content-between align-items-center">
+                                    <div className="course__status d-flex align-items-center">
+                                        <span className="blue">$62.00</span>
+                                        <span className="old-price">$97.00</span>
+                                    </div>
+                                    <div className="course__btn d-none">
+                                        <Link href="/course-details"><a className="link-btn">
+                                            Know Details
+                                            <i className="fas fa-arrow-right"></i>
+                                            <i className="fas fa-arrow-right"></i>
+                                        </a></Link>
+                                    </div>
+                                </div>
+
+                            </div>
+                            {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
                                     <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" /></a></Link>
                                     <div className="course__tag">
@@ -194,9 +472,9 @@ class CourseSlider extends Component {
                                         </a></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </SwiperSlide>
-                        
+
                     </Swiper>
                 </div>
             </div>

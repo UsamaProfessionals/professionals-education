@@ -28,7 +28,7 @@ class Banner extends Component {
                             </div>
                             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                 <Link href="/course-details">
-                                    <div className="zoom banner__item p-relative mb-40" style={{ backgroundImage: ` linear-gradient(90deg, rgba(0, 0, 0, 0.483) 0%, rgba(0, 0, 0, 0.79) 100%, rgb(0, 0, 0) 100%), url(${'assets/img/banner/new-banner/new-banner-bg-2.jpg'})` }}>
+                                    <div className="zoom banner__item p-relative mb-40" style={{ backgroundImage: ` linear-gradient(90deg, rgba(0, 0, 0, 0.483) 0%, rgba(0, 0, 0, 0.79) 100%, rgb(0, 0, 0) 100%), url(${'assets/img/banner/new-banner/new-banner-bg-3.jpg'})` }}>
                                         <div className="banner__content">
                                             <span className="orange">new</span>
                                             <h3 className="banner__title" style={{ color: "white" }}>

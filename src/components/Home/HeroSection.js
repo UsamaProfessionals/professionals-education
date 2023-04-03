@@ -14,15 +14,17 @@ class Hero extends Component {
                         <img className="hero-1-dot-2" src="assets/img/shape/hero/hero-1-dot-2.png" alt="img not found" />
                     </div> */}
                     <div className="container">
-                        <div className="hero__content-wrapper mt-90">
+                        {/* mt-90 */}
+                        <div className="hero__content-wrapper">
                             <div className="row align-items-center">
                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                     <div className="hero__content p-relative z-index-1">
-                                        <h3 className="hero__title">
-                                            <span>Access 2700+</span>
+                                        <h3 className="hero__title text-white">
+                                            {/* <span>Access 2700+</span> */}
                                             {/* <span className="yellow-shape">Online <img src="assets/img/shape/yellow-bg.png" alt="yellow-shape"/> </span>  */}
-                                            <span className='hover-underline-animation'>Online Tutorial From </span>Top Instructor. </h3>
-                                        <p>Meet university,and cultural institutions, who'll share their experience.</p>
+                                            <span className='hover-underline-animation fw-bold'>Online Tutorial From </span>Top Instructor.
+                                        </h3>
+                                        <p className='text-white'>Meet university,and cultural institutions, who'll share their experience.</p>
                                         <Link href="/course-grid"><a className="e-btn">view all course</a></Link>
                                     </div>
                                 </div>

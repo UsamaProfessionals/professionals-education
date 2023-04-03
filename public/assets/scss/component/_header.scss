@@ -482,7 +482,8 @@
 .cat-menu{
 	font-size: 16px;
 	font-weight: 500;
-	color: $black;
+	// color: $black;
+	color: orangered;
 	position: relative;
 	&:hover{
 		color: $e-blue;
@@ -496,7 +497,8 @@
 		width: 16px;
 		height: 16px;
 		& .cat-dot{
-			fill: $black;
+			// fill: $black;
+			fill: orangered;
 		}
 	}
 	& span{
@@ -527,7 +529,8 @@
 				display: inline-block;
 				font-size: 16px;
 				font-weight: 500;
-				color: $black;
+				// color: $black;
+				color: orangered;
 				padding: 35px 0;
 				text-transform: capitalize;
 			}
@@ -537,8 +540,10 @@
                     &::after{
 						content: ' ';
 						display: inline-block;
-						border-bottom: 1px solid $black;
-						border-right: 1px solid $black;
+						border-bottom: 1px solid orangered;
+						border-right: 1px solid orangered;
+						// border-bottom: 1px solid $black;
+						// border-right: 1px solid $black;
 						height: 7px;
 						width: 7px;
 						transform: rotate(45deg);
