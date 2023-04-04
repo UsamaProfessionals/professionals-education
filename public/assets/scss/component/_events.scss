@@ -38,7 +38,8 @@
         &-inner{
             padding: 28px 50px;
             @include border-radius(6px);
-            @include box-shadow(0px 30px 50px 0px rgba(1, 11, 60, 0.1));
+            @include box-shadow(0px 10px 90px 0px #50C878);
+            // @include box-shadow(0px 30px 50px 0px rgba(1, 11, 60, 0.1));
 
             @media #{$sm}{
                 padding-left: 20px;

@@ -16,16 +16,38 @@ export default class CategorySlider extends Component {
             dots: true,
             arrows: true,
             infinite: true,
-            speed: 500,
+            autoplay: true,
+            speed: 4000,
+            // autoplaySpeed: 5000,
             slidesToShow: 4,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ]
         };
         return (
             <div>
                 <Slider {...settings}>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/data-science.jpg)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/data-science.jpg)" }}>
                             <div className="category__icon">
                                 {/* <GiMaterialsScience className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -44,7 +66,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/business.jpg)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/business.jpg)" }}>
                             <div className="category__icon">
                                 {/* <IoBusinessOutline className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -63,7 +85,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/art-and-design.jpg)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/art-and-design.jpg)" }}>
                             <div className="category__icon">
                                 {/* <BsBrush className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -82,7 +104,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/lifestyle.jpg)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/lifestyle.jpg)" }}>
                             <div className="category__icon">
                                 {/* <GiSkills className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -101,7 +123,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/marketing.webp)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/marketing.webp)" }}>
                             <div className="category__icon">
                                 {/* <HiOutlineSpeakerphone className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -120,7 +142,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/finance.webp)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/finance.webp)" }}>
                             <div className="category__icon">
                                 {/* <HiOutlineCurrencyDollar className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -138,7 +160,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/fitness.jpg)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/fitness.jpg)" }}>
                             <div className="category__icon">
                                 {/* <IoFitnessOutline className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -158,7 +180,7 @@ export default class CategorySlider extends Component {
                     </div>
 
                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 px-3">
-                        <div className="category__item mb-30 transition-3" style={{backgroundImage: "url(assets/img/category/academics.jpg)"}}>
+                        <div className="category__item mb-30 transition-3" style={{ backgroundImage: "url(assets/img/category/academics.jpg)" }}>
                             <div className="category__icon">
                                 {/* <HiOutlineAcademicCap className='icon' /> */}
                                 {/* <svg viewBox="0 0 512 512">
@@ -175,7 +197,7 @@ export default class CategorySlider extends Component {
                             </div>
                         </div>
                     </div>
-                    
+
                 </Slider>
             </div>
         );

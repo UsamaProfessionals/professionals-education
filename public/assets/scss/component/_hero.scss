@@ -9,7 +9,7 @@
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%,
             rgba(0, 0, 0, 0.635) 100%,
             rgba(0, 0, 0, 0.913) 100%),
-        url(../../img/hero/hero-area.avif);
+        url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1122&q=80");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +66,8 @@
         }
 
         @media #{$xs} {
-            min-height: 850px;
+            min-height: 990px !important;
+            // min-height: 850px;
         }
 
         &-2 {
@@ -75,7 +76,8 @@
             }
 
             @media #{$xs} {
-                min-height: 850px;
+                min-height: 990px !important;
+                // min-height: 850px;
             }
         }
     }
@@ -309,8 +311,8 @@
 
     &__quote {
         position: absolute;
-        bottom: 40px;
-        right: -240px;
+        bottom: -150px;
+        right: -100px;
         padding: 55px 44px;
         // padding-bottom: 20px;
         background-image: url("../../img/hero/msg-box-2.png") !important;
@@ -323,27 +325,28 @@
         // @include box-shadow(0px 30px 60px 0px rgba(1, 11, 60, 0.14));
 
         @media #{$xl} {
-            right: -145px;
+            right: -80px;
+            // right: -145px;
         }
 
         @media #{$lg} {
-            right: 60px;
-            bottom: -50px;
+            right: -70px;
+            bottom: -140px;
         }
 
         @media #{$md} {
-            right: 30px;
-            bottom: -50px;
+            right: -70px;
+            bottom: -140px;
         }
 
         @media #{$sm} {
-            right: 30px;
-            bottom: -50px;
+            right: -70px;
+            bottom: -140px;
         }
 
         @media #{$xs} {
-            right: 15px;
-            bottom: -50px;
+            right: -70px;
+            bottom: -140px;
         }
 
         & span {

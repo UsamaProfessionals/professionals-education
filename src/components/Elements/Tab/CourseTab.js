@@ -12,7 +12,7 @@ export default () => (
             <div className="row align-items-end">
                <div className="col-xxl-5 col-xl-6 col-lg-6">
                   <div className="section__title-wrapper mb-60">
-                     <h2 className="section__title">Find the Right<br />Online <span className="yellow-bg yellow-bg-big">Course</span> for you</h2>
+                     <h2 className="section__title hover-underline-animation">Find the Right<br />Online <span className="yellow-bg yellow-bg-big">Course</span> for you</h2>
                      <p>You don't have to struggle alone, you've got our assistance and help.</p>
                   </div>
                </div>
