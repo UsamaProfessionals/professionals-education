@@ -36,7 +36,7 @@ export default () => (
                         <div className="price__tab-content">
                             <TabPanel>
                                 <div className="row">
-                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
                                         <div className="price__item grey-bg mb-30 p-relative h-100">
                                             <div className="price__head">
                                                 <h3>Gold</h3>
@@ -55,7 +55,7 @@ export default () => (
                                             <Link href="/contact"><a className="e-btn e-btn-4">Get Started</a></Link>
                                         </div>
                                     </div>
-                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
                                         <div className="price__item grey-bg mb-30 p-relative h-100">
                                             <div className="price__offer">
                                                 <span>Best Value</span>
@@ -83,7 +83,7 @@ export default () => (
 
                             <TabPanel>
                                 <div className="row">
-                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
                                         <div className="price__item grey-bg mb-30 p-relative h-100">
                                             <div className="price__head">
                                                 <h3>Gold</h3>
@@ -102,7 +102,7 @@ export default () => (
                                             <Link href="/contact"><a className="e-btn e-btn-4">Get Started</a></Link>
                                         </div>
                                     </div>
-                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
                                         <div className="price__item grey-bg mb-30 p-relative h-100">
                                             <div className="price__offer">
                                                 <span>Best Value</span>

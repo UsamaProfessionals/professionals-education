@@ -47,13 +47,13 @@ const HeaderThree = () => {
                            <div className="logo">
                               <Link href="/">
                                  <a>
-                                    <img className="logo-white img-fluid" src="assets/img/hero/professional.png" alt="logo" style={{maxWidth: "100px"}} />
-                                    <img className="logo-black img-fluid" src="assets/img/hero/professional.png" alt="logo" style={{maxWidth: "100px"}} />
+                                    <img className="logo-white img-fluid" src="assets/img/logo/PELogo.png" alt="logo"/>
+                                    <img className="logo-black img-fluid" src="assets/img/logo/PELogo.png" alt="logo"/>
                                  </a>
                               </Link>
                            </div>
                            <div className="header__category d-none d-lg-block">
-                              <nav style={{marginTop: "35px"}}>
+                              <nav>
                                  <ul>
                                     <li>
                                        <Link href="/course-grid"><a className="cat-menu d-flex align-items-center">

@@ -44,11 +44,11 @@ const HeaderTwo = () => {
 								<div className="header__left d-flex">
 									<div className="logo">
 										<Link href="/">
-											<a><img src="assets/img/hero/professional.png" alt="logo" className='img-fluid' style={{maxWidth: "100px"}} /></a>
+											<a><img src="assets/img/logo/PELogo.png" alt="logo" className='img-fluid'/></a>
 										</Link>
 									</div>
 									<div className="header__category d-none d-lg-block">
-										<nav style={{marginTop: "35px"}}>
+										<nav>
 											<ul>
 												<li>
 													<Link href="/course-grid"><a className="cat-menu d-flex align-items-center">

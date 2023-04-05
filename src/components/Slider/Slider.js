@@ -39,6 +39,12 @@ export default class CategorySlider extends Component {
                     settings: {
                         slidesToShow: 2,
                     }
+                },
+                {
+                    breakpoint: 450,
+                    settings: {
+                        slidesToShow: 1,
+                    }
                 }
             ]
         };
