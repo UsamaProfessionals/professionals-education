@@ -6,8 +6,8 @@ import { Tab, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Link from 'next/link';
 
+// class HomeMain extends Component {
 export default () => (
-
     <section className="price__area pt-60 pb-130">
         <Tabs>
             <div className="container">
@@ -19,6 +19,133 @@ export default () => (
                         </div>
                     </div>
                 </div>
+
+                <section class="pricing-columns pricing-section">
+                    <label class="toggler toggler--is-active" id="filt-monthly">Monthly</label>
+                    <div class="toggle">
+                        <input type="checkbox" id="switcher" class="check" />
+                        <b class="b switch"></b>
+                    </div>
+                    <label class="toggler" id="filt-hourly">Hourly</label>
+                    <div id="monthly" class="wrapper-full d-flex justify-content-center">
+                        <div id="pricing-chart-wrap">
+                            <div id="pricing-chart">
+                                <div id="smaller-plans">
+                                    <div class="plan">
+                                        <div className="price__head">
+                                            <h3>Gold</h3>
+                                        </div>
+                                        <div class="price">
+                                            <span class="dollar">$</span>
+                                            <span class="amount" data-dollar-amount="35.49">35.49</span>
+                                            <span class="slash">/</span>
+                                            <span class="month">mo</span>
+                                        </div>
+                                        <ul>
+                                            <li>30GB<span>SSD Disk</span></li>
+                                            <li>1GB<span>Memory</span></li>
+                                            <li>1 Core<span>vCPU</span></li>
+                                            <li>667GB/mo<span>Transfer</span></li>
+                                        </ul>
+                                        <a class="button sign-up" href="https://orders.gigenetcloud.com/order.php?quick=79,30,1024,730">Sign Up</a>
+                                    </div>
+                                    <div class="plan popular">
+                                        <div className="price__head">
+                                            <h3>Diamond</h3>
+                                        </div>
+                                        <div class="price">
+                                            <span class="dollar">$</span>
+                                            <span class="amount" data-dollar-amount="56.88">56.88</span>
+                                            <span class="slash">/</span>
+                                            <span class="month">mo</span>
+                                        </div>
+                                        <p class="pop-plan">Most Popular Plan</p>
+                                        <ul>
+                                            <li>40GB<span>SSD Disk</span></li>
+                                            <li>2GB<span>Memory</span></li>
+                                            <li>1 Core<span>vCPU</span></li>
+                                            <li>1333GB/mo<span>Transfer</span></li>
+                                        </ul>
+                                        <a class="button sign-up" href="https://orders.gigenetcloud.com/order.php?quick=79,40,2048,730">Sign Up</a>
+                                    </div>
+                                    <div class="plan">
+                                        <div className="price__head">
+                                            <h3>Silver</h3>
+                                        </div>
+                                        <div class="price">
+                                            <span class="dollar">$</span>
+                                            <span class="amount" data-dollar-amount="102.05">102.05</span>
+                                            <span class="slash">/</span>
+                                            <span class="month">mo</span>
+                                        </div>
+                                        <ul>
+                                            <li>60GB<span>SSD Disk</span></li>
+                                            <li>4GB<span>Memory</span></li>
+                                            <li>2 Cores<span>vCPU</span></li>
+                                            <li>2667GB/mo<span>Transfer</span></li>
+                                        </ul>
+                                        <a class="button sign-up" href="https://orders.gigenetcloud.com/order.php?quick=79,60,4096,730">Sign Up</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hourly" class="wrapper-full hide">
+                        <div id="pricing-chart-wrap">
+                            <div id="pricing-chart">
+                                <div id="smaller-plans">
+                                    <div class="plan ">
+                                        <div class="price">
+                                            <span class="dollar">$</span>
+                                            <span class="amount" data-dollar-amount="0.05">0.05</span>
+                                            <span class="slash">/</span>
+                                            <span class="month">hr</span>
+                                        </div>
+                                        <ul>
+                                            <li>30GB<span>SSD Disk</span></li>
+                                            <li>1GB<span>Memory</span></li>
+                                            <li>1 Core<span>vCPU</span></li>
+                                            <li>Transfer<span>Pay as you use it</span></li>
+                                        </ul>
+                                        <a class="button sign-up" href="https://orders.gigenetcloud.com/order.php?quick=79,30,1024,1">Sign Up</a>
+                                    </div>
+                                    <div class="plan popular">
+                                        <div class="price">
+                                            <span class="dollar">$</span>
+                                            <span class="amount" data-dollar-amount="0.08">0.08</span>
+                                            <span class="slash">/</span>
+                                            <span class="month">hr</span>
+                                        </div>
+                                        <p class="pop-plan">Most Popular Plan</p>
+                                        <ul>
+                                            <li>40GB<span>SSD Disk</span></li>
+                                            <li>2GB<span>Memory</span></li>
+                                            <li>1 Core<span>vCPU</span></li>
+                                            <li>Transfer<span>Pay as you use it</span></li>
+                                        </ul>
+                                        <a class="button sign-up" href="https://orders.gigenetcloud.com/order.php?quick=79,40,2048,1">Sign Up</a>
+                                    </div>
+                                    <div class="plan">
+                                        <div class="price">
+                                            <span class="dollar">$</span>
+                                            <span class="amount" data-dollar-amount="0.14">0.14</span>
+                                            <span class="slash">/</span>
+                                            <span class="month">hr</span>
+                                        </div>
+                                        <ul>
+                                            <li>60GB<span>SSD Disk</span></li>
+                                            <li>4GB<span>Memory</span></li>
+                                            <li>2 Cores<span>vCPU</span></li>
+                                            <li>Transfer<span>Pay as you use it</span></li>
+                                        </ul>
+                                        <a class="button sign-up" href="https://orders.gigenetcloud.com/order.php?quick=79,60,4096,1">Sign Up</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <div className="row">
                     <div className="col-xxl-12">
                         <div className="price__tab-btn text-center mb-50">
@@ -130,7 +257,9 @@ export default () => (
                         </div>
                     </div>
                 </div>
-            </div>
-        </Tabs>
-    </section>
+            </div >
+        </Tabs >
+    </section >
+
 );
+// export default Price

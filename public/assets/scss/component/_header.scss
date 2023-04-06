@@ -4,6 +4,14 @@
 /*  02. HEADER CSS START
 /*----------------------------------------*/
 
+
+@media screen and ((min-width: 768px) and (max-width: 991px)) {
+	.header__category {
+		padding-left: 10px !important;
+		margin-left: 10px !important;
+	}
+}
+
 .header {
 	&__padding {
 		padding-left: 245px;
@@ -37,7 +45,7 @@
 		}
 
 		@media #{$xs} {
-			padding: 20px;
+			padding: 20px 10px;
 		}
 
 		&-2 {

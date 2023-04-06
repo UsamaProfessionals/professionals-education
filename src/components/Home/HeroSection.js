@@ -36,7 +36,8 @@ class Hero extends Component {
                                             <img className="hero-1-circle-4" src="assets/img/shape/hero/hero-1-circle-4.png" alt="img not found" />
                                         </div> */}
                                         <div className="hero__thumb-big mr-30 ">
-                                            <img src="assets/img/hero/hero-3/hero-3.jpg" alt="img not found" />
+                                            <img src="assets/img/hero/hero-3/hero-3-removebg-preview.png" alt="img not found" />
+                                            {/* <img src="assets/img/hero/hero-3/hero-sm-3-removebg-preview.png" alt="img not found" /> */}
                                             <div className="hero__quote hero__quote-animation">
                                                 <span>Tomorrow is our</span>
                                                 <h4>“When I Grow Up” Spirit Day!</h4>
