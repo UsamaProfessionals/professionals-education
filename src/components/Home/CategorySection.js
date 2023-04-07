@@ -19,7 +19,7 @@ class Category extends Component {
                         <div className="row align-items-end">
                             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
                                 <div className="section__title-wrapper mb-45">
-                                    <h2 className="section__title">Explore <br />Our <span className="yellow-bg">Popular  </span>Courses
+                                    <h2 className="section__title hover-underline-animation">Explore <br />Our <span className="yellow-bg">Popular  </span>Courses
                                     </h2>
                                 </div>
                             </div>

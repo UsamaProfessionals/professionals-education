@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-
+import ReactDOM from "react-dom";
 import dynamic from 'next/dynamic';
 const Tabs = dynamic(import('react-tabs').then(mod => mod.Tabs), { ssr: false }) // disable ssr
 import { Tab, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Link from 'next/link';
 
-// class HomeMain extends Component {
-export default () => (
+export default (props) => (
     <section className="price__area pt-60 pb-130">
+        {console.log(ReactDOM.findDOMNode(this.refs.filtmonthly).value, "============================")}
         <Tabs>
             <div className="container">
                 <div className="row">
@@ -21,13 +21,13 @@ export default () => (
                 </div>
 
                 <section class="pricing-columns pricing-section">
-                    <label class="toggler toggler--is-active" id="filt-monthly">Monthly</label>
+                    <label class="toggler toggler--is-active" id="filt-monthly" ref="filtmonthly">Monthly</label>
                     <div class="toggle">
                         <input type="checkbox" id="switcher" class="check" />
                         <b class="b switch"></b>
                     </div>
                     <label class="toggler" id="filt-hourly">Hourly</label>
-                    <div id="monthly" class="wrapper-full d-flex justify-content-center">
+                    <div monthlyRef id="monthly" class="wrapper-full d-flex justify-content-center">
                         <div id="pricing-chart-wrap">
                             <div id="pricing-chart">
                                 <div id="smaller-plans">
@@ -91,7 +91,7 @@ export default () => (
                             </div>
                         </div>
                     </div>
-                    <div id="hourly" class="wrapper-full hide">
+                    <div  id="hourly" class="wrapper-full hide">
                         <div id="pricing-chart-wrap">
                             <div id="pricing-chart">
                                 <div id="smaller-plans">
@@ -262,4 +262,3 @@ export default () => (
     </section >
 
 );
-// export default Price
