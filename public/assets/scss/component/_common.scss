@@ -51,31 +51,37 @@
 
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-	.pt-115{
+	.pt-115 {
 		padding-top: 90px !important;
 	}
-	.pt-120{
+
+	.pt-120 {
 		padding-top: 90px !important;
 	}
-	.pb-120{
+
+	.pb-120 {
 		padding-bottom: 70px !important;
 	}
-	.pb-110{
+
+	.pb-110 {
 		padding-bottom: 60px !important;
 	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
-	.pt-115{
+	.pt-115 {
 		padding-top: 90px !important;
 	}
-	.pt-120{
+
+	.pt-120 {
 		padding-top: 90px !important;
 	}
-	.pb-120{
+
+	.pb-120 {
 		padding-bottom: 70px !important;
 	}
-	.pb-110{
+
+	.pb-110 {
 		padding-bottom: 60px !important;
 	}
 }
@@ -91,6 +97,8 @@ body {
 	font-family: $hind;
 	font-size: 16px;
 	font-weight: normal;
+	color: var(--color-dark);
+	background: var(--color-light);
 	color: $body-text-color;
 	line-height: 26px;
 }
@@ -186,6 +194,7 @@ h5,
 h6 {
 	font-family: $hind;
 	color: $heading-color;
+	// color: var(--color-dark);
 	margin-top: 0px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -383,7 +392,7 @@ p {
 .text-white span,
 .text-white li,
 .text-white a {
-	color: $white  !important;
+	color: $white !important;
 }
 
 .white-color {
@@ -391,7 +400,7 @@ p {
 }
 
 .theme-color {
-	color: $e-blue  !important;
+	color: $e-blue !important;
 }
 
 .black-color {

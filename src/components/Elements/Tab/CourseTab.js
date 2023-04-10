@@ -188,7 +188,7 @@ export default () => (
 
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="flip-box course__item white-bg mb-30 fix">
-                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{backgroundImage: "url(assets/img/course/new-course/new-course-img-3.jpg)"}}>
+                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-3.jpg)" }}>
                            {/* <Link href="/course-details"><a >
                               <img src="assets/img/course/new-course/new-course-img-3.jpg" alt="img not found" />
                            </a></Link> */}
@@ -260,7 +260,7 @@ export default () => (
 
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="flip-box course__item white-bg mb-30 fix">
-                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{backgroundImage: "url(assets/img/course/new-course/new-course-img-4.jpg)"}}>
+                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.jpg)" }}>
                            {/* <Link href="/course-details"><a >
                               <img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" />
                            </a></Link> */}
@@ -332,7 +332,7 @@ export default () => (
 
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="flip-box course__item white-bg mb-30 fix">
-                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{backgroundImage: "url(assets/img/course/new-course/new-course-img-5.jpg)"}}>
+                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-5.jpg)" }}>
                            {/* <Link href="/course-details"><a >
                               <img src="assets/img/course/new-course/new-course-img-5.jpg" alt="img not found" />
                            </a></Link> */}
@@ -403,7 +403,7 @@ export default () => (
 
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="flip-box course__item white-bg mb-30 fix">
-                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{backgroundImage: "url(assets/img/course/new-course/new-course-img-6.jpg)"}}>
+                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-6.jpg)" }}>
                            {/* <Link href="/course-details"><a >
                               <img src="assets/img/course/new-course/new-course-img-6.jpg" alt="img not found" />
                            </a></Link> */}
@@ -1170,4 +1170,5 @@ export default () => (
          </div>
       </Tabs>
    </section>
+
 );

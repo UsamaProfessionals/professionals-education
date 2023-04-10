@@ -91,7 +91,7 @@ export default (props) => (
                             </div>
                         </div>
                     </div>
-                    <div  id="hourly" class="wrapper-full hide">
+                    <div  id="hourly" class="wrapper-full hide d-flex justify-content-center">
                         <div id="pricing-chart-wrap">
                             <div id="pricing-chart">
                                 <div id="smaller-plans">
