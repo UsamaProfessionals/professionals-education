@@ -146,6 +146,7 @@ export default (props) => (
                         </div>
                     </div>
                 </section>
+
                 <div className="row">
                     <div className="col-xxl-12">
                         <div className="price__tab-btn text-center mb-50">
@@ -158,6 +159,7 @@ export default (props) => (
                         </div>
                     </div>
                 </div>
+                
                 <div className="row">
                     <div className="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
                         <div className="price__tab-content">

@@ -145,7 +145,7 @@
 
         & p {
             font-size: 22px;
-            color: $black;
+            color: var(--black);
             padding-right: 130px;
             line-height: 30px;
             margin-bottom: 28px;
@@ -434,7 +434,7 @@
 
                 & i {
                     &::after {
-                        color: $black;
+                        color: var(--black);
                         opacity: 1;
                     }
 

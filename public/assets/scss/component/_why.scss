@@ -74,7 +74,7 @@
     }
     &__btn{
         & .link-btn{
-            color: $black;
+            color: var(--black);
             &:hover{
                 color: $e-blue;
             }

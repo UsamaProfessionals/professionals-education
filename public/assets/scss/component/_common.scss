@@ -97,7 +97,7 @@ body {
 	font-family: $hind;
 	font-size: 16px;
 	font-weight: normal;
-	color: var(--color-dark);
+	color: var(--black);
 	background: var(--color-light);
 	color: $body-text-color;
 	line-height: 26px;
@@ -193,8 +193,8 @@ h4,
 h5,
 h6 {
 	font-family: $hind;
-	color: $heading-color;
-	// color: var(--color-dark);
+	// color: $heading-color;
+	color: var(--color-dark);
 	margin-top: 0px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -271,13 +271,13 @@ p {
     - Input Placeholder
 -----------------------------------------*/
 *::-moz-placeholder {
-	color: $black;
+	color: var(--black);
 	font-size: 14px;
 	opacity: 1;
 }
 
 *::placeholder {
-	color: $black;
+	color: var(--black);
 	font-size: 14px;
 	opacity: 1;
 }
@@ -363,10 +363,11 @@ p {
 
 .white-bg {
 	background: $white;
+	// background: var(--color-black);
 }
 
 .black-bg {
-	background: $black;
+	background: var(--black);
 }
 
 .footer-bg {
@@ -404,7 +405,7 @@ p {
 }
 
 .black-color {
-	color: $black;
+	color: var(--black);
 }
 
 
@@ -520,7 +521,7 @@ p {
 		height: 46px;
 		line-height: 44px;
 		border: 2px solid $border-4;
-		color: $black;
+		color: var(--black);
 		background: transparent;
 
 		&:hover {
@@ -539,7 +540,7 @@ p {
 			&:hover {
 				background: $white;
 				border-color: $white;
-				color: $black;
+				color: var(--black);
 			}
 		}
 	}
@@ -548,11 +549,11 @@ p {
 		height: 54px;
 		line-height: 58px;
 		background: $white;
-		color: $black;
+		color: var(--black);
 		padding: 0 45px;
 
 		&:hover {
-			color: $black;
+			color: var(--black);
 		}
 	}
 }
@@ -644,7 +645,7 @@ p {
 	position: relative;
 	font-size: 12px;
 	font-weight: 500;
-	color: $black;
+	color: var(--black);
 	text-transform: uppercase;
 	padding-right: 25px;
 	width: 40px;
@@ -759,7 +760,8 @@ p {
 
 	&__title {
 		font-size: 40px;
-		color: $black;
+		// color: var(--black);
+		color: var(--color-dark);
 		text-transform: capitalize;
 		z-index: 1;
 		margin-bottom: 3px;
@@ -908,7 +910,7 @@ p {
 				font-weight: 500;
 				font-size: 16px;
 				border: 2px solid #eef0f6;
-				color: $black;
+				color: var(--black);
 
 				&:hover {
 					background: $e-blue;

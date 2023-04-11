@@ -13,7 +13,7 @@
     &__more{
         margin-top: 52px;
         & .link-btn{
-            color: $black;
+            color: var(--black);
             &:hover{
                 color: $e-blue;
             }

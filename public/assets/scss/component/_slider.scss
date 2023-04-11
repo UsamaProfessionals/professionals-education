@@ -34,7 +34,7 @@
             top: 0;
             width: 100%;
             height: 100%;
-            background: rgba($color: $black-3, $alpha: .66);
+            background: rgba($color: var(--black)-3, $alpha: .66);
         }
     }
     &__content{
@@ -134,7 +134,7 @@
 
         &:hover{
             background: $white;
-            color: $black-3;
+            color: var(--black)-3;
             border-color: $white;
         }
     }

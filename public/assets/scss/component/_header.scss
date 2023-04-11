@@ -11,11 +11,11 @@
 	--light-color-lightness: 95%;
 	--white-color-lightness: 100%;
 
-	--color-dark: hsl(252, 30%, var(--dark-color-lightness));
+	--black: hsl(252, 30%, var(--dark-color-lightness));
 	--color-light: hsl(252, 32%, var(--light-color-lightness));
 	--color-white: hsl(252, 30%, var(--white-color-lightness));
 	--color-primary: hsl(var(--primary-color-hue), 75%, 60%);
-	--color-gray: hsl(var(--primary-color-hue), 15%, 65%);
+	$grey-14: hsl(var(--primary-color-hue), 15%, 65%);
 	--color-secondary: hsl(252, 100%, 90%);
 	--color-success: hsl(120, 95%, 65%);
 	--color-danger: hsl(0, 95%, 65%);
@@ -289,14 +289,14 @@
 				& ul {
 					& li {
 						& a {
-							color: $black;
+							color: var(--black);
 
 							&::after {
-								border-color: $black;
+								border-color: var(--black);
 							}
 
 							&::before {
-								background: $black;
+								background: var(--black);
 							}
 						}
 
@@ -316,17 +316,17 @@
 			& .header__search-2 {
 				& svg {
 					& .st0 {
-						fill: $black;
+						fill: var(--black);
 					}
 
 					& .st1 {
-						fill: $black-2;
+						fill: --black-2;
 					}
 				}
 			}
 
 			& .cat-menu {
-				color: $black;
+				color: --black;
 
 				&:hover {
 					color: $e-blue;
@@ -340,13 +340,13 @@
 
 				& svg {
 					& .cat-dot {
-						fill: $black;
+						fill: --black;
 					}
 				}
 			}
 
 			& .header__category::after {
-				background: rgba($color: $black, $alpha: .2);
+				background: rgba($color: black, $alpha: .2);
 			}
 
 			& .sidebar-toggle-btn {
@@ -514,7 +514,7 @@
 
 			& i {
 				&::after {
-					color: $black;
+					color: --black;
 					opacity: 1;
 				}
 
@@ -569,7 +569,7 @@
 
 				& .st0 {
 					fill: none;
-					stroke: $black;
+					stroke: --black;
 					stroke-width: 2;
 					stroke-linecap: round;
 					stroke-linejoin: round;
@@ -581,7 +581,7 @@
 		& .cart-toggle-btn {
 			position: relative;
 			font-size: 17px;
-			color: $black;
+			color: --black;
 			cursor: pointer;
 
 			& .cart-item {
@@ -603,7 +603,7 @@
 
 			&:hover {
 				& .cart-item {
-					background: $black;
+					background: --black;
 				}
 			}
 		}
@@ -680,7 +680,7 @@
 			}
 
 			& h3 {
-				color: $black;
+				color: --black;
 				font-size: 30px;
 			}
 		}
@@ -694,7 +694,7 @@
 
 					& a {
 						font-size: 18px;
-						color: $black-2;
+						color: --black-2;
 						margin: 0 30px;
 
 						&:hover {
@@ -748,7 +748,7 @@
 				text-align: center;
 				font-size: 14px;
 				background: transparent;
-				color: $black;
+				color: --black;
 			}
 		}
 	}
@@ -762,7 +762,7 @@
 .cat-menu {
 	font-size: 16px;
 	font-weight: 500;
-	// color: $black;
+	// color: --black;
 	color: orangered;
 	position: relative;
 
@@ -781,7 +781,7 @@
 		height: 16px;
 
 		& .cat-dot {
-			// fill: $black;
+			// fill: --black;
 			fill: orangered;
 		}
 	}
@@ -818,7 +818,7 @@
 				display: inline-block;
 				font-size: 16px;
 				font-weight: 500;
-				// color: $black;
+				// color: --black;
 				color: orangered;
 				padding: 35px 0;
 				text-transform: capitalize;
@@ -833,8 +833,8 @@
 						display: inline-block;
 						border-bottom: 1px solid orangered;
 						border-right: 1px solid orangered;
-						// border-bottom: 1px solid $black;
-						// border-right: 1px solid $black;
+						// border-bottom: 1px solid --black;
+						// border-right: 1px solid --black;
 						height: 7px;
 						width: 7px;
 						transform: rotate(45deg);
@@ -897,7 +897,7 @@
 						font-size: 13px;
 						position: relative;
 						z-index: 1;
-						color: $black;
+						color: --black;
 						width: 100%;
 
 						&::before {
@@ -1028,7 +1028,7 @@
 				& li {
 					& a {
 						&::after {
-							color: $black;
+							color: --black;
 						}
 					}
 				}
@@ -1133,7 +1133,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: $black;
+			color: --black;
 			border: 1px solid #2a3a57;
 			border-radius: 50%;
 			cursor: pointer;
@@ -1142,7 +1142,7 @@
 			z-index: 99;
 
 			&:focus {
-				border: 1px solid $black;
+				border: 1px solid --black;
 			}
 
 			& span {
@@ -1225,7 +1225,7 @@
 
 			& i {
 				&::after {
-					color: $black;
+					color: --black;
 					opacity: 1;
 				}
 
@@ -1246,7 +1246,7 @@
 
 				& .st0 {
 					fill: none;
-					stroke: $black;
+					stroke: --black;
 					stroke-width: 2;
 					stroke-linecap: round;
 					stroke-linejoin: round;
@@ -1258,7 +1258,7 @@
 		& a {
 			position: relative;
 			font-size: 17px;
-			color: $black;
+			color: --black;
 
 			& .cart-item {
 				position: absolute;
@@ -1279,7 +1279,7 @@
 
 			&:hover {
 				& .cart-item {
-					background: $black;
+					background: --black;
 				}
 			}
 		}
@@ -1525,7 +1525,7 @@
 	.header__cart--responsive__white {
 		.header__cart-icon svg .st0 {
 			fill: none;
-			stroke: $black;
+			stroke: --black;
 			stroke-width: 2;
 			stroke-linecap: round;
 			stroke-linejoin: round;

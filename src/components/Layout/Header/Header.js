@@ -345,10 +345,10 @@ const Header = () => {
             <div class="customize-theme">
                <div class="card">
                   <h2>Customize Your View</h2>
-                  <p class="text-muted">Manage your font size, color and background.</p>
+                  {/* <p class="text-muted">Manage your font size, color and background.</p> */}
 
                   {/* <!-- ================ Font Size ==================================== --> */}
-                  <div class="font-size">
+                  {/* <div class="font-size">
                      <h4>Font Size</h4>
                      <div>
                         <h6>Aa</h6>
@@ -361,9 +361,9 @@ const Header = () => {
                         </div>
                         <h3>Aa</h3>
                      </div>
-                  </div>
+                  </div> */}
 
-                  <div class="color">
+                  {/* <div class="color">
                      <h4>Color</h4>
                      <div class="choose-color">
                         <span class="color-1 active"></span>
@@ -372,11 +372,11 @@ const Header = () => {
                         <span class="color-4"></span>
                         <span class="color-5"></span>
                      </div>
-                  </div>
+                  </div> */}
 
                   {/* <!-- =================== Background Colors============================== --> */}
                   <div class="background">
-                     <h4>Background</h4>
+                     {/* <h4>Background</h4> */}
                      <div class="choose-bg">
                         <div class="bg-1 active">
                            <span></span>

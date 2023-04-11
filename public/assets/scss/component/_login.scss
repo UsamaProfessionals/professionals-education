@@ -306,7 +306,7 @@
         & h5{
             font-size: 16px;
             font-weight: 500;
-            color: $black;
+            color: var(--black);
             margin-bottom: 11px;
         }
     }
@@ -323,7 +323,7 @@
             font-size: 14px;
             border: 2px solid transparent;
             background: $grey-12;
-            color: $black;
+            color: var(--black);
             @include border-radius(6px);
             &::placeholder{
                 color: $grey-13;
@@ -387,7 +387,7 @@
                 cursor: pointer;
             }
             & a{
-                color: $black;
+                color: var(--black);
                 font-weight: 500;
                 &:hover{
                     color: $e-blue;

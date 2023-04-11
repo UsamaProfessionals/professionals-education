@@ -32,73 +32,73 @@ class HomeMain extends Component {
 	// 	  return { switcher: !prevState.switcher}
 	// 	})  
 	//   }
-	componentDidMount() {
-		const myTimeout = setTimeout(() => {
-			// var e = ReactDOM.findDOMNode(this.refs.filtmonthly).value;
-			var e = document.getElementById("filt-monthly"),
-				d = document.getElementById("filt-hourly"),
-				t = document.getElementById("switcher"),
-				m = document.getElementById("monthly"),
-				y = document.getElementById("hourly");
+	// componentDidMount() {
+	// 	const myTimeout = setTimeout(() => {
+	// 		// var e = ReactDOM.findDOMNode(this.refs.filtmonthly).value;
+	// 		var e = document.getElementById("filt-monthly"),
+	// 			d = document.getElementById("filt-hourly"),
+	// 			t = document.getElementById("switcher"),
+	// 			m = document.getElementById("monthly"),
+	// 			y = document.getElementById("hourly");
 
-			console.log(e, "==================================");
+	// 		console.log(e, "==================================");
 
-			e.addEventListener("click", function () {
-				t.checked = false;
-				e.classList.add("toggler--is-active");
-				d.classList.remove("toggler--is-active");
-				m.classList.remove("hide");
-				y.classList.add("hide");
-			});
+	// 		e.addEventListener("click", function () {
+	// 			t.checked = false;
+	// 			e.classList.add("toggler--is-active");
+	// 			d.classList.remove("toggler--is-active");
+	// 			m.classList.remove("hide");
+	// 			y.classList.add("hide");
+	// 		});
 
-			d.addEventListener("click", function () {
-				t.checked = true;
-				d.classList.add("toggler--is-active");
-				e.classList.remove("toggler--is-active");
-				m.classList.add("hide");
-				y.classList.remove("hide");
-			});
+	// 		d.addEventListener("click", function () {
+	// 			t.checked = true;
+	// 			d.classList.add("toggler--is-active");
+	// 			e.classList.remove("toggler--is-active");
+	// 			m.classList.add("hide");
+	// 			y.classList.remove("hide");
+	// 		});
 
-			t.addEventListener("click", function () {
-				d.classList.toggle("toggler--is-active");
-				e.classList.toggle("toggler--is-active");
-				m.classList.toggle("hide");
-				y.classList.toggle("hide");
-			})
-		}, 5000);
+	// 		t.addEventListener("click", function () {
+	// 			d.classList.toggle("toggler--is-active");
+	// 			e.classList.toggle("toggler--is-active");
+	// 			m.classList.toggle("hide");
+	// 			y.classList.toggle("hide");
+	// 		})
+	// 	}, 5000);
 
-	}
+	// }
 
-	componentWillUnmount() {
-		var e = document.getElementById("filt-monthly"),
-			d = document.getElementById("filt-hourly"),
-			t = document.getElementById("switcher"),
-			m = document.getElementById("monthly"),
-			y = document.getElementById("hourly");
+	// componentWillUnmount() {
+	// 	var e = document.getElementById("filt-monthly"),
+	// 		d = document.getElementById("filt-hourly"),
+	// 		t = document.getElementById("switcher"),
+	// 		m = document.getElementById("monthly"),
+	// 		y = document.getElementById("hourly");
 
-		e.removeEventListener("click", function () {
-			t.checked = false;
-			e.classList.add("toggler--is-active");
-			d.classList.remove("toggler--is-active");
-			m.classList.remove("hide");
-			y.classList.add("hide");
-		});
+	// 	e.removeEventListener("click", function () {
+	// 		t.checked = false;
+	// 		e.classList.add("toggler--is-active");
+	// 		d.classList.remove("toggler--is-active");
+	// 		m.classList.remove("hide");
+	// 		y.classList.add("hide");
+	// 	});
 
-		d.removeEventListener("click", function () {
-			t.checked = true;
-			d.classList.add("toggler--is-active");
-			e.classList.remove("toggler--is-active");
-			m.classList.add("hide");
-			y.classList.remove("hide");
-		});
+	// 	d.removeEventListener("click", function () {
+	// 		t.checked = true;
+	// 		d.classList.add("toggler--is-active");
+	// 		e.classList.remove("toggler--is-active");
+	// 		m.classList.add("hide");
+	// 		y.classList.remove("hide");
+	// 	});
 
-		t.removeEventListener("click", function () {
-			d.classList.toggle("toggler--is-active");
-			e.classList.toggle("toggler--is-active");
-			m.classList.toggle("hide");
-			y.classList.toggle("hide");
-		})
-	}
+	// 	t.removeEventListener("click", function () {
+	// 		d.classList.toggle("toggler--is-active");
+	// 		e.classList.toggle("toggler--is-active");
+	// 		m.classList.toggle("hide");
+	// 		y.classList.toggle("hide");
+	// 	})
+	// }
 	render() {
 		console.log(this.switcherRef)
 
@@ -127,7 +127,123 @@ class HomeMain extends Component {
 				{/* tab-start */}
 				{/* <PriceTab updateState={this.updateState} filtMonthlyRef={this.filtMonthlyRef} filtHourlyRef={this.filtHourlyRef} switcherRef={this.switcherRef} monthlyRef={this.monthlyRef} honthlyRef={this.honthlyRef}/> */}
 
-				<section className="price__area pt-60 pb-130">
+
+				<div id="generic_price_table">
+					<section className='pb-50'>
+						<div class="container">
+							<div className="row">
+								<div className="col-xxl-4 offset-xxl-4">
+									<div className="section__title-wrapper mb-60 text-center">
+										<h2 className="section__title hover-underline-animation">Simple <br /> All Inclusive  <span className="yellow-bg yellow-bg-big">Pricing</span></h2>
+										<p>No contracts. No surprise fees.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="generic_content clearfix">
+										<div class="generic_head_price clearfix">
+											<div class="generic_head_content clearfix">
+												<div class="head_bg"></div>
+												<div class="head">
+													<span>Gold</span>
+												</div>
+											</div>
+											<div class="generic_price_tag clearfix">
+												<span class="price">
+													<span class="sign">$</span>
+													<span class="currency">99</span>
+													<span class="cent">.99</span>
+													<span class="month">/MON</span>
+												</span>
+											</div>
+										</div>
+										<div class="generic_feature_list">
+											<ul>
+												<li><span>2GB</span> Bandwidth</li>
+												<li><span>150GB</span> Storage</li>
+												<li><span>12</span> Accounts</li>
+												<li><span>7</span> Host Domain</li>
+												<li><span>24/7</span> Support</li>
+											</ul>
+										</div>
+										<div class="generic_price_btn clearfix">
+											<a class="" href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="generic_content active clearfix">
+										<div class="generic_head_price clearfix">
+											<div class="generic_head_content clearfix">
+												<div class="head_bg"></div>
+												<div class="head">
+													<span>Diamond</span>
+												</div>
+											</div>
+											<div class="generic_price_tag clearfix">
+												<span class="price">
+													<span class="sign">$</span>
+													<span class="currency">199</span>
+													<span class="cent">.99</span>
+													<span class="month">/MON</span>
+												</span>
+											</div>
+										</div>
+										<div class="generic_feature_list">
+											<ul>
+												<li><span>2GB</span> Bandwidth</li>
+												<li><span>150GB</span> Storage</li>
+												<li><span>12</span> Accounts</li>
+												<li><span>7</span> Host Domain</li>
+												<li><span>24/7</span> Support</li>
+											</ul>
+										</div>
+										<div class="generic_price_btn clearfix">
+											<a class="" href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="generic_content clearfix">
+										<div class="generic_head_price clearfix">
+											<div class="generic_head_content clearfix">
+												<div class="head_bg"></div>
+												<div class="head">
+													<span>Silver</span>
+												</div>
+											</div>
+											<div class="generic_price_tag clearfix">
+												<span class="price">
+													<span class="sign">$</span>
+													<span class="currency">299</span>
+													<span class="cent">.99</span>
+													<span class="month">/MON</span>
+												</span>
+											</div>
+										</div>
+										<div class="generic_feature_list">
+											<ul>
+												<li><span>2GB</span> Bandwidth</li>
+												<li><span>150GB</span> Storage</li>
+												<li><span>12</span> Accounts</li>
+												<li><span>7</span> Host Domain</li>
+												<li><span>24/7</span> Support</li>
+											</ul>
+										</div>
+										<div class="generic_price_btn clearfix">
+											<a class="" href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+
+				{/* <section className="price__area pt-60 pb-130">
 					<Tabs>
 						<div className="container">
 							<div className="row">
@@ -274,120 +390,10 @@ class HomeMain extends Component {
 								</div>
 
 							</section>
-							{/* <div className="row">
-								<div className="col-xxl-12">
-									<div className="price__tab-btn text-center mb-50">
-										<div className="nav-tabs">
-											<TabList>
-												<Tab><button className="nav-link" id="nav-monthly-tab" type="button">monthly plan</button></Tab>
-												<Tab><button className="nav-link" id="nav-annually-tab" type="button">Annual Plan</button></Tab>
-											</TabList>
-										</div>
-									</div>
-								</div>
-							</div> */}
-							{/* <div className="row">
-								<div className="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
-									<div className="price__tab-content">
-										<TabPanel>
-											<div className="row">
-												<div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
-													<div className="price__item grey-bg mb-30 p-relative h-100">
-														<div className="price__head">
-															<h3>Gold</h3>
-															<p>Perfect for small marketing teams</p>
-														</div>
-														<div className="price__tag mb-25">
-															<h4>$39<span>.99 / monthly</span></h4>
-														</div>
-														<div className="price__features mb-40">
-															<ul>
-																<li><i className="fas fa-check"></i>Course Discussions</li>
-																<li><i className="fas fa-check"></i>Content Library</li>
-																<li><i className="fas fa-check"></i>1-hour Mentorship</li>
-															</ul>
-														</div>
-														<Link href="/contact"><a className="e-btn e-btn-4">Get Started</a></Link>
-													</div>
-												</div>
-												<div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
-													<div className="price__item grey-bg mb-30 p-relative h-100">
-														<div className="price__offer">
-															<span>Best Value</span>
-														</div>
-														<div className="price__head">
-															<h3>Diamond</h3>
-															<p>Perfect for small marketing teams</p>
-														</div>
-														<div className="price__tag mb-25">
-															<h4>$79<span>.99 / monthly</span></h4>
-														</div>
-														<div className="price__features mb-40">
-															<ul>
-																<li><i className="fas fa-check"></i>Course Discussions</li>
-																<li><i className="fas fa-check"></i>Content Library</li>
-																<li><i className="fas fa-check"></i>1-hour Mentorship</li>
-																<li><i className="fas fa-check"></i>Online Course</li>
-															</ul>
-														</div>
-														<Link href="/contact"><a className="e-btn e-btn-border">Get Started</a></Link>
-													</div>
-												</div>
-											</div>
-										</TabPanel>
-
-										<TabPanel>
-											<div className="row">
-												<div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
-													<div className="price__item grey-bg mb-30 p-relative h-100">
-														<div className="price__head">
-															<h3>Gold</h3>
-															<p>Perfect for small marketing teams</p>
-														</div>
-														<div className="price__tag mb-25">
-															<h4>$59<span>.99 / annually</span></h4>
-														</div>
-														<div className="price__features mb-40">
-															<ul>
-																<li><i className="fas fa-check"></i>Course Discussions</li>
-																<li><i className="fas fa-check"></i>Content Library</li>
-																<li><i className="fas fa-check"></i>1-hour Mentorship</li>
-															</ul>
-														</div>
-														<Link href="/contact"><a className="e-btn e-btn-4">Get Started</a></Link>
-													</div>
-												</div>
-												<div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-4">
-													<div className="price__item grey-bg mb-30 p-relative h-100">
-														<div className="price__offer">
-															<span>Best Value</span>
-														</div>
-														<div className="price__head">
-															<h3>Diamond</h3>
-															<p>Perfect for small marketing teams</p>
-														</div>
-														<div className="price__tag mb-25">
-															<h4>$99<span>.99 / annually</span></h4>
-														</div>
-														<div className="price__features mb-40">
-															<ul>
-																<li><i className="fas fa-check"></i>Course Discussions</li>
-																<li><i className="fas fa-check"></i>Content Library</li>
-																<li><i className="fas fa-check"></i>1-hour Mentorship</li>
-																<li><i className="fas fa-check"></i>Online Course</li>
-															</ul>
-														</div>
-														<Link href="/contact"><a className="e-btn e-btn-border">Get Started</a></Link>
-													</div>
-												</div>
-											</div>
-										</TabPanel>
-									</div>
-								</div>
-							</div> */}
+							
 						</div >
 					</Tabs >
-				</section >
+				</section > */}
 
 				{/* tab-end */}
 
