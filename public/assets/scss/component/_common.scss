@@ -97,8 +97,8 @@ body {
 	font-family: $hind;
 	font-size: 16px;
 	font-weight: normal;
-	color: var(--black);
-	background: var(--color-light);
+	color: var(--color-dark);
+	background: var(--color-white) !important;
 	color: $body-text-color;
 	line-height: 26px;
 }
@@ -271,13 +271,13 @@ p {
     - Input Placeholder
 -----------------------------------------*/
 *::-moz-placeholder {
-	color: var(--black);
+	color: $black;
 	font-size: 14px;
 	opacity: 1;
 }
 
 *::placeholder {
-	color: var(--black);
+	color: $black;
 	font-size: 14px;
 	opacity: 1;
 }
@@ -367,7 +367,7 @@ p {
 }
 
 .black-bg {
-	background: var(--black);
+	background: $black;
 }
 
 .footer-bg {
@@ -405,7 +405,7 @@ p {
 }
 
 .black-color {
-	color: var(--black);
+	color: $black;
 }
 
 
@@ -521,7 +521,7 @@ p {
 		height: 46px;
 		line-height: 44px;
 		border: 2px solid $border-4;
-		color: var(--black);
+		color: $black;
 		background: transparent;
 
 		&:hover {
@@ -540,7 +540,7 @@ p {
 			&:hover {
 				background: $white;
 				border-color: $white;
-				color: var(--black);
+				color: $black;
 			}
 		}
 	}
@@ -549,11 +549,11 @@ p {
 		height: 54px;
 		line-height: 58px;
 		background: $white;
-		color: var(--black);
+		color: $black;
 		padding: 0 45px;
 
 		&:hover {
-			color: var(--black);
+			color: $black;
 		}
 	}
 }
@@ -645,7 +645,7 @@ p {
 	position: relative;
 	font-size: 12px;
 	font-weight: 500;
-	color: var(--black);
+	color: $black;
 	text-transform: uppercase;
 	padding-right: 25px;
 	width: 40px;
@@ -760,7 +760,7 @@ p {
 
 	&__title {
 		font-size: 40px;
-		// color: var(--black);
+		// color: $black;
 		color: var(--color-dark);
 		text-transform: capitalize;
 		z-index: 1;
@@ -910,7 +910,7 @@ p {
 				font-weight: 500;
 				font-size: 16px;
 				border: 2px solid #eef0f6;
-				color: var(--black);
+				color: $black;
 
 				&:hover {
 					background: $e-blue;

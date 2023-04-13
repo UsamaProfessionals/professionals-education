@@ -65,7 +65,7 @@
             margin-bottom: 0;
             & span{
                 font-weight: 600;
-                color: var(--black);
+                color: $black;
             }
         }
     }
@@ -82,7 +82,7 @@
             margin-bottom: 0;
             & span{
                 font-weight: 600;
-                color: var(--black);
+                color: $black;
             }
         }
     }
@@ -91,7 +91,7 @@
             & li{
                 font-size: 16px;
                 font-weight: 500;
-                color: var(--black);
+                color: $black;
                 margin-bottom: 5px;
                 & i{
                     font-size: 16px;

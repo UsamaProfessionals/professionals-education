@@ -86,7 +86,7 @@
 		right: 20px;
 		&-btn{
 			background: transparent;
-			color: var(--black);
+			color: $black;
 			font-size: 22px;
 			&:hover{
 				@include transform(rotate(90deg));
@@ -140,7 +140,7 @@
         height: 25px;
         line-height: 25px;
         text-align: center;
-        color: var(--black);
+        color: $black;
         font-size: 12px;
         background: transparent;
         @include border-radius(50%);
@@ -164,7 +164,7 @@
             & span{
                 float: right;
                 font-size: 20px;
-                color: var(--black);
+                color: $black;
                 font-weight: 600;
                 color: $e-blue;
             }
@@ -241,7 +241,7 @@
       }
     
       .table-content table td.product-name a:hover {
-        color: var(--black);
+        color: $black;
       }
       
       .table-content table td {
@@ -291,7 +291,7 @@
           outline: none;
         @include box-shadow(none);
         &:focus{
-            border-color: var(--black);
+            border-color: $black;
         }
       }
       
@@ -355,7 +355,7 @@
         position: relative;
         @include transition(.3s);
         &:hover{
-            border-color: var(--black);
+            border-color: $black;
         }
         p {
           display: inline-block;
@@ -384,7 +384,7 @@
         outline: none;
         &:hover{
             cursor: pointer;
-            color: var(--black);
+            color: $black;
             background: transparent;
         }
     }
@@ -417,7 +417,7 @@
 /* 17. Checkout */
 .coupon-accordion h3 {
 	background-color: #f6f6f6;
-	border-top: 3px solid var(--black);
+	border-top: 3px solid $black;
 	font-size: 14px;
 	font-weight: 400;
 	margin: 0 0 25px;
@@ -444,7 +444,7 @@
 }
 
 .coupon-accordion span:hover, p.lost-password a:hover {
-  color: var(--black);
+  color: $black;
 }
 
 .coupon-content {
@@ -482,7 +482,7 @@
   outline: none;
   @include box-shadow(none);
   &:focus{
-      border-color: var(--black);
+      border-color: $black;
   }
 }
 
@@ -534,7 +534,7 @@ p.checkout-coupon input[type="text"] {
   outline: none;
   @include box-shadow(none);
   &:focus{
-      border-color: var(--black);
+      border-color: $black;
   }
 }
 
@@ -609,7 +609,7 @@ p.checkout-coupon input[type="text"] {
   outline: none;
   @include box-shadow(none);
   &:focus{
-      border-color: var(--black);
+      border-color: $black;
   }
 }
 
@@ -756,7 +756,7 @@ p.checkout-coupon input[type="text"] {
 }
 
 .your-order-table table tr.order-total td span {
-  color: var(--black);
+  color: $black;
   font-size: 18px;
   font-weight: 500;
 }
@@ -776,7 +776,7 @@ p.checkout-coupon input[type="text"] {
     & .accordion-button{
         font-size: 16px;
         font-weight: 500;
-        color: var(--black);
+        color: $black;
         padding: 23px 0;
         border: none;
         &:focus{
@@ -796,7 +796,7 @@ p.checkout-coupon input[type="text"] {
         }
     }
     & .accordion-button:not(.collapsed) {
-        color: var(--black);
+        color: $black;
         background-color: $white;
         box-shadow: none;
         &::after{

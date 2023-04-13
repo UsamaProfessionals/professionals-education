@@ -162,7 +162,7 @@
             & p{
                 font-size: 20px;
                 line-height: 1.2;
-                color: var(--black);
+                color: $black;
                 margin-bottom: 0;
             }
         }
@@ -212,7 +212,7 @@
         }
         & p{
             font-size: 24px;
-            color: var(--black);
+            color: $black;
             font-weight: 500;
             line-height: 1.3;
             margin-bottom: 25px;
@@ -230,7 +230,7 @@
                 @include transform(translateY(-50%));
                 width: 19px;
                 height: 2px;
-                background: var(--black);
+                background: $black;
             }
         }
         & img.quote{
@@ -244,7 +244,7 @@
             font-size: 26px;
             line-height: 1.4;
             font-weight: 500;
-            color: var(--black);
+            color: $black;
             @media #{$xs}{
                 font-size: 24px;
             }
@@ -279,7 +279,7 @@
                     line-height: 44px;
                     text-align: center;
                     font-size: 13px;
-                    color: var(--black);
+                    color: $black;
                     background: $grey;
                     @include border-radius(4px);
 
@@ -331,7 +331,7 @@
                 line-height: 56px;
                 border: 2px solid $grey;
                 background: $grey;
-                color: var(--black);
+                color: $black;
                 font-size: 15px;
                 outline: none;
                 @include border-radius(4px);
@@ -405,7 +405,7 @@
                     display: inline;
                 }
                 & a{
-                    color: var(--black);
+                    color: $black;
                     font-weight: 600;
                     padding-left: 4px;
                     &:hover{
@@ -476,7 +476,7 @@
                     fill:$e-text-1;
                 }
                 & .st1{
-                    fill:var(--black);
+                    fill:$black;
                 }
             }
         }
@@ -563,7 +563,7 @@
     &__content{}
     &__title{
         font-size: 18px;
-        color: var(--black);
+        color: $black;
         margin-bottom: 0px;
         font-weight: 600;
         line-height: 1.1;

@@ -30,6 +30,156 @@ const HeaderFour = () => {
     };
     // Sticky Menu Area End
 
+    useEffect(() => {
+        const theme = document.querySelector('#theme');
+        const themeModal = document.querySelector(".customize-theme");
+        const fontSizes = document.querySelectorAll(".choose-size span")
+        var root = document.querySelector(':root');
+
+        const colorPallete = document.querySelectorAll('.choose-color span')
+        const Bg1 = document.querySelector('.bg-1');
+        const Bg2 = document.querySelector('.bg-2');
+        const Bg3 = document.querySelector('.bg-3');
+
+        console.log(themeModal, "============================");
+
+        const OpenThemeModal = () => {
+            themeModal.style.display = "grid";
+        }
+
+        const closeThemeModal = (e) => {
+            if (e.target.classList.contains('customize-theme')) {
+                themeModal.style.display = 'none';
+            }
+        }
+
+        themeModal.addEventListener('click', closeThemeModal);
+
+        theme.addEventListener('click', OpenThemeModal);
+
+        const removeSizeSelector = () => {
+            fontSizes.forEach(size => {
+                size.classList.remove('active');
+            })
+        }
+
+        // FONT SIZES
+
+        fontSizes.forEach(size => {
+
+            size.addEventListener('click', () => {
+
+                removeSizeSelector();
+                let fontSizes;
+                size.classList.toggle('active');
+
+                if (size.classList.contains('font-size-1')) {
+                    fontSizes = '10px';
+                    root.style.setProperty('----sticky-top-left', '5.4rem');
+                    root.style.setProperty('----sticky-top-right', '5.4rem');
+                }
+                else if (size.classList.contains('font-size-2')) {
+                    fontSizes = '13px';
+                    root.style.setProperty('----sticky-top-left', '5.4rem');
+                    root.style.setProperty('----sticky-top-right', '-7rem');
+                }
+                else if (size.classList.contains('font-size-3')) {
+                    fontSizes = '16px';
+                    root.style.setProperty('----sticky-top-left', '.2rem');
+                    root.style.setProperty('----sticky-top-right', '-17rem');
+                }
+                else if (size.classList.contains('font-size-4')) {
+                    fontSizes = '19px';
+                    root.style.setProperty('----sticky-top-left', '-5rem');
+                    root.style.setProperty('----sticky-top-right', '-25rem');
+                }
+                else if (size.classList.contains('font-size-5')) {
+                    fontSizes = '22px';
+                    root.style.setProperty('----sticky-top-left', '-10rem');
+                    root.style.setProperty('----sticky-top-right', '-33rem');
+                }
+
+                document.querySelector('html').style.fontSize = fontSizes;
+            })
+
+        })
+
+        // CHANGE COLOR
+
+        const changeActiveColorClass = () => {
+            colorPallete.forEach(colorPicker => {
+                colorPicker.classList.remove('active');
+            })
+        }
+
+        colorPallete.forEach(color => {
+            color.addEventListener('click', () => {
+                let primaryHue;
+                changeActiveColorClass();
+                if (color.classList.contains('color-1')) {
+                    primaryHue = 252;
+                }
+                else if (color.classList.contains('color-2')) {
+                    primaryHue = 52;
+                }
+                else if (color.classList.contains('color-3')) {
+                    primaryHue = 352;
+                }
+                else if (color.classList.contains('color-4')) {
+                    primaryHue = 152;
+                }
+                else if (color.classList.contains('color-5')) {
+                    primaryHue = 202;
+                }
+
+                color.classList.add('active');
+                root.style.setProperty('--primary-color-hue', primaryHue)
+            })
+        })
+
+        // CHANGE THEME BACKGROUND
+
+        let lightColorLightness;
+        let darkColorLightness;
+        let whiteColorLightness;
+
+        const changeBG = () => {
+            root.style.setProperty('--light-color-lightness', lightColorLightness);
+            root.style.setProperty('--white-color-lightness', whiteColorLightness);
+            root.style.setProperty('--dark-color-lightness', darkColorLightness);
+        }
+
+        Bg2.addEventListener('click', () => {
+            darkColorLightness = '95%';
+            whiteColorLightness = '20%';
+            lightColorLightness = '15%';
+
+            Bg2.classList.add('active');
+            Bg1.classList.remove('active');
+            Bg3.classList.remove('active');
+            changeBG();
+        })
+
+        Bg3.addEventListener('click', () => {
+            darkColorLightness = '95%';
+            whiteColorLightness = '10%';
+            lightColorLightness = '0%';
+
+            Bg3.classList.add('active');
+            Bg1.classList.remove('active');
+            Bg2.classList.remove('active');
+            changeBG();
+        })
+
+        Bg1.addEventListener('click', () => {
+            Bg1.classList.add('active');
+            Bg2.classList.remove('active');
+            Bg3.classList.remove('active');
+            window.location.reload();
+        })
+
+    }, [])
+
     return (
         <React.Fragment>
             <Head>
@@ -130,6 +280,7 @@ const HeaderFour = () => {
                                                     </ul>
                                                 </li>
                                                 <li><Link href="/contact"><a>Contact</a></Link></li>
+                                                <li><a className="menu-item" id="theme" style={{ cursor: "pointer" }}>Theme</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -148,6 +299,66 @@ const HeaderFour = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* <!-- ====================THEME CUSTOMIZATION START ========================= --> */}
+
+                <div class="customize-theme">
+                    <div class="card">
+                        <h2>Customize Your View</h2>
+                        {/* <p class="text-muted">Manage your font size, color and background.</p> */}
+
+                        {/* <!-- ================ Font Size ==================================== --> */}
+                        {/* <div class="font-size">
+                            <h4>Font Size</h4>
+                            <div>
+                                <h6>Aa</h6>
+                                <div class="choose-size">
+                                    <span class="font-size-1"></span>
+                                    <span class="font-size-2"></span>
+                                    <span class="font-size-3 active"></span>
+                                    <span class="font-size-4"></span>
+                                    <span class="font-size-5"></span>
+                                </div>
+                                <h3>Aa</h3>
+                            </div>
+                        </div> */}
+
+                        {/* <div class="color">
+                            <h4>Color</h4>
+                            <div class="choose-color">
+                                <span class="color-1 active"></span>
+                                <span class="color-2"></span>
+                                <span class="color-3"></span>
+                                <span class="color-4"></span>
+                                <span class="color-5"></span>
+                            </div>
+                        </div> */}
+
+                        {/* <!-- =================== Background Colors============================== --> */}
+                        <div class="background">
+                            {/* <h4>Background</h4> */}
+                            <div class="choose-bg">
+                                <div class="bg-1 active">
+                                    <span></span>
+                                    <h5 for="bg-1">Light</h5>
+                                </div>
+
+                                <div class="bg-2">
+                                    <span></span>
+                                    <h5 for="bg-2" className='text-white'>Dim</h5>
+                                </div>
+
+                                <div class="bg-3">
+                                    <span></span>
+                                    <h5 for="bg-3" className='text-white'>Lights Out</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <!-- ====================THEME CUSTOMIZATION END ========================= --> */}
 
                 <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
                 <div onClick={() => setMenuOpen(false)} className={menuOpen ? "body-overlay show" : "body-overlay"}></div>
