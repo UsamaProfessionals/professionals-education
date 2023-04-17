@@ -197,8 +197,8 @@ const HeaderStyleFive = () => {
                                     <div className="logo">
                                         <Link href="/">
                                             <a>
-                                                <img className="logo-white img-fluid" src="assets/img/logo/PELogo.png" alt="logo" />
-                                                <img className="logo-black img-fluid" src="assets/img/logo/PELogo.png" alt="logo" />
+                                                <img className="logo-white" src="assets/img/logo/PELogo.png" alt="logo" />
+                                                <img className="logo-black" src="assets/img/logo/PELogo.png" alt="logo" />
                                             </a>
                                         </Link>
                                     </div>

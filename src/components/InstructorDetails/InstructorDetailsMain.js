@@ -10,12 +10,12 @@ class InstructorDetailsMain extends Component {
         return (
             <main>
                 <section className="teacher__area pt-100 pb-110">
-                    <div className="page__title-shape">
+                    {/* <div className="page__title-shape">
                         <img className="page-title-shape-5 d-none d-sm-block" src="assets/img/page-title/page-title-shape-1.png" alt="img not found" />
                         <img className="page-title-shape-6" src="assets/img/page-title/page-title-shape-6.png" alt="img not found" />
                         <img className="page-title-shape-3" src="assets/img/page-title/page-title-shape-3.png" alt="img not found" />
                         <img className="page-title-shape-7" src="assets/img/page-title/page-title-shape-4.png" alt="img not found" />
-                    </div>
+                    </div> */}
                     <div className="container">
                         <div className="row">
                             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">

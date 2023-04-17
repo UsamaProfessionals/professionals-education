@@ -198,11 +198,11 @@ const Header = () => {
             <div id="header-sticky" className="header__area header__transparent header__padding">
                <div className="container-fluid">
                   <div className="row align-items-center">
-                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
+                     <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-3 col-sm-6 col-8">
                         <div className="header__left d-flex">
                            <div className="logo">
                               <Link href="/">
-                                 <a><img src="assets/img/logo/PELogo.png" alt="logo" className='img-fluid' /></a>
+                                 <a><img src="assets/img/logo/PELogo.png" alt="logo"/></a>
                               </Link>
                            </div>
                            <div className="header__category d-none d-lg-block active">
@@ -243,7 +243,7 @@ const Header = () => {
                            </div>
                         </div>
                      </div>
-                     <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
+                     <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-9 col-sm-6 col-4">
                         <div className="header__right d-flex justify-content-end align-items-center">
                            <div className="main-menu d-none d-xl-block">
                               <nav id="mobile-menu">

@@ -133,14 +133,14 @@ class HomeMain extends Component {
 						<div class="container">
 							<div className="row">
 								<div className="col-xxl-4 offset-xxl-4">
-									<div className="section__title-wrapper mb-60 text-center">
+									<div className="section__title-wrapper mb-60 mt-60 text-center">
 										<h2 className="section__title hover-underline-animation">Simple <br /> All Inclusive  <span className="yellow-bg yellow-bg-big">Pricing</span></h2>
 										<p>No contracts. No surprise fees.</p>
 									</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-4">
+								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="generic_content clearfix">
 										<div class="generic_head_price clearfix">
 											<div class="generic_head_content clearfix">
@@ -173,7 +173,7 @@ class HomeMain extends Component {
 									</div>
 								</div>
 
-								<div class="col-md-4">
+								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="generic_content active clearfix">
 										<div class="generic_head_price clearfix">
 											<div class="generic_head_content clearfix">
@@ -206,7 +206,7 @@ class HomeMain extends Component {
 									</div>
 								</div>
 
-								<div class="col-md-4">
+								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="generic_content clearfix">
 										<div class="generic_head_price clearfix">
 											<div class="generic_head_content clearfix">
