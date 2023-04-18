@@ -13,7 +13,7 @@ class WhyChoose extends Component {
                      <div className="why__content pr-50 mt-40">
                         <div className="section__title-wrapper mb-30">
                            <span className="section__sub-title">Why Choses Me</span>
-                           <h2 className="section__title">Tools for <span className="yellow-bg yellow-bg-big">Teachers<img src="assets/img/shape/yellow-bg.png" alt="img not found" /></span> and Learners</h2>
+                           <h2 className="section__title hover-underline-animation">Tools for <span className="yellow-bg yellow-bg-big">Teachers</span> and Learners</h2>
                            <p>Oxford chimney pot Eaton faff about blower blatant brilliant, bubble and squeak he legged it Charles bonnet arse at public school bamboozled.</p>
                         </div>
                         <div className="why__btn">
@@ -32,10 +32,10 @@ class WhyChoose extends Component {
                   <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-8">
                      <div className="why__thumb">
                         <img src="assets/img/why/why-img.jpg" alt="img not found" />
-                        <img className="why-green" src="assets/img/why/why-shape-green.png" alt="img not found" />
+                        {/* <img className="why-green" src="assets/img/why/why-shape-green.png" alt="img not found" />
                         <img className="why-pink" src="assets/img/why/why-shape-pink.png" alt="img not found" />
                         <img className="why-dot" src="assets/img/why/why-shape-dot.png" alt="img not found" />
-                        <img className="why-line" src="assets/img/why/why-shape-line.png" alt="img not found" />
+                        <img className="why-line" src="assets/img/why/why-shape-line.png" alt="img not found" /> */}
                      </div>
                   </div>
                </div>

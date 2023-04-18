@@ -453,7 +453,7 @@ class CourseDetailsMain extends Component {
                                             <div className="row">
                                                 <div className="col-xxl-12">
                                                     <div className="section__title-wrapper mb-40">
-                                                        <h2 className="section__title">Related <span className="yellow-bg yellow-bg-big">Course<img src="assets/img/shape/yellow-bg.png" alt="img not found" /></span></h2>
+                                                        <h2 className="section__title hover-underline-animation">Related <span className="yellow-bg yellow-bg-big">Course</span></h2>
                                                         <p>You don't have to struggle alone, you've got our assistance and help.</p>
                                                     </div>
                                                 </div>

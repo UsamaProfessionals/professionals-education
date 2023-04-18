@@ -24,6 +24,27 @@
     margin-bottom: 5px;
 }
 
+.underline-animation {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    rotate: -3deg;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    height: 6px;
+    bottom: -5px;
+    left: 0;
+    background-color: #50C878;
+}
+
+
 .hover-underline-animation {
     display: inline-block;
     position: relative;

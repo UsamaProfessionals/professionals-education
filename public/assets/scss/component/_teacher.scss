@@ -24,10 +24,11 @@
         & span{
             font-size: 16px;
             color: $e-text-4;
+            margin-bottom: 100px;
         }
     }
     &__title{
-        display: inline-block;
+        // display: inline-block;
         font-size: 20px;
         margin-bottom: 10px;
     }
