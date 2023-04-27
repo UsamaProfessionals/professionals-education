@@ -16,7 +16,7 @@ class LatestComments extends Component {
                                     <img src="assets/img/blog/comments/comment.jpg" alt="img not found"/>
                                 </div>
                                 <div className="avatar-name">
-                                    <h5>Eleanor Fant</h5>
+                                    <h5>Usman Ahmed</h5>
                                     <span className="post-meta"> July 14, 2022</span>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ class LatestComments extends Component {
                                     <img src="assets/img/blog/comments/comments-2.jpg" alt="img not found"/>
                                 </div>
                                 <div className="avatar-name">
-                                    <h5>Dominic</h5>
+                                    <h5>Syed Hammad</h5>
                                     <span className="post-meta">April 16, 2022 </span>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ class LatestComments extends Component {
                                                 <img src="assets/img/blog/comments/comments-3.jpg" alt="img not found"/>
                                             </div>
                                             <div className="avatar-name">
-                                                <h5>Von Rails</h5>
+                                                <h5>Junaid Ali</h5>
                                                 <span className="post-meta">April 18, 2022 </span>
                                             </div>
                                     </div>

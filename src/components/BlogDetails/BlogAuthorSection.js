@@ -10,7 +10,7 @@ class BlogAuthor extends Component {
                     <img src="assets/img/blog/author/blog-author.jpg" alt="img not found"/>
                 </div>
                 <div className="blog__author-content">
-                    <h4>Justin Case</h4>
+                    <h4>Saim Ali</h4>
                     <span>Author</span>
                     <p>So I said blower wellies a blinding shot jolly good argy-bargy he nicked it, in my flat don't get shirty with me tosser.</p>
                 </div>

@@ -11,7 +11,7 @@ class GetInTouch extends Component {
                   <div className="col-xxl-7 col-xl-7 col-lg-6">
                      <div className="contact__wrapper">
                         <div className="section__title-wrapper mb-40">
-                           <h2 className="section__title">Get in<span className="yellow-bg yellow-bg-big">touch<img src="assets/img/shape/yellow-bg.png" alt="img not found"/></span></h2>
+                           <h2 className="section__title hover-underline-animation">Get in<span className="yellow-bg yellow-bg-big">touch</span></h2>
                            <p>Have a question or just want to say hi? We'd love to hear from you.</p>
                         </div>
                         <div className="contact__form">
@@ -55,11 +55,11 @@ class GetInTouch extends Component {
                   </div>
                   <div className="col-xxl-4 offset-xxl-1 col-xl-4 offset-xl-1 col-lg-5 offset-lg-1">
                      <div className="contact__info white-bg p-relative z-index-1">
-                        <div className="contact__shape">
+                        {/* <div className="contact__shape">
                            <img className="contact-shape-1" src="assets/img/contact/contact-shape-1.png" alt="img not found"/>
                            <img className="contact-shape-2" src="assets/img/contact/contact-shape-2.png" alt="img not found"/>
                            <img className="contact-shape-3" src="assets/img/contact/contact-shape-3.png" alt="img not found"/>
-                        </div>
+                        </div> */}
                         <div className="contact__info-inner white-bg">
                            <ul>
                               <li>

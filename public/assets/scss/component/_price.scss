@@ -105,6 +105,22 @@ body {
     color: #fff;
 }
 
+.generic_content.active:hover .head_bg {
+    border-color: #e4e4e4 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e4e4e4 !important;
+    color: #525252 !important;
+}
+
+.generic_content.active:hover .head span {
+    color: #525252 !important;
+}
+
+.generic_content.active:hover .generic_price_btn a {
+    border: 1px solid #50C878 !important;
+    background-color: transparent !important;
+    color: #50C878 !important;
+}
+
+
 #generic_price_table {
     margin: 50px 0 50px 0;
     font-family: 'Raleway', sans-serif;

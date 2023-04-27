@@ -48,7 +48,7 @@ class CourseDetailsMain extends Component {
                                                 </div>
                                                 <div className="course__teacher-info-3">
                                                     <h5>Teacher</h5>
-                                                    <p><Link href="/instructor"><a>Elon Gated</a></Link></p>
+                                                    <p><Link href="/instructor"><a>Syed Hammad</a></Link></p>
                                                 </div>
                                             </div>
                                             <div className="course__update mr-80 mb-30">
@@ -120,7 +120,7 @@ class CourseDetailsMain extends Component {
                                                                             <img src="assets/img/course/teacher//teachers/teacher-2.jpg" alt="img not found" />
                                                                         </div>
                                                                         <div className="course__instructor-content">
-                                                                            <h3>Eleanor Fant</h3>
+                                                                            <h3>Junaid Ali</h3>
                                                                             <p>Instructor</p>
                                                                         </div>
                                                                     </div>
@@ -129,7 +129,7 @@ class CourseDetailsMain extends Component {
                                                                             <img src="assets/img/course/teacher//teachers/teacher-3.jpg" alt="img not found" />
                                                                         </div>
                                                                         <div className="course__instructor-content">
-                                                                            <h3>Lauren Stamps</h3>
+                                                                            <h3>Syed Hammad</h3>
                                                                             <p>Teacher</p>
                                                                         </div>
                                                                     </div>
@@ -138,7 +138,7 @@ class CourseDetailsMain extends Component {
                                                                             <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
                                                                         </div>
                                                                         <div className="course__instructor-content">
-                                                                            <h3>Jonquil Von</h3>
+                                                                            <h3>Usman Ahmed</h3>
                                                                             <p>Associate</p>
                                                                         </div>
                                                                     </div>
@@ -245,7 +245,7 @@ class CourseDetailsMain extends Component {
                                                                             <div className="course__comment-content">
                                                                                 <div className="course__comment-wrapper ml-70 fix">
                                                                                     <div className="course__comment-info float-start">
-                                                                                        <h4>Eleanor Fant</h4>
+                                                                                        <h4>Usman Ahmed</h4>
                                                                                         <span>July 14, 2022</span>
                                                                                     </div>
                                                                                     <div className="course__comment-rating float-start float-sm-end">
@@ -272,7 +272,7 @@ class CourseDetailsMain extends Component {
                                                                             <div className="course__comment-content">
                                                                                 <div className="course__comment-wrapper ml-70 fix">
                                                                                     <div className="course__comment-info float-start">
-                                                                                        <h4>Shahnewaz Sakil</h4>
+                                                                                        <h4>Saim Ali</h4>
                                                                                         <span>July 17, 2022</span>
                                                                                     </div>
                                                                                     <div className="course__comment-rating float-start float-sm-end">
@@ -349,7 +349,7 @@ class CourseDetailsMain extends Component {
                                                                         <div className="course__member-thumb d-flex align-items-center">
                                                                             <img src="assets/img/course/instructor/course-instructor-1.jpg" alt="img not found" />
                                                                             <div className="course__member-name ml-20">
-                                                                                <h5>Shahnewaz Sakil</h5>
+                                                                                <h5>Saim Ali</h5>
                                                                                 <span>Engineer</span>
                                                                             </div>
                                                                         </div>

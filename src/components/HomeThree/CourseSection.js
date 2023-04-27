@@ -44,7 +44,7 @@ class Course extends Component {
                                     </div>
                                  </div>
                                  <div className="course__teacher-info">
-                                    <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                    <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                     <span>Product Designer</span>
                                  </div>
                               </div>

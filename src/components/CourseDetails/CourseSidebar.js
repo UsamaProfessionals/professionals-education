@@ -75,15 +75,15 @@ class CourseSidebar extends Component {
                                 <ul>
                                     <li className="d-flex align-items-center">
                                         <div className="course__video-icon">
-                                            <i className="fas fa-home"></i>
+                                            <i className="fas fa-home mx-2"></i>
                                         </div>
                                         <div className="course__video-info">
-                                            <h5><span>Instructor :</span> Eleanor Fant</h5>
+                                            <h5><span>Instructor :</span> Usman Ahmed</h5>
                                         </div>
                                     </li>
                                     <li className="d-flex align-items-center">
                                         <div className="course__video-icon">
-                                            <i className="fas fa-book"></i>
+                                            <i className="fas fa-book mx-2"></i>
                                         </div>
                                         <div className="course__video-info">
                                             <h5><span>Lectures :</span>14</h5>
@@ -91,7 +91,7 @@ class CourseSidebar extends Component {
                                     </li>
                                     <li className="d-flex align-items-center">
                                         <div className="course__video-icon">
-                                            <i className="fas fa-clock"></i>
+                                            <i className="fas fa-clock mx-2"></i>
                                         </div>
                                         <div className="course__video-info">
                                             <h5><span>Duration :</span>6 weeks</h5>
@@ -99,7 +99,7 @@ class CourseSidebar extends Component {
                                     </li>
                                     <li className="d-flex align-items-center">
                                         <div className="course__video-icon">
-                                            <i className="fas fa-user"></i>
+                                            <i className="fas fa-user mx-2"></i>
                                         </div>
                                         <div className="course__video-info">
                                             <h5><span>Enrolled :</span>20 students</h5>
@@ -107,7 +107,7 @@ class CourseSidebar extends Component {
                                     </li>
                                     <li className="d-flex align-items-center">
                                         <div className="course__video-icon">
-                                            <i className="fas fa-globe"></i>
+                                            <i className="fas fa-globe mx-2"></i>
                                         </div>
                                         <div className="course__video-info">
                                             <h5><span>Language :</span>English</h5>

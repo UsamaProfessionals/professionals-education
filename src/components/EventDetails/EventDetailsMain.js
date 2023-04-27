@@ -39,7 +39,7 @@ class EventDetailsMain extends Component {
                                         </div>
                                         <div className="course__teacher-info-3">
                                             <h5>Teacher</h5>
-                                            <p><Link href="/instructor"><a>Elon Gated</a></Link></p>
+                                            <p><Link href="/instructor"><a>Ahmed Khan</a></Link></p>
                                         </div>
                                     </div>
                                     <div className="course__update mr-80 mb-30">
@@ -77,8 +77,8 @@ class EventDetailsMain extends Component {
                                     </div>
                                     <div className="events__tag">
                                         <span><i className="fas fa-tag"></i></span>
-                                        <Link href="/course-details"><a>Big data,</a></Link>
-                                        <Link href="/course-details"><a>Data analysis,</a></Link>
+                                        <Link href="/course-details"><a>Big data, </a></Link>
+                                        <Link href="/course-details"><a>Data analysis, </a></Link>
                                         <Link href="/course-details"><a>Data modeling</a></Link>
                                     </div>
                                 </div>
@@ -86,10 +86,10 @@ class EventDetailsMain extends Component {
                             <div className="col-xxl-4 col-xl-4 col-lg-4">
                                 <div className="events__sidebar pl-70">
                                     <div className="events__sidebar-widget white-bg mb-20">
-                                        <div className="events__sidebar-shape">
+                                        {/* <div className="events__sidebar-shape">
                                             <img className="events-sidebar-img-2" src="assets/img/events/event-shape-2.png" alt="img not found" />
                                             <img className="events-sidebar-img-3" src="assets/img/events/event-shape-3.png" alt="img not found" />
-                                        </div>
+                                        </div> */}
                                         <div className="events__info">
                                             <div className="events__info-meta mb-25 d-flex align-items-center justify-content-between">
                                                 <div className="events__info-price">
@@ -104,7 +104,7 @@ class EventDetailsMain extends Component {
                                                 <ul>
                                                     <li className="d-flex align-items-center">
                                                         <div className="events__info-icon">
-                                                            <i className="fas fa-calendar-alt"></i>
+                                                            <i className="fas fa-calendar-alt mx-2"></i>
                                                         </div>
                                                         <div className="events__info-item">
                                                             <h5><span>End: </span> July 26, 2022 12:30 am</h5>
@@ -112,7 +112,7 @@ class EventDetailsMain extends Component {
                                                     </li>
                                                     <li className="d-flex align-items-center">
                                                         <div className="events__info-icon">
-                                                            <i className="fas fa-clock"></i>
+                                                            <i className="fas fa-clock mx-2"></i>
                                                         </div>
                                                         <div className="events__info-item">
                                                             <h5><span>Time:</span>  10:45 AM-01:30 PM</h5>
@@ -120,7 +120,7 @@ class EventDetailsMain extends Component {
                                                     </li>
                                                     <li className="d-flex align-items-center">
                                                         <div className="events__info-icon">
-                                                            <i className="fas fa-address-card"></i>
+                                                            <i className="fas fa-address-card mx-2"></i>
                                                         </div>
                                                         <div className="events__info-item">
                                                             <h5><span>Venue: </span> New York, TX 82760, US</h5>

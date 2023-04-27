@@ -61,7 +61,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                         </div>
 
                                     </div>
@@ -82,7 +82,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                         </div>
                                         <div className="course__btn text-end">
                                             <Link href="/course-details"><a className="link-btn">
@@ -129,7 +129,7 @@ class CourseSlider extends Component {
                                         <div className="course__teacher-thumb mr-15">
                                             <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
                                         </div>
-                                        <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                        <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                     </div>
                                 </div>
                                 <div className="course__more d-flex justify-content-between align-items-center">
@@ -170,7 +170,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Shahnewaz Sakil</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Saim Ali</a></Link></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Shahnewaz Sakil</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Saim Ali</a></Link></h6>
                                         </div>
                                         <div className="course__btn text-end">
                                             <Link href="/course-details"><a className="link-btn">
@@ -237,7 +237,7 @@ class CourseSlider extends Component {
                                         <div className="course__teacher-thumb mr-15">
                                             <img src="assets/img/course/teacher/teachers/teacher-2.jpg" alt="img not found" />
                                         </div>
-                                        <h6><Link href="/instructor-details"><a>Barry Tone</a></Link></h6>
+                                        <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                     </div>
                                 </div>
                                 <div className="course__more d-flex justify-content-between align-items-center">
@@ -279,7 +279,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Pelican Steve</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Asad Khan</a></Link></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Pelican Steve</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Asad Khan</a></Link></h6>
                                         </div>
                                         <div className="course__btn text-end">
                                             <Link href="/course-details"><a className="link-btn">
@@ -346,7 +346,7 @@ class CourseSlider extends Component {
                                         <div className="course__teacher-thumb mr-15">
                                             <img src="assets/img/course/teacher/teachers/teacher-3.jpg" alt="img not found" />
                                         </div>
-                                        <h6><Link href="/instructor-details"><a>Elon Gated</a></Link></h6>
+                                        <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                     </div>
                                 </div>
                                 <div className="course__more d-flex justify-content-between align-items-center">
@@ -388,7 +388,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Eleanor Fant</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -408,7 +408,7 @@ class CourseSlider extends Component {
                                             <div className="course__teacher-thumb mr-15">
                                                 <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
                                             </div>
-                                            <h6><Link href="/instructor-details"><a>Eleanor Fant</a></Link></h6>
+                                            <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                         </div>
                                         <div className="course__btn text-end">
                                             <Link href="/course-details"><a className="link-btn">
@@ -456,7 +456,7 @@ class CourseSlider extends Component {
                                         <div className="course__teacher-thumb mr-15">
                                             <img src="assets/img/course/teacher/teachers/teacher-4.jpg" alt="img not found" />
                                         </div>
-                                        <h6><Link href="/instructor-details"><a>Eleanor Fant</a></Link></h6>
+                                        <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                     </div>
                                 </div>
                                 <div className="course__more d-flex justify-content-between align-items-center">

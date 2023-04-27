@@ -4,6 +4,15 @@
 /*  10. PRODUCT CSS START
 /*----------------------------------------*/
 
+.cart{
+  background-color: white;
+  box-shadow: 0px 0px 25px 18px rgba(1, 11, 60, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+
 .product{
     &__sm{
         padding: 20px;
@@ -220,8 +229,8 @@
         background: #ffffff;
         border-color: #eaedff;
         border-radius: 0;
-        border-style: solid;
-        border-width: 1px 0 0 1px;
+        // border-style: solid;
+        // border-width: 1px 0 0 1px;
         text-align: center;
         width: 100%;
         margin-bottom: 0;
@@ -237,7 +246,7 @@
       
         
       .table > :not(:last-child) > :last-child > * {
-        border-bottom-color: #eaedff;
+        // border-bottom-color: #eaedff;
       }
     
       .table-content table td.product-name a:hover {
@@ -245,15 +254,15 @@
       }
       
       .table-content table td {
-        border-top: medium none;
+        // border-top: medium none;
         padding: 20px 10px;
         vertical-align: middle;
         font-size: 16px;
       }
       
       .table-content table th, .table-content table td {
-        border-bottom: 1px solid #eaedff;
-        border-right: 1px solid #eaedff;
+        // border-bottom: 1px solid #eaedff;
+        // border-right: 1px solid #eaedff;
       }
       
       
@@ -276,6 +285,7 @@
       
       .coupon {
         float: left;
+        padding: 20px;
       }
       
       @media (max-width: 767px) {
@@ -303,6 +313,7 @@
       
       .coupon2 {
         float: right;
+        padding: 20px;
       }
       
       @media (max-width: 767px) {

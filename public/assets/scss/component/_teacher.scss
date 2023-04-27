@@ -24,7 +24,6 @@
         & span{
             font-size: 16px;
             color: $e-text-4;
-            margin-bottom: 100px;
         }
     }
     &__title{
@@ -36,7 +35,7 @@
         & ul{
             & li{
                 display: inline-block;
-                margin: 0 5px;
+                margin: 10px 5px;
                 & a{
                     display: inline-block;
                     width: 36px;

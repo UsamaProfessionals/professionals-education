@@ -25,7 +25,7 @@ class TeacherTwo extends Component {
                            <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-1.jpg" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
-                           <h3 className="teacher__title">Lillian Walsh,</h3> 
+                           <h3 className="teacher__title">Ahmed Khan</h3> 
                            <span> CO Founder</span>
                            <div className="teacher__social">
                            <ul>
@@ -43,7 +43,7 @@ class TeacherTwo extends Component {
                            <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-2.jpg" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
-                           <h3 className="teacher__title">Kelly Franklin,</h3> 
+                           <h3 className="teacher__title">Junaid Ali</h3> 
                            <span>Desginer</span>
 
                            <div className="teacher__social">
@@ -62,7 +62,7 @@ class TeacherTwo extends Component {
                            <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-3.jpg" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
-                           <h3 className="teacher__title">Hilary Ouse,</h3> 
+                           <h3 className="teacher__title">Syed Hammad</h3> 
                            <span>Markater</span>
 
                            <div className="teacher__social">
@@ -81,7 +81,7 @@ class TeacherTwo extends Component {
                            <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-4.jpg" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
-                           <h3 className="teacher__title">Lillian Walsh,</h3> 
+                           <h3 className="teacher__title">Usman Ahmed</h3> 
                            <span>CO Founder</span>
 
                            <div className="teacher__social">
@@ -100,7 +100,7 @@ class TeacherTwo extends Component {
                            <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-5.jpg" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
-                           <h3 className="teacher__title">Shahnewaz,</h3> 
+                           <h3 className="teacher__title">Asad Khan</h3> 
                            <span>Web Developer</span>
 
                            <div className="teacher__social">
@@ -119,7 +119,7 @@ class TeacherTwo extends Component {
                            <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-6.jpg" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
-                           <h3 className="teacher__title">Nicola Tesla,</h3> 
+                           <h3 className="teacher__title">Saim Ali</h3> 
                            <span>Engineer</span>
 
                            <div className="teacher__social">

@@ -35,7 +35,7 @@ class Blog extends Component {
                                     <img src="assets/img/blog/author/author-1.jpg" alt="img not found" />
                                  </div>
                                  <div className="blog__author-info">
-                                    <h5>Jim Séchen</h5>
+                                    <h5>Ahmed Khan</h5>
                                  </div>
                               </div>
                               <div className="blog__date d-flex align-items-center">
@@ -63,7 +63,7 @@ class Blog extends Component {
                                     <img src="assets/img/blog/author/author-2.jpg" alt="img not found" />
                                  </div>
                                  <div className="blog__author-info">
-                                    <h5>Barry Tone</h5>
+                                    <h5>Junaid Ali</h5>
                                  </div>
                               </div>
                               <div className="blog__date d-flex align-items-center">
@@ -91,7 +91,7 @@ class Blog extends Component {
                                     <img src="assets/img/blog/author/author-3.jpg" alt="img not found" />
                                  </div>
                                  <div className="blog__author-info">
-                                    <h5>Barry Tone</h5>
+                                    <h5>Junaid Ali</h5>
                                  </div>
                               </div>
                               <div className="blog__date d-flex align-items-center">

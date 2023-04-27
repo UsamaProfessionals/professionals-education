@@ -8,10 +8,10 @@ class Knowledge extends Component {
 
         return (
         <section className="contact__area grey-bg-2 pt-120 pb-90 p-relative fix">
-            <div className="contact__shape">
+            {/* <div className="contact__shape">
                <img className="contact-shape-5" src="assets/img/contact/contact-shape-5.png" alt="img not found"/>
                <img className="contact-shape-4" src="assets/img/contact/contact-shape-4.png" alt="img not found"/>
-            </div>
+            </div> */}
             <div className="container">
                <div className="row">
                   <div className="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6">

@@ -49,8 +49,8 @@ class TestimonialThree extends Component {
                                                             income and I am sure that I will do this professionally.”</p>
 
                                                         <div className="testimonial__info-2 mb-45">
-                                                            <h4>James Lee,</h4>
-                                                            <span>Student @Educal University</span>
+                                                            <h4>Ahmed Khan,</h4>
+                                                            <span> Student @Educal University</span>
                                                         </div>
 
                                                         <div className="testimonial__nav-thumb">
@@ -67,8 +67,8 @@ class TestimonialThree extends Component {
                                                             income and I am sure that I will do this professionally.”</p>
 
                                                         <div className="testimonial__info-2 mb-45">
-                                                            <h4>James Lee,</h4>
-                                                            <span>Student @Educal University</span>
+                                                            <h4>Asad Khan,</h4>
+                                                            <span> Student @Educal University</span>
                                                         </div>
 
                                                         <div className="testimonial__nav-thumb">

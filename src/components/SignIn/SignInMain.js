@@ -8,14 +8,14 @@ class SignInMain extends Component {
         return (
             <main>
                 <section className="signup__area po-rel-z1 pt-100 pb-145">
-                    <div className="sign__shape">
+                    {/* <div className="sign__shape">
                         <img className="man-1" src="assets/img/icon/sign/man-1.png" alt="img not found"/>
                         <img className="man-2" src="assets/img/icon/sign/man-2.png" alt="img not found"/>
                         <img className="circle" src="assets/img/icon/sign/circle.png" alt="img not found"/>
                         <img className="zigzag" src="assets/img/icon/sign/zigzag.png" alt="img not found"/>
                         <img className="dot" src="assets/img/icon/sign/dot.png" alt="img not found"/>
                         <img className="bg" src="assets/img/icon/sign/sign-up.png" alt="img not found"/>
-                    </div>
+                    </div> */}
                     <div className="container">
                         <div className="row">
                             <div className="col-xxl-8 offset-xxl-2 col-xl-8 offset-xl-2">
