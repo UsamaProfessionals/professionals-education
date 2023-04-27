@@ -246,6 +246,7 @@ class HomeMain extends Component {
 				{/* <section className="price__area pt-60 pb-130">
 					<Tabs>
 						<div className="container">
+
 							<div className="row">
 								<div className="col-xxl-4 offset-xxl-4">
 									<div className="section__title-wrapper mb-60 text-center">
@@ -388,7 +389,6 @@ class HomeMain extends Component {
 										</div>
 									</div>
 								</div>
-
 							</section>
 							
 						</div >
