@@ -81,6 +81,7 @@ class BlogDetailsMain extends Component {
                                             <h3>{article.title}</h3>
                                             <p>{article.text}</p>
                                             <p>{article.textTwo}</p>
+                                            <p>{article.textThree}</p>
                                         </div>
 
 

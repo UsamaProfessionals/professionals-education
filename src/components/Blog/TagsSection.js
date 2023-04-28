@@ -12,7 +12,7 @@ class Tags extends Component {
                 </div>
                 <div className="sidebar__widget-content">
                     <div className="sidebar__tag">
-                        <Link href="/blog-details"><a>Art & Design</a></Link>
+                        <Link href="/blog-details"><a>Blockchain</a></Link>
                         <Link href="/blog-details"><a>Course</a></Link>
                         <Link href="/blog-details"><a>Videos</a></Link>
                         <Link href="/blog-details"><a>App</a></Link>

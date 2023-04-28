@@ -47,7 +47,7 @@ class BlogMain extends Component {
 
                                     <Tags />
 
-                                    <SidebarBanner />
+                                    {/* <SidebarBanner /> */}
                                 </div>
                             </div>
 	                    </div>
