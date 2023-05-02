@@ -101,6 +101,7 @@ body {
 	background: var(--color-white) !important;
 	color: $body-text-color;
 	line-height: 26px;
+	overflow-x: hidden;
 }
 
 .container {
