@@ -48,7 +48,7 @@ class CourseDetailsMain extends Component {
                                                 </div>
                                                 <div className="course__teacher-info-3">
                                                     <h5>Teacher</h5>
-                                                    <p><Link href="/instructor"><a>Syed Hammad</a></Link></p>
+                                                    <p><Link href="/instructor"><a>Ahmed Khan</a></Link></p>
                                                 </div>
                                             </div>
                                             <div className="course__update mr-80 mb-30">
