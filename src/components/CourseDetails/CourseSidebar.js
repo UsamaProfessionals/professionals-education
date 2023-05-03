@@ -57,7 +57,7 @@ class CourseSidebar extends Component {
                     <div className="course__sidebar-widget-2 white-bg mb-20">
                         <div className="course__video">
                             <div className="course__video-thumb w-img mb-25">
-                                <img src="assets/img/course/video/new-course-video.jpg" alt="img not found" />
+                                <img src="assets/img/course/video/new-course-video.png" alt="img not found" />
                                 <div className="course__video-play">
                                     <a href="#!" className="play-btn" onClick={this.onOpenModal}> <i className="fas fa-play"></i> </a>
                                 </div>
@@ -133,7 +133,7 @@ class CourseSidebar extends Component {
                                 <li>
                                     <div className="course__sm d-flex align-items-center mb-30">
                                         <div className="course__sm-thumb mr-20">
-                                            <Link href="/course-grid"><a><img src="assets/img/course/sm/new-course-sm-1.jpg" alt="img not found" /></a></Link>
+                                            <Link href="/course-grid"><a><img src="assets/img/course/sm/new-course-sm-1.png" alt="img not found" /></a></Link>
                                         </div>
                                         <div className="course__sm-content">
                                             <div className="course__sm-rating">
@@ -155,7 +155,7 @@ class CourseSidebar extends Component {
                                 <li>
                                     <div className="course__sm d-flex align-items-center mb-30">
                                         <div className="course__sm-thumb mr-20">
-                                            <Link href="/course-grid"><a><img src="assets/img/course/sm/new-course-sm-2.jpg" alt="img not found" /></a></Link>
+                                            <Link href="/course-grid"><a><img src="assets/img/course/sm/new-course-sm-2.png" alt="img not found" /></a></Link>
                                         </div>
                                         <div className="course__sm-content">
                                             <div className="course__sm-rating">
@@ -177,7 +177,7 @@ class CourseSidebar extends Component {
                                 <li>
                                     <div className="course__sm d-flex align-items-center mb-10">
                                         <div className="course__sm-thumb mr-20">
-                                            <Link href="/course-grid"><a><img src="assets/img/course/sm/new-course-sm-3.jpg" alt="img not found" /></a></Link>
+                                            <Link href="/course-grid"><a><img src="assets/img/course/sm/new-course-sm-3.png" alt="img not found" /></a></Link>
                                         </div>
                                         <div className="course__sm-content">
                                             <div className="course__sm-rating">

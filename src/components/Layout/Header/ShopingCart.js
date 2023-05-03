@@ -60,7 +60,7 @@ const ShopingCart = ({setShopOpen, shopOpen}) => {
                      <li>
                         <div className="cartmini__thumb">
                            <a href="#">
-                              <img src="assets/img/course/sm/cart-1.jpg" alt="img not found"/>
+                              <img src="assets/img/course/sm/cart-1.png" alt="img not found"/>
                            </a>
                         </div>
                         <div className="cartmini__content">
@@ -79,7 +79,7 @@ const ShopingCart = ({setShopOpen, shopOpen}) => {
                      <li>
                         <div className="cartmini__thumb">
                            <a href="#">
-                              <img src="assets/img/course/sm/cart-2.jpg" alt="img not found"/>
+                              <img src="assets/img/course/sm/cart-2.png" alt="img not found"/>
                            </a>
                         </div>
                         <div className="cartmini__content">
@@ -98,7 +98,7 @@ const ShopingCart = ({setShopOpen, shopOpen}) => {
                      <li>
                         <div className="cartmini__thumb">
                            <a href="#">
-                              <img src="assets/img/course/sm/cart-3.jpg" alt="img not found"/>
+                              <img src="assets/img/course/sm/cart-3.png" alt="img not found"/>
                            </a>
                         </div>
                         <div className="cartmini__content">

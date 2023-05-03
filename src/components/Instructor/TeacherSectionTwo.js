@@ -22,7 +22,7 @@ class TeacherTwo extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-1.jpg" alt="img not found"/></a></Link>
+                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-1.png" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title">Ahmed Khan</h3> 
@@ -40,7 +40,7 @@ class TeacherTwo extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-2.jpg" alt="img not found"/></a></Link>
+                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-2.png" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title">Junaid Ali</h3> 
@@ -59,7 +59,7 @@ class TeacherTwo extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-3.jpg" alt="img not found"/></a></Link>
+                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-3.png" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title">Syed Hammad</h3> 
@@ -78,7 +78,7 @@ class TeacherTwo extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-4.jpg" alt="img not found"/></a></Link>
+                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-4.png" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title">Usman Ahmed</h3> 
@@ -97,7 +97,7 @@ class TeacherTwo extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-5.jpg" alt="img not found"/></a></Link>
+                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-5.png" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title">Asad Khan</h3> 
@@ -116,7 +116,7 @@ class TeacherTwo extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-6.jpg" alt="img not found"/></a></Link>
+                           <Link href="/instructor"><a><img src="assets/img/teacher/teachers/teacher-6.png" alt="img not found"/></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title">Saim Ali</h3> 

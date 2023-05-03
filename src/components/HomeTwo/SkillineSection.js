@@ -20,7 +20,7 @@ class Skilline extends Component {
                   <div className="col-xxl-5 offset-xl-1 col-xl-5 offset-xl-1 col-lg-6">
                      <div className="what__item transition-3 mb-30 p-relative fix">
                         <div className="what__thumb w-img">
-                           <img src="assets/img/what/what-1.jpg" alt="img not found" />
+                           <img src="assets/img/what/what-1.png" alt="img not found" />
                         </div>
                         <div className="what__content p-absolute text-center">
                            <h3 className="what__title white-color">Mostly <br /> Online Learning</h3>
@@ -31,7 +31,7 @@ class Skilline extends Component {
                   <div className="col-xxl-5 col-xl-5 col-lg-6">
                      <div className="what__item transition-3 mb-30 p-relative fix">
                         <div className="what__thumb w-img">
-                           <img src="assets/img/what/what-2.jpg" alt="img not found" />
+                           <img src="assets/img/what/what-2.png" alt="img not found" />
                         </div>
                         <div className="what__content p-absolute text-center">
                            <h3 className="what__title white-color">Become <br /> an Instructor</h3>

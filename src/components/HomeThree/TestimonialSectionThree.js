@@ -14,7 +14,7 @@ class TestimonialThree extends Component {
     render() {
 
         return (
-            <section className="testimonial__area pt-145 pb-150" style={{ backgroundImage: `url(${'assets/img/testimonial/home-3/testimonial-bg-3.jpg'})` }}>
+            <section className="testimonial__area pt-145 pb-150" style={{ backgroundImage: `url(${'assets/img/testimonial/home-3/testimonial-bg-3.png'})` }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-10">
@@ -49,12 +49,12 @@ class TestimonialThree extends Component {
                                                             income and I am sure that I will do this professionally.”</p>
 
                                                         <div className="testimonial__info-2 mb-45">
-                                                            <h4>Ahmed Khan,</h4>
+                                                            <h4>Syed Hammad,</h4>
                                                             <span> Student @Educal University</span>
                                                         </div>
 
                                                         <div className="testimonial__nav-thumb">
-                                                            <img src="assets/img/testimonial/home-3/test-1.jpg" alt="img not found" />
+                                                            <img src="assets/img/testimonial/home-3/test-1.png" alt="img not found" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -72,7 +72,25 @@ class TestimonialThree extends Component {
                                                         </div>
 
                                                         <div className="testimonial__nav-thumb">
-                                                            <img src="assets/img/testimonial/home-3/test-2.jpg" alt="img not found" />
+                                                            <img src="assets/img/testimonial/home-3/test-2.png" alt="img not found" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <div className="swiper-slide">
+                                                    <div className="testimonial__item-3">
+                                                        <p>“After I started learning design with Quillow, I realized that I had improved to very advanced levels. While I am studying at my university, I design as an additional
+                                                            income and I am sure that I will do this professionally.”</p>
+
+                                                        <div className="testimonial__info-2 mb-45">
+                                                            <h4>Junaid Ali,</h4>
+                                                            <span> Student @Educal University</span>
+                                                        </div>
+
+                                                        <div className="testimonial__nav-thumb">
+                                                            <img src="assets/img/testimonial/home-3/test-3.png" alt="img not found" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -90,25 +108,7 @@ class TestimonialThree extends Component {
                                                         </div>
 
                                                         <div className="testimonial__nav-thumb">
-                                                            <img src="assets/img/testimonial/home-3/test-3.jpg" alt="img not found" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </SwiperSlide>
-
-                                            <SwiperSlide>
-                                                <div className="swiper-slide">
-                                                    <div className="testimonial__item-3">
-                                                        <p>“After I started learning design with Quillow, I realized that I had improved to very advanced levels. While I am studying at my university, I design as an additional
-                                                            income and I am sure that I will do this professionally.”</p>
-
-                                                        <div className="testimonial__info-2 mb-45">
-                                                            <h4>James Lee,</h4>
-                                                            <span>Student @Educal University</span>
-                                                        </div>
-
-                                                        <div className="testimonial__nav-thumb">
-                                                            <img src="assets/img/testimonial/home-3/test-2.jpg" alt="img not found" />
+                                                            <img src="assets/img/testimonial/home-3/test-2.png" alt="img not found" />
                                                         </div>
                                                     </div>
                                                 </div>

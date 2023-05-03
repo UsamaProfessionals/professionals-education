@@ -16,7 +16,7 @@ class BlogRecent extends Component {
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div className="blog__item white-bg mb-30 transition-3 fix">
                             <div className="blog__thumb w-img fix">
-                                <Link href="/blog-details"><a><img src="assets/img/blog/blogs/blog-1.jpg" alt="img not found" /></a></Link>
+                                <Link href="/blog-details"><a><img src="assets/img/blog/blogs/blog-1.png" alt="img not found" /></a></Link>
                             </div>
                             <div className="blog__content">
                                 <div className="blog__tag">
@@ -26,7 +26,7 @@ class BlogRecent extends Component {
                                 <div className="blog__meta d-flex align-items-center justify-content-between">
                                     <div className="blog__author d-flex align-items-center">
                                         <div className="blog__author-thumb mr-10">
-                                            <img src="assets/img/blog/author/authors/author-1.jpg" alt="img not found" />
+                                            <img src="assets/img/blog/author/authors/author-1.png" alt="img not found" />
                                         </div>
                                         <div className="blog__author-info">
                                             <h5>Ahmed Khan</h5>
@@ -43,7 +43,7 @@ class BlogRecent extends Component {
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                         <div className="blog__item white-bg mb-30 transition-3 fix">
                             <div className="blog__thumb w-img fix">
-                                <Link href="/blog-details"><a><img src="assets/img/blog/blogs/blog-2.jpg" alt="img not found" /></a></Link>
+                                <Link href="/blog-details"><a><img src="assets/img/blog/blogs/blog-2.png" alt="img not found" /></a></Link>
                             </div>
                             <div className="blog__content">
                                 <div className="blog__tag">
@@ -54,7 +54,7 @@ class BlogRecent extends Component {
                                 <div className="blog__meta d-flex align-items-center justify-content-between">
                                     <div className="blog__author d-flex align-items-center">
                                         <div className="blog__author-thumb mr-10">
-                                            <img src="assets/img/blog/author/authors/author-1.jpg" alt="img not found" />
+                                            <img src="assets/img/blog/author/authors/author-2.png" alt="img not found" />
                                         </div>
                                         <div className="blog__author-info">
                                             <h5>Junaid Ali</h5>

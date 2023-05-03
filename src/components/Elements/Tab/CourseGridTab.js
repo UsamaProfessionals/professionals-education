@@ -72,9 +72,9 @@ export default () => (
                                 <div className="row">
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.png)" }}>
                                                 {/* <Link href="/course-details"><a>
-                                                    <img src="assets/img/course/new-course/new-course-img-1.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-1.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a>Art & Design</a></Link>
@@ -105,7 +105,7 @@ export default () => (
                                                     <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Become a product Manager learn the skills & job.</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                                     </div>
@@ -136,9 +136,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-7.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-7.png)" }}>
                                                 {/* <Link href="/course-details"><a>
-                                                    <img src="assets/img/course/new-course/new-course-img-7.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-7.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="sky-blue">Mechanical</a></Link>
@@ -169,7 +169,7 @@ export default () => (
                                                     <h3 className="course__title"><Link href="/course-details"><a>Fundamentals of music theory Learn new</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-2.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-2.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                                     </div>
@@ -194,9 +194,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-10.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-10.png)" }}>
                                                 {/* <Link href="/course-details"><a>
-                                                    <img src="assets/img/course/new-course/new-course-img-10.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-10.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="blue-2">Development</a></Link>
@@ -227,7 +227,7 @@ export default () => (
                                                     <h3 className="course__title"><Link href="/course-details"><a>Bases Matemáticas dios Álgebra Ecuacion</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-3.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-3.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                                     </div>
@@ -259,9 +259,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-3.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-3.png)" }}>
                                                 {/* <Link href="/course-details"><a >
-                                                    <img src="assets/img/course/new-course/new-course-img-3.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-3.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="green">Development</a></Link>
@@ -292,7 +292,7 @@ export default () => (
                                                     <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Strategy law and organization Foundation</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-3.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-3.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                                     </div>
@@ -325,9 +325,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.png)" }}>
                                                 {/* <Link href="/course-details"><a >
-                                                    <img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-4.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="blue">Marketing</a></Link>
@@ -358,7 +358,7 @@ export default () => (
                                                     <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-4.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                                     </div>
@@ -391,9 +391,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-8.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-8.png)" }}>
                                                 {/* <Link href="/course-details"><a>
-                                                    <img src="assets/img/course/new-course/new-course-img-8.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-8.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="blue">yellow</a></Link>
@@ -424,7 +424,7 @@ export default () => (
                                                     <h3 className="course__title"><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-6.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Saim Ali</a></Link></h6>
                                                     </div>
@@ -456,9 +456,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-5.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-5.png)" }}>
                                                 {/* <Link href="/course-details"><a >
-                                                    <img src="assets/img/course/new-course/new-course-img-5.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-5.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="orange">Audio & Music</a></Link>
@@ -489,7 +489,7 @@ export default () => (
                                                     <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Build your media and Public presence</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-5.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Asad Khan</a></Link></h6>
                                                     </div>
@@ -521,9 +521,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-6.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-6.png)" }}>
                                                 {/* <Link href="/course-details"><a >
-                                                    <img src="assets/img/course/new-course/new-course-img-6.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-6.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="pink">UX Design</a></Link>
@@ -554,7 +554,7 @@ export default () => (
                                                     <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Creative writing through Storytelling</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-6.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Saim Ali</a></Link></h6>
                                                     </div>
@@ -586,9 +586,9 @@ export default () => (
 
                                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div className="flip-box course__item white-bg mb-30 fix">
-                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-9.jpg)" }}>
+                                            <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-9.png)" }}>
                                                 {/* <Link href="/course-details"><a>
-                                                    <img src="assets/img/course/new-course/new-course-img-9.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/new-course/new-course-img-9.png" alt="img not found" />
                                                 </a></Link> */}
                                                 <div className="course__tag">
                                                     <Link href="/course-details"><a className="blue-2">UX Design</a></Link>
@@ -619,7 +619,7 @@ export default () => (
                                                     <h3 className="course__title"><Link href="/course-details"><a>Creative writing through Storytelling</a></Link></h3>
                                                     <div className="course__teacher d-flex align-items-center">
                                                         <div className="course__teacher-thumb mr-15">
-                                                            <img src="assets/img/course/teacher//teachers/teacher-1.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/teacher//teachers/teacher-1.png" alt="img not found" />
                                                         </div>
                                                         <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                                     </div>
@@ -657,7 +657,7 @@ export default () => (
                                                 <div className="col-xxl-4 col-xl-4 col-lg-4">
                                                     <div className="course__thumb course__thumb-list w-img p-relative fix">
                                                         <Link href="/course-details"><a>
-                                                            <img src="assets/img/course/list/course-1.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/list/course-1.png" alt="img not found" />
                                                         </a></Link>
                                                         <div className="course__tag">
                                                             <Link href="/course-details"><a>Art & Design</a></Link>
@@ -683,7 +683,7 @@ export default () => (
                                                             </div>
                                                             <div className="course__teacher d-flex align-items-center">
                                                                 <div className="course__teacher-thumb mr-15">
-                                                                    <img src="assets/img/course/teacher/teacher-1.jpg" alt="img not found" />
+                                                                    <img src="assets/img/course/teacher/teacher-1.png" alt="img not found" />
                                                                 </div>
                                                                 <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                                             </div>
@@ -711,7 +711,7 @@ export default () => (
                                                 <div className="col-xxl-4 col-xl-4 col-lg-4">
                                                     <div className="course__thumb course__thumb-list w-img p-relative fix">
                                                         <Link href="/course-details"><a>
-                                                            <img src="assets/img/course/list/course-2.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/list/course-2.png" alt="img not found" />
                                                         </a></Link>
                                                         <div className="course__tag">
                                                             <Link href="/course-details"><a className="sky-blue">Art & Design</a></Link>
@@ -737,7 +737,7 @@ export default () => (
                                                             </div>
                                                             <div className="course__teacher d-flex align-items-center">
                                                                 <div className="course__teacher-thumb mr-15">
-                                                                    <img src="assets/img/course/teacher/teacher-2.jpg" alt="img not found" />
+                                                                    <img src="assets/img/course/teacher/teacher-2.png" alt="img not found" />
                                                                 </div>
                                                                 <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                                             </div>
@@ -766,7 +766,7 @@ export default () => (
                                                 <div className="col-xxl-4 col-xl-4 col-lg-4">
                                                     <div className="course__thumb course__thumb-list w-img p-relative fix">
                                                         <Link href="/course-details"><a>
-                                                            <img src="assets/img/course/list/course-3.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/list/course-3.png" alt="img not found" />
                                                         </a></Link>
                                                         <div className="course__tag">
                                                             <Link href="/course-details"><a className="blue-2">Art & Design</a></Link>
@@ -792,7 +792,7 @@ export default () => (
                                                             </div>
                                                             <div className="course__teacher d-flex align-items-center">
                                                                 <div className="course__teacher-thumb mr-15">
-                                                                    <img src="assets/img/course/teacher/teacher-3.jpg" alt="img not found" />
+                                                                    <img src="assets/img/course/teacher/teacher-3.png" alt="img not found" />
                                                                 </div>
                                                                 <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                                             </div>
@@ -821,7 +821,7 @@ export default () => (
                                                 <div className="col-xxl-4 col-xl-4 col-lg-4">
                                                     <div className="course__thumb course__thumb-list w-img p-relative fix">
                                                         <Link href="/course-details"><a>
-                                                            <img src="assets/img/course/list/course-4.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/list/course-4.png" alt="img not found" />
                                                         </a></Link>
                                                         <div className="course__tag">
                                                             <Link href="/course-details"><a className="green">Art & Design</a></Link>
@@ -847,7 +847,7 @@ export default () => (
                                                             </div>
                                                             <div className="course__teacher d-flex align-items-center">
                                                                 <div className="course__teacher-thumb mr-15">
-                                                                    <img src="assets/img/course/teacher/teacher-4.jpg" alt="img not found" />
+                                                                    <img src="assets/img/course/teacher/teacher-4.png" alt="img not found" />
                                                                 </div>
                                                                 <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                                             </div>
@@ -876,7 +876,7 @@ export default () => (
                                                 <div className="col-xxl-4 col-xl-4 col-lg-4">
                                                     <div className="course__thumb course__thumb-list w-img p-relative fix">
                                                         <Link href="/course-details"><a>
-                                                            <img src="assets/img/course/list/course-5.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/list/course-5.png" alt="img not found" />
                                                         </a></Link>
                                                         <div className="course__tag">
                                                             <Link href="/course-details"><a className="blue">Art & Design</a></Link>
@@ -902,7 +902,7 @@ export default () => (
                                                             </div>
                                                             <div className="course__teacher d-flex align-items-center">
                                                                 <div className="course__teacher-thumb mr-15">
-                                                                    <img src="assets/img/course/teacher/teacher-5.jpg" alt="img not found" />
+                                                                    <img src="assets/img/course/teacher/teacher-5.png" alt="img not found" />
                                                                 </div>
                                                                 <h6><Link href="/instructor-details"><a>Asad Khan</a></Link></h6>
                                                             </div>
@@ -931,7 +931,7 @@ export default () => (
                                                 <div className="col-xxl-4 col-xl-4 col-lg-4">
                                                     <div className="course__thumb course__thumb-list w-img p-relative fix">
                                                         <Link href="/course-details"><a>
-                                                            <img src="assets/img/course/list/course-6.jpg" alt="img not found" />
+                                                            <img src="assets/img/course/list/course-6.png" alt="img not found" />
                                                         </a></Link>
                                                         <div className="course__tag">
                                                             <Link href="/course-details"><a className="yellow">Art & Design</a></Link>
@@ -957,7 +957,7 @@ export default () => (
                                                             </div>
                                                             <div className="course__teacher d-flex align-items-center">
                                                                 <div className="course__teacher-thumb mr-15">
-                                                                    <img src="assets/img/course/teacher/teacher-6.jpg" alt="img not found" />
+                                                                    <img src="assets/img/course/teacher/teacher-6.png" alt="img not found" />
                                                                 </div>
                                                                 <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                                             </div>

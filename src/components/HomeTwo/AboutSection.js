@@ -15,17 +15,17 @@ class About extends Component {
                            <h5> <span>8,200+</span> five ster reviews</h5>
                         </div>
                         <div className="about__thumb ml-100">
-                           <img src="assets/img/about/about/about.jpg" alt="img not found" />
+                           <img src="assets/img/about/about/about.png" alt="img not found" />
                         </div>
                         <div className="about__banner mt--210">
-                           <img src="assets/img/about/about/about-banner.jpg" alt="img not found" />
+                           <img src="assets/img/about/about/about-banner.png" alt="img not found" />
                         </div>
                         <div className="about__student ml-270 mt--80">
                            <Link href="/course-details"><a>
-                              <img src="assets/img/about/students/student-4.jpg" alt="img not found" />
-                              <img src="assets/img/about/students/student-3.jpg" alt="img not found" />
-                              <img src="assets/img/about/students/student-2.jpg" alt="img not found" />
-                              <img src="assets/img/about/students/student-1.jpg" alt="img not found" />
+                              <img src="assets/img/about/students/student-4.png" alt="img not found" />
+                              <img src="assets/img/about/students/student-3.png" alt="img not found" />
+                              <img src="assets/img/about/students/student-2.png" alt="img not found" />
+                              <img src="assets/img/about/students/student-1.png" alt="img not found" />
                            </a></Link>
                            <p>Join over <span>4,000+</span> students</p>
                         </div>

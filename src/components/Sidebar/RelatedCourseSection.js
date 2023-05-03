@@ -13,7 +13,7 @@ class RelatedCourse extends Component {
                         <li>
                         <div className="course__sm d-flex align-items-center mb-30">
                             <div className="course__sm-thumb mr-20">
-                                <Link href="/course-details"><a><img src="assets/img/course/sm/new-course-sm-1.jpg" alt="img not found"/></a></Link>
+                                <Link href="/course-details"><a><img src="assets/img/course/sm/new-course-sm-1.png" alt="img not found"/></a></Link>
                             </div>
                             <div className="course__sm-content">
                                 <div className="course__sm-rating">
@@ -35,7 +35,7 @@ class RelatedCourse extends Component {
                         <li>
                         <div className="course__sm d-flex align-items-center mb-30">
                             <div className="course__sm-thumb mr-20">
-                                <Link href="/course-details"><a><img src="assets/img/course/sm/new-course-sm-2.jpg" alt="img not found"/></a></Link>
+                                <Link href="/course-details"><a><img src="assets/img/course/sm/new-course-sm-2.png" alt="img not found"/></a></Link>
                             </div>
                             <div className="course__sm-content">
                                 <div className="course__sm-rating">
@@ -57,7 +57,7 @@ class RelatedCourse extends Component {
                         <li>
                         <div className="course__sm d-flex align-items-center mb-10">
                             <div className="course__sm-thumb mr-20">
-                                <Link href="/course-details"><a><img src="assets/img/course/sm/new-course-sm-3.jpg" alt="img not found"/></a></Link>
+                                <Link href="/course-details"><a><img src="assets/img/course/sm/new-course-sm-3.png" alt="img not found"/></a></Link>
                             </div>
                             <div className="course__sm-content">
                                 <div className="course__sm-rating">

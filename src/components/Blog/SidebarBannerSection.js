@@ -7,7 +7,7 @@ class SidebarBanner extends Component {
         return (
             <div className="sidebar__widget mb-55">
                 <div className="sidebar__banner w-img">
-                    <img src="assets/img/blog/banner/banner.jpg" alt="img not found"/>
+                    <img src="assets/img/blog/banner/banner.png" alt="img not found"/>
                 </div>
             </div>
         );

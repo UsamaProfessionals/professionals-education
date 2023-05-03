@@ -43,7 +43,7 @@ class Hero extends Component {
                                             </div>
                                         </div> */}
                                         {/* <div className="hero__thumb-sm mt-50 d-none d-lg-block">
-                                            <img src="assets/img/hero/hero-3/hero-sm-3.jpg" alt="img not found" />
+                                            <img src="assets/img/hero/hero-3/hero-sm-3.png" alt="img not found" />
                                         </div> */}
                                     </div>
                                 </div>

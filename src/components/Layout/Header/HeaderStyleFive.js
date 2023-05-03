@@ -185,7 +185,8 @@ const HeaderStyleFive = () => {
     return (
         <React.Fragment>
             <Head>
-                <title>Educal – Online Course and Education React, Nextjs Template</title>
+                <title>Professionals Education</title>
+                <link rel="shortcut icon" href="assets/img/logo/favicon.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             </Head>
             <header>
@@ -208,13 +209,13 @@ const HeaderStyleFive = () => {
                                 <div className="main-menu main-menu-3 d-none d-xl-block">
                                     <nav id="mobile-menu" style={{ marginTop: "35px" }}>
                                         <ul>
-                                            <li className="has-dropdown">
+                                            <li className="hs-dropdown">
                                                 <Link href="/"><a>Home</a></Link>
-                                                <ul className="submenu">
+                                                {/* <ul className="submenu">
                                                     <li><Link href="/"><a>Home Style 1</a></Link></li>
                                                     <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
                                                     <li><Link href="/home-3"><a>Home Style 3</a></Link></li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li className="has-dropdown">
                                                 <Link href="/course-grid"><a>Courses</a></Link>

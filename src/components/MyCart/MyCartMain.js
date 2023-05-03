@@ -66,7 +66,7 @@ class MyCart extends Component {
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td className="product-thumbnail"><Link href="/course-details"><a><img src="assets/img/course/sm/carts-1.jpg" alt="img not found" /></a></Link></td>
+                                                    <td className="product-thumbnail"><Link href="/course-details"><a><img src="assets/img/course/sm/carts-1.png" alt="img not found" /></a></Link></td>
                                                     <td className="product-name"><Link href="/course-details"><a>Strategy law and organization Foundation</a></Link></td>
                                                     <td className="product-price"><span className="amount">$130.00</span></td>
                                                     <td className="product-quantity text-center">
@@ -82,7 +82,7 @@ class MyCart extends Component {
                                                     <td className="product-remove"><a href="#"><i className="fas fa-times"></i></a></td>
                                                 </tr>
                                                 <tr>
-                                                    <td className="product-thumbnail"><Link href="/course-details"><a><img src="assets/img/course/sm/carts-2.jpg" alt="img not found" /></a></Link></td>
+                                                    <td className="product-thumbnail"><Link href="/course-details"><a><img src="assets/img/course/sm/carts-2.png" alt="img not found" /></a></Link></td>
                                                     <td className="product-name"><Link href="/course-details"><a>Fundamentals of music theory Learn new</a></Link></td>
                                                     <td className="product-price"><span className="amount">$120.50</span></td>
                                                     <td className="product-quantity text-center">

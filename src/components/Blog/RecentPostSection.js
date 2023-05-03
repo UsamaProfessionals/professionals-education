@@ -14,7 +14,7 @@ class RecentPost extends Component {
                     <div className="rc__post-wrapper">
                         <div className="rc__post d-flex align-items-center">
                             <div className="rc__thumb mr-20">
-                            <Link href="/blog-details"><a><img src="assets/img/blog/sm/blog-sm/blog-sm-1.jpg" alt="img not found"/></a></Link>
+                            <Link href="/blog-details"><a><img src="assets/img/blog/sm/blog-sm/blog-sm-1.png" alt="img not found"/></a></Link>
                             </div>
                             <div className="rc__content">
                             <div className="rc__meta">
@@ -25,7 +25,7 @@ class RecentPost extends Component {
                         </div>
                         <div className="rc__post d-flex align-items-center">
                             <div className="rc__thumb mr-20">
-                                <Link href="/blog-details"><a><img src="assets/img/blog/sm/blog-sm/blog-sm-2.jpg" alt="img not found"/></a></Link>
+                                <Link href="/blog-details"><a><img src="assets/img/blog/sm/blog-sm/blog-sm-2.png" alt="img not found"/></a></Link>
                             </div>
                             <div className="rc__content">
                             <div className="rc__meta">
@@ -36,7 +36,7 @@ class RecentPost extends Component {
                         </div>
                         <div className="rc__post d-flex align-items-center">
                             <div className="rc__thumb mr-20">
-                                <Link href="/blog-details"><a><img src="assets/img/blog/sm/blog-sm/blog-sm-3.jpg" alt="img not found"/></a></Link>
+                                <Link href="/blog-details"><a><img src="assets/img/blog/sm/blog-sm/blog-sm-3.png" alt="img not found"/></a></Link>
                             </div>
                             <div className="rc__content">
                             <div className="rc__meta">

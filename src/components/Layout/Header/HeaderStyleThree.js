@@ -185,7 +185,8 @@ const HeaderThree = () => {
    return (
       <React.Fragment>
          <Head>
-            <title>Educal – Online Course and Education React, Nextjs Template</title>
+            <title>Professionals Education</title>
+            <link rel="shortcut icon" href="assets/img/logo/favicon.ico" />
             <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
          </Head>
          <header>

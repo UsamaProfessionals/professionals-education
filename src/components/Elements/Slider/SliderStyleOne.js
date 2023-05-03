@@ -31,7 +31,7 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-4.jpg'})`}}>
+            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-4.png'})`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-9 col-sm-10">
@@ -47,7 +47,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-1.jpg'})`}}>
+            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-1.png'})`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-9 col-sm-10">
@@ -63,7 +63,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-2.jpg'})`}}>
+            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-2.png'})`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-9 col-sm-10">
@@ -79,7 +79,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-3.jpg'})`}}>
+            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-3.png'})`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-9 col-sm-10">
@@ -105,7 +105,7 @@ export default function App() {
         className="mySwiper2"
       >
         <SwiperSlide>
-            <div className="slider__nav-item swiper-slide orange-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-4.jpg'})`}}>
+            <div className="slider__nav-item swiper-slide orange-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-4.png'})`}}>
                 <div className="slider__nav-content">
                     <span>6 Courses</span>
                     <h4>Programming Languages</h4>
@@ -113,7 +113,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="slider__nav-item swiper-slide blue-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-1.jpg'})`}}>
+            <div className="slider__nav-item swiper-slide blue-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-1.png'})`}}>
                 <div className="slider__nav-content">
                     <span>4 Courses</span>
                     <h4>Idea Discussion</h4>
@@ -121,7 +121,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="slider__nav-item swiper-slide pink-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-2.jpg'})`}}>
+            <div className="slider__nav-item swiper-slide pink-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-2.png'})`}}>
                 <div className="slider__nav-content">
                     <span>8 Courses</span>
                     <h4>Web Development</h4>
@@ -129,7 +129,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="slider__nav-item swiper-slide green-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-3.jpg'})`}}>
+            <div className="slider__nav-item swiper-slide green-bg" style={{ backgroundImage:`url(${'assets/img/slider/nav/slider-nav-3.png'})`}}>
                 <div className="slider__nav-content">
                     <span>8 Courses</span>
                     <h4>System Administration</h4>

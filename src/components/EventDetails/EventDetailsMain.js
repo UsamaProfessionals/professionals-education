@@ -35,7 +35,7 @@ class EventDetailsMain extends Component {
                                 <div className="course__meta-2 d-sm-flex mb-30">
                                     <div className="course__teacher-3 d-flex align-items-center mr-70 mb-30">
                                         <div className="course__teacher-thumb-3 mr-15">
-                                            <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                            <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                         </div>
                                         <div className="course__teacher-info-3">
                                             <h5>Teacher</h5>
@@ -61,7 +61,7 @@ class EventDetailsMain extends Component {
                             <div className="col-xxl-8 col-xl-8 col-lg-8">
                                 <div className="events__wrapper">
                                     <div className="events__thumb mb-35 w-img">
-                                        <img src="assets/img/events/event.jpg" alt="img not found" />
+                                        <img src="assets/img/events/event.png" alt="img not found" />
                                     </div>
                                     <div className="events__details mb-35">
                                         <h3>Description</h3>

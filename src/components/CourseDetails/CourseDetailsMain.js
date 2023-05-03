@@ -44,7 +44,7 @@ class CourseDetailsMain extends Component {
                                         <div className="course__meta-2 d-sm-flex mb-30">
                                             <div className="course__teacher-3 d-flex align-items-center mr-70 mb-30">
                                                 <div className="course__teacher-thumb-3 mr-15">
-                                                    <img src="assets/img/course/teacher//teachers/teacher-1.jpg" alt="img not found" />
+                                                    <img src="assets/img/course/teacher//teachers/teacher-1.png" alt="img not found" />
                                                 </div>
                                                 <div className="course__teacher-info-3">
                                                     <h5>Teacher</h5>
@@ -70,7 +70,7 @@ class CourseDetailsMain extends Component {
                                             </div>
                                         </div>
                                         <div className="course__img w-img mb-30">
-                                            <img src="assets/img/course/details/new-course-detail-img-1.jpg" alt="img not found" />
+                                            <img src="assets/img/course/details/new-course-detail-img-1.png" alt="img not found" />
                                         </div>
                                         <Tabs>
                                             <div className="course__tab-2 mb-45">
@@ -117,7 +117,7 @@ class CourseDetailsMain extends Component {
                                                                 <div className="course__instructor-wrapper d-md-flex align-items-center">
                                                                     <div className="course__instructor-item d-flex align-items-center mr-70">
                                                                         <div className="course__instructor-thumb mr-20">
-                                                                            <img src="assets/img/course/teacher//teachers/teacher-2.jpg" alt="img not found" />
+                                                                            <img src="assets/img/course/teacher//teachers/teacher-2.png" alt="img not found" />
                                                                         </div>
                                                                         <div className="course__instructor-content">
                                                                             <h3>Junaid Ali</h3>
@@ -126,7 +126,7 @@ class CourseDetailsMain extends Component {
                                                                     </div>
                                                                     <div className="course__instructor-item d-flex align-items-center mr-70">
                                                                         <div className="course__instructor-thumb mr-20">
-                                                                            <img src="assets/img/course/teacher//teachers/teacher-3.jpg" alt="img not found" />
+                                                                            <img src="assets/img/course/teacher//teachers/teacher-3.png" alt="img not found" />
                                                                         </div>
                                                                         <div className="course__instructor-content">
                                                                             <h3>Syed Hammad</h3>
@@ -135,7 +135,7 @@ class CourseDetailsMain extends Component {
                                                                     </div>
                                                                     <div className="course__instructor-item d-flex align-items-center mr-70">
                                                                         <div className="course__instructor-thumb mr-20">
-                                                                            <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                                                            <img src="assets/img/course/teacher//teachers/teacher-4.png" alt="img not found" />
                                                                         </div>
                                                                         <div className="course__instructor-content">
                                                                             <h3>Usman Ahmed</h3>
@@ -240,7 +240,7 @@ class CourseDetailsMain extends Component {
                                                                     <li>
                                                                         <div className="course__comment-box ">
                                                                             <div className="course__comment-thumb float-start">
-                                                                                <img src="assets/img/course/comment/course-comment-1.jpg" alt="img not found" />
+                                                                                <img src="assets/img/course/comment/course-comment-1.png" alt="img not found" />
                                                                             </div>
                                                                             <div className="course__comment-content">
                                                                                 <div className="course__comment-wrapper ml-70 fix">
@@ -267,7 +267,7 @@ class CourseDetailsMain extends Component {
                                                                     <li>
                                                                         <div className="course__comment-box ">
                                                                             <div className="course__comment-thumb float-start">
-                                                                                <img src="assets/img/course/comment/course-comment-2.jpg" alt="img not found" />
+                                                                                <img src="assets/img/course/comment/course-comment-2.png" alt="img not found" />
                                                                             </div>
                                                                             <div className="course__comment-content">
                                                                                 <div className="course__comment-wrapper ml-70 fix">
@@ -347,7 +347,7 @@ class CourseDetailsMain extends Component {
                                                                 <div className="row align-items-center">
                                                                     <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6">
                                                                         <div className="course__member-thumb d-flex align-items-center">
-                                                                            <img src="assets/img/course/instructor/course-instructor-1.jpg" alt="img not found" />
+                                                                            <img src="assets/img/course/instructor/course-instructor-1.png" alt="img not found" />
                                                                             <div className="course__member-name ml-20">
                                                                                 <h5>Saim Ali</h5>
                                                                                 <span>Engineer</span>
@@ -378,7 +378,7 @@ class CourseDetailsMain extends Component {
                                                                 <div className="row align-items-center">
                                                                     <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6">
                                                                         <div className="course__member-thumb d-flex align-items-center">
-                                                                            <img src="assets/img/course/instructor/course-instructor-2.jpg" alt="img not found" />
+                                                                            <img src="assets/img/course/instructor/course-instructor-2.png" alt="img not found" />
                                                                             <div className="course__member-name ml-20">
                                                                                 <h5>Lauren Stamps</h5>
                                                                                 <span>Teacher</span>
@@ -409,7 +409,7 @@ class CourseDetailsMain extends Component {
                                                                 <div className="row align-items-center">
                                                                     <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6 ">
                                                                         <div className="course__member-thumb d-flex align-items-center">
-                                                                            <img src="assets/img/course/instructor/course-instructor-3.jpg" alt="img not found" />
+                                                                            <img src="assets/img/course/instructor/course-instructor-3.png" alt="img not found" />
                                                                             <div className="course__member-name ml-20">
                                                                                 <h5>Jonquil Von</h5>
                                                                                 <span>Associate</span>

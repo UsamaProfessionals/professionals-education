@@ -37,9 +37,9 @@ class CourseSlider extends Component {
                         <SwiperSlide>
                             <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
 
-                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.jpg)" }}>
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.png)" }}>
                                     {/* <Link href="/course-details"><a>
-                                        <img src="assets/img/course/new-course/new-course-img-1.jpg" alt="img not found" />
+                                        <img src="assets/img/course/new-course/new-course-img-1.png" alt="img not found" />
                                     </a></Link> */}
                                     <div className="course__tag">
                                         <Link href="/course-details"><a>Art & Design</a></Link>
@@ -59,7 +59,7 @@ class CourseSlider extends Component {
 
                                         <div className="course__teacher d-none d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                         </div>
@@ -80,7 +80,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Become a product Manager learn the skills & job.</a></Link></h3>
                                         <div className="course__teacher d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                         </div>
@@ -110,7 +110,7 @@ class CourseSlider extends Component {
                             </div>
                             {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
-                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-1.jpg" alt="img not found" /></a></Link>
+                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-1.png" alt="img not found" /></a></Link>
                                     <div className="course__tag">
                                         <Link href="/course-details"><a>Art & Design</a></Link>
                                     </div>
@@ -127,7 +127,7 @@ class CourseSlider extends Component {
                                     <h3 className="course__title"><Link href="/course-details"><a>Become a product Manager learn the skills & job.</a></Link></h3>
                                     <div className="course__teacher d-flex align-items-center">
                                         <div className="course__teacher-thumb mr-15">
-                                            <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                            <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                         </div>
                                         <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                     </div>
@@ -149,9 +149,9 @@ class CourseSlider extends Component {
 
                         <SwiperSlide>
                             <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
-                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-6.jpg)" }}>
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-6.png)" }}>
                                     {/* <Link href="/course-details"><a >
-                                        <img src="assets/img/course/new-course/new-course-img-6.jpg" alt="img not found" />
+                                        <img src="assets/img/course/new-course/new-course-img-6.png" alt="img not found" />
                                     </a></Link> */}
                                     <div className="course__tag">
                                         <Link href="/course-details"><a className="pink">UX Design</a></Link>
@@ -168,7 +168,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>Creative writing through Storytelling</a></Link></h3>
                                         <div className="course__teacher d-none d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher//teachers/teacher-6.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Saim Ali</a></Link></h6>
                                         </div>
@@ -188,7 +188,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Creative writing through Storytelling</a></Link></h3>
                                         <div className="course__teacher d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher//teachers/teacher-6.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher//teachers/teacher-6.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Saim Ali</a></Link></h6>
                                         </div>
@@ -218,7 +218,7 @@ class CourseSlider extends Component {
                             </div>
                             {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
-                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-2.jpg" alt="img not found" /></a></Link>
+                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-2.png" alt="img not found" /></a></Link>
                                     <div className="course__tag">
                                         <Link href="/course-details"><a className="sky-blue">Mechanical</a></Link>
                                     </div>
@@ -235,7 +235,7 @@ class CourseSlider extends Component {
                                     <h3 className="course__title"><Link href="/course-details"><a>Fundamentals of music theory Learn new</a></Link></h3>
                                     <div className="course__teacher d-flex align-items-center">
                                         <div className="course__teacher-thumb mr-15">
-                                            <img src="assets/img/course/teacher/teachers/teacher-2.jpg" alt="img not found" />
+                                            <img src="assets/img/course/teacher/teachers/teacher-2.png" alt="img not found" />
                                         </div>
                                         <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                     </div>
@@ -258,9 +258,9 @@ class CourseSlider extends Component {
 
                         <SwiperSlide>
                             <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
-                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-5.jpg)" }}>
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-5.png)" }}>
                                     {/* <Link href="/course-details"><a >
-                                        <img src="assets/img/course/new-course/new-course-img-5.jpg" alt="img not found" />
+                                        <img src="assets/img/course/new-course/new-course-img-5.png" alt="img not found" />
                                     </a></Link> */}
                                     <div className="course__tag">
                                         <Link href="/course-details"><a className="orange">Audio & Music</a></Link>
@@ -277,7 +277,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>Build your media and Public presence</a></Link></h3>
                                         <div className="course__teacher d-none d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher//teachers/teacher-5.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Asad Khan</a></Link></h6>
                                         </div>
@@ -297,7 +297,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Build your media and Public presence</a></Link></h3>
                                         <div className="course__teacher d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher//teachers/teacher-5.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher//teachers/teacher-5.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Asad Khan</a></Link></h6>
                                         </div>
@@ -327,7 +327,7 @@ class CourseSlider extends Component {
                             </div>
                             {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
-                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-3.jpg" alt="img not found" /></a></Link>
+                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-3.png" alt="img not found" /></a></Link>
                                     <div className="course__tag">
                                         <Link href="/course-details"><a className="green">Development</a></Link>
                                     </div>
@@ -344,7 +344,7 @@ class CourseSlider extends Component {
                                     <h3 className="course__title"><Link href="/course-details"><a>Strategy law and organization Foundation</a></Link></h3>
                                     <div className="course__teacher d-flex align-items-center">
                                         <div className="course__teacher-thumb mr-15">
-                                            <img src="assets/img/course/teacher/teachers/teacher-3.jpg" alt="img not found" />
+                                            <img src="assets/img/course/teacher/teachers/teacher-3.png" alt="img not found" />
                                         </div>
                                         <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                     </div>
@@ -367,9 +367,9 @@ class CourseSlider extends Component {
 
                         <SwiperSlide>
                             <div className="flip-box course__item course__item-3 swiper-slide white-bg mb-80 fix">
-                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.jpg)" }}>
+                                <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.png)" }}>
                                     {/* <Link href="/course-details"><a >
-                                        <img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" />
+                                        <img src="assets/img/course/new-course/new-course-img-4.png" alt="img not found" />
                                     </a></Link> */}
                                     <div className="course__tag">
                                         <Link href="/course-details"><a className="blue">Marketing</a></Link>
@@ -386,7 +386,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                         <div className="course__teacher d-none d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher//teachers/teacher-4.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                         </div>
@@ -406,7 +406,7 @@ class CourseSlider extends Component {
                                         <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                         <div className="course__teacher d-flex align-items-center">
                                             <div className="course__teacher-thumb mr-15">
-                                                <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                                <img src="assets/img/course/teacher//teachers/teacher-4.png" alt="img not found" />
                                             </div>
                                             <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                         </div>
@@ -437,7 +437,7 @@ class CourseSlider extends Component {
                             </div>
                             {/* <div className="course__item course__item-3 swiper-slide white-bg mb-80 fix">
                                 <div className="course__thumb w-img p-relative fix">
-                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" /></a></Link>
+                                    <Link href="/course-details"><a><img src="assets/img/course/new-course/new-course-img-4.png" alt="img not found" /></a></Link>
                                     <div className="course__tag">
                                         <Link href="/course-details"><a className="blue">Marketing</a></Link>
                                     </div>
@@ -454,7 +454,7 @@ class CourseSlider extends Component {
                                     <h3 className="course__title"><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                     <div className="course__teacher d-flex align-items-center">
                                         <div className="course__teacher-thumb mr-15">
-                                            <img src="assets/img/course/teacher/teachers/teacher-4.jpg" alt="img not found" />
+                                            <img src="assets/img/course/teacher/teachers/teacher-4.png" alt="img not found" />
                                         </div>
                                         <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                     </div>

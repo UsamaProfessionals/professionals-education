@@ -22,7 +22,7 @@ class Teacher extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor-details"><a><img src="assets/img/teacher/teacger-1.jpg" alt="img not found" /></a></Link>
+                           <Link href="/instructor-details"><a><img src="assets/img/teacher/teacger-1.png" alt="img not found" /></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title"><Link href="/instructor-details"><a>Lillian Walsh,</a></Link></h3> 
@@ -41,7 +41,7 @@ class Teacher extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor-details"><a><img src="assets/img/teacher/teacher-2.jpg" alt="img not found" /></a></Link>
+                           <Link href="/instructor-details"><a><img src="assets/img/teacher/teacher-2.png" alt="img not found" /></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title"><Link href="/instructor-details"><a>Kelly Franklin,</a></Link></h3> 
@@ -60,7 +60,7 @@ class Teacher extends Component {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="teacher__item text-center grey-bg-5 transition-3 mb-30">
                         <div className="teacher__thumb w-img fix">
-                           <Link href="/instructor-details"><a><img src="assets/img/teacher/teacher-3.jpg" alt="img not found" /></a></Link>
+                           <Link href="/instructor-details"><a><img src="assets/img/teacher/teacher-3.png" alt="img not found" /></a></Link>
                         </div>
                         <div className="teacher__content">
                            <h3 className="teacher__title"><Link href="/instructor-details"><a>Hilary Ouse,</a></Link></h3> 

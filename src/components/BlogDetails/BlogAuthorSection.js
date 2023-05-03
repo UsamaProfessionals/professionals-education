@@ -7,7 +7,7 @@ class BlogAuthor extends Component {
         return (
             <div className="blog__author-3 d-sm-flex grey-bg mb-90">
                 <div className="blog__author-thumb-3 mr-20">
-                    <img src="assets/img/blog/author/blog-author.jpg" alt="img not found"/>
+                    <img src="assets/img/blog/author/blog-author.png" alt="img not found"/>
                 </div>
                 <div className="blog__author-content">
                     <h4>Saim Ali</h4>

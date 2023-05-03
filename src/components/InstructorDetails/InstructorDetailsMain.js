@@ -20,7 +20,7 @@ class InstructorDetailsMain extends Component {
                         <div className="row">
                             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                 <div className="teacher__details-thumb p-relative w-img pr-30">
-                                    <img src="assets/img/teacher/details/teacher-details-1.jpg" alt="img not found" />
+                                    <img src="assets/img/teacher/details/teacher-details-1.png" alt="img not found" />
                                     {/* <div className="teacher__details-shape">
                                         <img className="teacher-details-shape-1" src="assets/img/teacher/details/shape/shape-1.png" alt="img not found"/>
                                         <img className="teacher-details-shape-2" src="assets/img/teacher/details/shape/shape-2.png" alt="img not found"/>
@@ -84,9 +84,9 @@ class InstructorDetailsMain extends Component {
                                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                                     <div className="flip-box course__item white-bg mb-30 fix">
 
-                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.jpg)" }}>
+                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-1.png)" }}>
                                                             {/* <Link href="/course-details"><a>
-                                                                <img src="assets/img/course/new-course/new-course-img-1.jpg" alt="img not found" />
+                                                                <img src="assets/img/course/new-course/new-course-img-1.png" alt="img not found" />
                                                             </a></Link> */}
                                                             <div className="course__tag">
                                                                 <Link href="/course-details"><a>Art & Design</a></Link>
@@ -106,7 +106,7 @@ class InstructorDetailsMain extends Component {
 
                                                                 <div className="course__teacher d-none d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                                                 </div>
@@ -127,7 +127,7 @@ class InstructorDetailsMain extends Component {
                                                                 <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Become a product Manager learn the skills & job.</a></Link></h3>
                                                                 <div className="course__teacher d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher/teachers/teacher-1.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher/teachers/teacher-1.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
                                                                 </div>
@@ -159,9 +159,9 @@ class InstructorDetailsMain extends Component {
                                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                                     <div className="flip-box course__item white-bg mb-30 fix">
 
-                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-2.jpg)" }}>
+                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-2.png)" }}>
                                                             {/* <Link href="/course-details"><a >
-                                                                <img src="assets/img/course/new-course/new-course-img-2.jpg" alt="img not found" />
+                                                                <img src="assets/img/course/new-course/new-course-img-2.png" alt="img not found" />
                                                             </a></Link> */}
                                                             <div className="course__tag">
                                                                 <Link href="/course-details"><a className="sky-blue">Art & Design</a></Link>
@@ -181,7 +181,7 @@ class InstructorDetailsMain extends Component {
 
                                                                 <div className="course__teacher d-none d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher//teachers/teacher-2.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher//teachers/teacher-2.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                                                 </div>
@@ -202,7 +202,7 @@ class InstructorDetailsMain extends Component {
                                                                 <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Fundamentals of music theory Learn new</a></Link></h3>
                                                                 <div className="course__teacher d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher//teachers/teacher-2.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher//teachers/teacher-2.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                                                 </div>
@@ -233,9 +233,9 @@ class InstructorDetailsMain extends Component {
                                                 </div>
                                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                                     <div className="flip-box course__item white-bg mb-30 fix">
-                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-3.jpg)" }}>
+                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-3.png)" }}>
                                                             {/* <Link href="/course-details"><a >
-                                                                <img src="assets/img/course/new-course/new-course-img-3.jpg" alt="img not found" />
+                                                                <img src="assets/img/course/new-course/new-course-img-3.png" alt="img not found" />
                                                             </a></Link> */}
                                                             <div className="course__tag">
                                                                 <Link href="/course-details"><a className="green">Development</a></Link>
@@ -252,7 +252,7 @@ class InstructorDetailsMain extends Component {
                                                                 <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>Strategy law and organization Foundation</a></Link></h3>
                                                                 <div className="course__teacher d-none d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher//teachers/teacher-3.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher//teachers/teacher-3.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                                                 </div>
@@ -272,7 +272,7 @@ class InstructorDetailsMain extends Component {
                                                                 <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>Strategy law and organization Foundation</a></Link></h3>
                                                                 <div className="course__teacher d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher//teachers/teacher-3.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher//teachers/teacher-3.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                                                 </div>
@@ -304,9 +304,9 @@ class InstructorDetailsMain extends Component {
                                                 </div>
                                                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                                                     <div className="flip-box course__item white-bg mb-30 fix">
-                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.jpg)" }}>
+                                                        <div className="flip-box-front course__thumb w-img p-relative fix" style={{ backgroundImage: "url(assets/img/course/new-course/new-course-img-4.png)" }}>
                                                             {/* <Link href="/course-details"><a >
-                                                                <img src="assets/img/course/new-course/new-course-img-4.jpg" alt="img not found" />
+                                                                <img src="assets/img/course/new-course/new-course-img-4.png" alt="img not found" />
                                                             </a></Link> */}
                                                             <div className="course__tag">
                                                                 <Link href="/course-details"><a className="blue">Marketing</a></Link>
@@ -323,7 +323,7 @@ class InstructorDetailsMain extends Component {
                                                                 <h3 className="flip-box-header course__title" style={{ color: "white" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                                                 <div className="course__teacher d-none d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher//teachers/teacher-4.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                                                 </div>
@@ -343,7 +343,7 @@ class InstructorDetailsMain extends Component {
                                                                 <h3 className="flip-box-header course__title" style={{ color: "black" }}><Link href="/course-details"><a>The business Intelligence analyst Course 2022</a></Link></h3>
                                                                 <div className="course__teacher d-flex align-items-center">
                                                                     <div className="course__teacher-thumb mr-15">
-                                                                        <img src="assets/img/course/teacher//teachers/teacher-4.jpg" alt="img not found" />
+                                                                        <img src="assets/img/course/teacher//teachers/teacher-4.png" alt="img not found" />
                                                                     </div>
                                                                     <h6><Link href="/instructor-details"><a>Usman Ahmed</a></Link></h6>
                                                                 </div>

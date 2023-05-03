@@ -86,7 +86,7 @@ class HeroTwo extends Component {
                               </div>
                               <div className="hero__class d-none d-lg-flex layer" data-depth="0.3">
                                  <div className="hero__class-thumb mr-15">
-                                    <img src="assets/img/hero/hero-2/hero-sm.jpg" alt="img not found" />
+                                    <img src="assets/img/hero/hero-2/hero-sm.png" alt="img not found" />
                                  </div>
                                  <div className="hero__class-text">
                                     <h5>User Experience Class</h5>
