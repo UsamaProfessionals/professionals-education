@@ -65,7 +65,8 @@
             margin-bottom: 0;
             & span{
                 font-weight: 600;
-                color: $black;
+                color: var(--color-dark);
+                // color: $black;
             }
         }
     }
@@ -82,7 +83,8 @@
             margin-bottom: 0;
             & span{
                 font-weight: 600;
-                color: $black;
+                color: var(--color-dark);
+                // color: $black;
             }
         }
     }
@@ -91,7 +93,8 @@
             & li{
                 font-size: 16px;
                 font-weight: 500;
-                color: $black;
+                // color: $black;
+                color: var(--color-dark);
                 margin-bottom: 5px;
                 & i{
                     font-size: 16px;

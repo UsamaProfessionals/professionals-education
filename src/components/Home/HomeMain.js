@@ -168,7 +168,7 @@ class HomeMain extends Component {
 											</ul>
 										</div>
 										<div class="generic_price_btn clearfix">
-											<a class="" href="#">Sign up</a>
+											<Link class="" href="/sign-up">Sign up</Link>
 										</div>
 									</div>
 								</div>
@@ -201,7 +201,7 @@ class HomeMain extends Component {
 											</ul>
 										</div>
 										<div class="generic_price_btn clearfix">
-											<a class="" href="#">Sign up</a>
+											<Link class="" href="/sign-up">Sign up</Link>
 										</div>
 									</div>
 								</div>
@@ -234,7 +234,7 @@ class HomeMain extends Component {
 											</ul>
 										</div>
 										<div class="generic_price_btn clearfix">
-											<a class="" href="#">Sign up</a>
+											<Link class="" href="/sign-up">Sign up</Link>
 										</div>
 									</div>
 								</div>

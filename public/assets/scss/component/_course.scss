@@ -74,6 +74,10 @@
     color: black !important;
 }
 
+.flip-box-back .course__title{
+    color: black;
+}
+
 .flip-box:hover .flip-box-back {
     transform: rotateY(0deg);
     transform-style: preserve-3d;
@@ -98,6 +102,10 @@
 .flip-box p {
     font-size: 20px;
     line-height: 1.5rem;
+}
+
+.course__content-3 .course__title{
+    color: black;
 }
 
 
@@ -472,7 +480,8 @@
 
                 & p {
                     font-size: 16px;
-                    color: $black;
+                    // color: $black;
+                    color: var(--color-dark);
                     font-weight: 600;
                     margin-bottom: 0;
                 }
@@ -508,7 +517,8 @@
 
         & p {
             font-size: 16px;
-            color: $black;
+            // color: $black;
+            color: var(--color-dark);
             font-weight: 600;
             margin-bottom: 0;
         }
@@ -913,6 +923,7 @@
             font-size: 20px;
             margin-bottom: 27px;
             text-transform: capitalize;
+            color: #0e1133;
         }
 
         &-search {
@@ -1031,6 +1042,7 @@
                 margin-bottom: 0;
                 font-weight: 600;
                 line-height: 1;
+                color: #0e1133;
 
                 & a {
                     &:hover {
@@ -1684,6 +1696,7 @@
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 10px;
+            color: #0e1133;
         }
     }
 

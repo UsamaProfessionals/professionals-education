@@ -79,7 +79,8 @@
                 padding-left: 8px;
                 color: $e-text-4;
                 & a{
-                    color: $black;
+                    // color: $black;
+                    color: var(--color-dark);
                     font-weight: 600;
                     padding-left: 4px;
                     &:hover{
@@ -139,6 +140,7 @@
                 font-size: 20px;
                 font-weight: 600;
                 margin-bottom: 6px;
+                color: #0e1133;
             }
             & p{
                 margin-bottom: 0;
@@ -156,6 +158,7 @@
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 13px;
+            color: #0e1133;
         }
         & ul{
             & li{
@@ -228,6 +231,7 @@
     &__item{
         padding: 50px 80px;
         padding-bottom: 62px;
+        background: var(--color-black);
         @include border-radius(6px);
         @include box-shadow(0px 40px 50px 0px rgba(1, 11, 60, 0.08));
         position: relative;
@@ -255,6 +259,7 @@
     &__title{
         font-size: 26px;
         margin-bottom: 8px;
+        color: var(--color-dark);
     }
     &__content{
         & p{

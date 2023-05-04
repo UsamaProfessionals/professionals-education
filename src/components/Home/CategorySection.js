@@ -33,7 +33,7 @@ class Category extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center text-center">
+                        <div className="row mx-0 justify-content-center text-center">
                             
                             <CategorySlider />
                           

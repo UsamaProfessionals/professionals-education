@@ -767,7 +767,8 @@ p.checkout-coupon input[type="text"] {
 }
 
 .your-order-table table tr.order-total td span {
-  color: $black;
+  // color: $black;
+  color: var(--color-dark);
   font-size: 18px;
   font-weight: 500;
 }
@@ -787,7 +788,8 @@ p.checkout-coupon input[type="text"] {
     & .accordion-button{
         font-size: 16px;
         font-weight: 500;
-        color: $black;
+        color: var(--color-dark);
+        // color: $black;
         padding: 23px 0;
         border: none;
         &:focus{

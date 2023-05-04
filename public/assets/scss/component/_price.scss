@@ -31,19 +31,20 @@ body {
     background-color: #eee;
 }
 
-#generic_price_table {
-    background-color: #f0eded;
-}
+// #generic_price_table {
+//     background-color: #f0eded;
+// }
 
 /*PRICE COLOR CODE START*/
 #generic_price_table .generic_content {
-    background-color: #fff;
+    background-color: var(--color-light);
     border: 1px solid #50C878;
     border-radius: 8px;
 }
 
 #generic_price_table .generic_content .generic_head_price {
-    background-color: #f6f6f6;
+    // background-color: #f6f6f6;
+    background-color: var(--color-light);
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg {

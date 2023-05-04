@@ -165,7 +165,7 @@
 
 .customize-theme .choose-bg .bg-1 {
 	background: white;
-	color: black;
+	color: var(--color-white);
 }
 
 .customize-theme .choose-bg .bg-2 {
@@ -175,7 +175,6 @@
 
 .customize-theme .choose-bg .bg-3 {
 	background: hsl(252, 30%, 10%);
-	;
 	color: white;
 }
 
@@ -231,6 +230,12 @@
 	.header__category {
 		padding-left: 10px !important;
 		margin-left: 10px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header__search input {
+		width: 215px !important;
 	}
 }
 
@@ -327,20 +332,24 @@
 				& ul {
 					& li {
 						& a {
-							color: $black;
+							color: var(--color-dark);
 
 							&::after {
-								border-color: $black;
+								border-color: var(--color-dark);
+								// border-color: $black;
 							}
 
 							&::before {
-								background: $black;
+								background: var(--color-dark);
+								// background: $black;
 							}
 						}
 
 						& .submenu {
 							& li {
 								& a {
+									color: black;
+
 									&::before {
 										background: $e-blue;
 									}
@@ -371,14 +380,16 @@
 
 					& svg {
 						& .cat-dot {
-							fill: $e-blue;
+							fill: $e-blue !important;
 						}
 					}
 				}
 
 				& svg {
 					& .cat-dot {
-						fill: $black;
+						fill: orangered !important;
+						// fill: var(--color-dark);
+						// fill: $black;
 					}
 				}
 			}
@@ -811,10 +822,11 @@
 	position: relative;
 
 	&:hover {
-		color: $e-blue;
+		color: $e-blue !important;
 
 		& svg {
 			& .cat-dot {
+				// fill: white !important;
 				fill: $e-blue;
 			}
 		}
@@ -825,8 +837,8 @@
 		height: 16px;
 
 		& .cat-dot {
+			fill: orangered !important;
 			// fill: $black;
-			fill: orangered;
 		}
 	}
 
