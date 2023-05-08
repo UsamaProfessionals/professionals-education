@@ -4,6 +4,14 @@
 /*  18. SLIDER CSS START
 /*----------------------------------------*/
 
+
+
+.single-slider{
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 .slider{
     &__wrapper{
         & .swiper-slide-active {
@@ -13,6 +21,7 @@
             & .slider__title{
                 opacity: 1;
                 transform: translateY(0);
+                height: 100vh;
             }
         }
     }
@@ -34,7 +43,8 @@
             top: 0;
             width: 100%;
             height: 100%;
-            background: rgba($color: $black-3, $alpha: .66);
+            background: rgb(0 3 32 / 47%);
+            // background: rgba($color: $black-3, $alpha: .66);
         }
     }
     &__content{
@@ -42,7 +52,8 @@
         z-index: 1;
         & span{
             font-size: 18px;
-            color: $e-yellow;
+            // color: $e-yellow;
+            color: #50C878;
             margin-bottom: 12px;
             display: inline-block;
         }
@@ -146,9 +157,13 @@
         width: 100%;
         &-item{
             @include background();
+            margin-top: 50px;
+            padding-top: 20px;
             height: 100px;
             transition: height .3s ease-in-out;
             position: relative;
+            background-size: cover;
+            background-position: center;
 
             &:hover{
                 cursor: pointer;
@@ -160,21 +175,21 @@
                 top: 0;
                 width: 100%;
                 height: 100%;
-                background: rgba($color: $e-orange-4, $alpha: .8);
+                background: rgba($color: $e-orange-4, $alpha: .4);
             }
             &.blue-bg{
                 &::after{
-                    background: rgba($color: $e-blue-4, $alpha: .8);
+                    background: rgba($color: $e-blue-4, $alpha: .4);
                 }
             }
             &.pink-bg{
                 &::after{
-                    background: rgba($color: $e-pink-3, $alpha: .8);
+                    background: rgba($color: $e-pink-3, $alpha: .4);
                 }
             }
             &.green-bg{
                 &::after{
-                    background: rgba($color: $e-green-2, $alpha: .8);
+                    background: rgba($color: $e-green-2, $alpha: .4);
                 }
             }
             &.swiper-slide-thumb-active{

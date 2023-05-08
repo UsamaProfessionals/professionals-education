@@ -51,7 +51,7 @@ const Counter = () => {
                     <div className="row">
                         {counters.map((counter, num) => (
                             <div key={num} className="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 col-md-3 offset-md-0 col-sm-5 offset-sm-2">
-                                <div className="counter__item mb-30">
+                                <div className="counter__item mb-30 text-center">
                                     <div className="counter__icon user mb-15">
                                         <div dangerouslySetInnerHTML={{ __html: counter.countIcon }}></div>
                                     </div>

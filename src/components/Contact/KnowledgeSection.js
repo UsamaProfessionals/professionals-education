@@ -15,7 +15,7 @@ class Knowledge extends Component {
             <div className="container">
                <div className="row">
                   <div className="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6">
-                     <div className="contact__item text-center mb-30 transition-3">
+                     <div className="contact__item text-center mb-30 transition-3 white-bg">
                         <div className="contact__icon d-flex justify-content-center align-items-end">
                            <svg viewBox="0 0 24 24">
                               <circle className="st0" cx="12" cy="12" r="10"/>

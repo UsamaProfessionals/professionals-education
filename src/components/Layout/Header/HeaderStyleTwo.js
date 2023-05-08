@@ -4,10 +4,14 @@ import { useRouter } from 'next/router';
 import BurgerMenus from './BurgerMenus';
 import Head from 'next/head';
 import Image from 'next/image';
+import ShopingCart from './ShopingCart';
+
 
 const HeaderTwo = () => {
 
-	const [menuOpen, setMenuOpen] = useState(false)
+	const [menuOpen, setMenuOpen] = useState(false);
+	const [shopOpen, setShopOpen] = useState(false);
+
 
 	const router = useRouter()
 	const [path, setPath] = useState("")
@@ -188,18 +192,18 @@ const HeaderTwo = () => {
 				<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 			</Head>
 			<header>
-				<div id="header-sticky" className="header__area header__transparent header__padding-2">
-					<div className="container">
+				<div id="header-sticky" className="header__area header__transparent header__padding">
+					<div className="container-fluid">
 						<div className="row align-items-center">
-							<div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
+							<div className="col-xxl-3 col-xl-3 col-lg-4 col-md-3 col-sm-6 col-8">
 								<div className="header__left d-flex">
 									<div className="logo">
 										<Link href="/">
-											<a><img src="assets/img/logo/PELogo.png" alt="logo" className='' /></a>
+											<a><img src="assets/img/logo/PELogo.png" alt="logo" /></a>
 										</Link>
 									</div>
-									<div className="header__category d-none d-lg-block">
-										<nav>
+									<div className="header__category d-none d-lg-block active">
+										<nav >
 											<ul>
 												<li>
 													<Link href="/course-grid"><a className="cat-menu d-flex align-items-center">
@@ -236,9 +240,9 @@ const HeaderTwo = () => {
 									</div>
 								</div>
 							</div>
-							<div className="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
+							<div className="col-xxl-9 col-xl-9 col-lg-8 col-md-9 col-sm-6 col-4">
 								<div className="header__right d-flex justify-content-end align-items-center">
-									<div className="main-menu main-menu-2 d-none d-xl-block">
+									<div className="main-menu d-none d-xl-block">
 										<nav id="mobile-menu">
 											<ul>
 												<li className="has-dropdown">
@@ -285,11 +289,43 @@ const HeaderTwo = () => {
 											</ul>
 										</nav>
 									</div>
-									<div className="header__btn header__btn-2 ml-50 d-none d-sm-block">
-										<Link href="/sign-up"><a className="e-btn">Sign Up</a></Link>
+									<div className="header__search p-relative ml-50 d-none d-md-block">
+										<form action="#">
+											<input type="text" placeholder="Search..." />
+											<button type="submit"><i className="fas fa-search"></i></button>
+										</form>
+										<div className="header__cart">
+											<span className="cart-toggle-btn" onClick={() => { setShopOpen(!shopOpen) }}>
+												<div className="header__cart-icon">
+													<svg viewBox="0 0 24 24">
+														<circle className="st0" cx="9" cy="21" r="1" />
+														<circle className="st0" cx="20" cy="21" r="1" />
+														<path className="st0" d="M1,1h4l2.7,13.4c0.2,1,1,1.6,2,1.6h9.7c1,0,1.8-0.7,2-1.6L23,6H6" />
+													</svg>
+												</div>
+												<span className="cart-item">2</span>
+											</span>
+										</div>
+									</div>
+									<div className="header__cart header__cart--responsive">
+										<span className="cart-toggle-btn" onClick={() => { setShopOpen(!shopOpen) }}>
+											<div className="header__cart-icon">
+												<svg viewBox="0 0 24 24">
+													<circle className="st0" cx="9" cy="21" r="1" />
+													<circle className="st0" cx="20" cy="21" r="1" />
+													<path className="st0" d="M1,1h4l2.7,13.4c0.2,1,1,1.6,2,1.6h9.7c1,0,1.8-0.7,2-1.6L23,6H6" />
+												</svg>
+											</div>
+											<span className="cart-item">2</span>
+										</span>
+									</div>
+									<div className="header__btn ml-20 d-none d-sm-block">
+										<Link href="/contact"><a className="e-btn">Try for free</a></Link>
 									</div>
 									<div className="sidebar__menu d-xl-none">
-										<div className="sidebar-toggle-btn ml-30" id="sidebar-toggle" onClick={() => { setMenuOpen(!menuOpen) }}>
+										<div className="sidebar-toggle-btn ml-30" id="sidebar-toggle" onClick={() => {
+											setMenuOpen(!menuOpen)
+										}}>
 											<span className="line"></span>
 											<span className="line"></span>
 											<span className="line"></span>
@@ -310,30 +346,30 @@ const HeaderTwo = () => {
 
 						{/* <!-- ================ Font Size ==================================== --> */}
 						{/* <div class="font-size">
-							<h4>Font Size</h4>
-							<div>
-								<h6>Aa</h6>
-								<div class="choose-size">
-									<span class="font-size-1"></span>
-									<span class="font-size-2"></span>
-									<span class="font-size-3 active"></span>
-									<span class="font-size-4"></span>
-									<span class="font-size-5"></span>
-								</div>
-								<h3>Aa</h3>
-							</div>
-						</div> */}
+                     <h4>Font Size</h4>
+                     <div>
+                        <h6>Aa</h6>
+                        <div class="choose-size">
+                           <span class="font-size-1"></span>
+                           <span class="font-size-2"></span>
+                           <span class="font-size-3 active"></span>
+                           <span class="font-size-4"></span>
+                           <span class="font-size-5"></span>
+                        </div>
+                        <h3>Aa</h3>
+                     </div>
+                  </div> */}
 
 						{/* <div class="color">
-							<h4>Color</h4>
-							<div class="choose-color">
-								<span class="color-1 active"></span>
-								<span class="color-2"></span>
-								<span class="color-3"></span>
-								<span class="color-4"></span>
-								<span class="color-5"></span>
-							</div>
-						</div> */}
+                     <h4>Color</h4>
+                     <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                     </div>
+                  </div> */}
 
 						{/* <!-- =================== Background Colors============================== --> */}
 						<div class="background">
@@ -363,6 +399,9 @@ const HeaderTwo = () => {
 
 				<BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 				<div onClick={() => setMenuOpen(false)} className={menuOpen ? "body-overlay show" : "body-overlay"}></div>
+
+				<ShopingCart shopOpen={shopOpen} setShopOpen={setShopOpen} />
+				<div onClick={() => setShopOpen(false)} className={shopOpen ? "body-overlay show" : "body-overlay"}></div>
 
 			</header>
 		</React.Fragment>

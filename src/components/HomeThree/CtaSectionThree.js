@@ -8,14 +8,14 @@ class CtaThree extends Component {
         <section className="cta__area pb-150">
             <div className="container">
                <div className="cta__inner-3 p-relative grey-bg-2 pt-75 pb-75 fix">
-                  <div className="cta__shape-3">
+                  {/* <div className="cta__shape-3">
                      <img className="cta-2" src="assets/img/cta/cta-shape-1.png" alt="img not found" />
                      <img className="cta-3" src="assets/img/cta/cta-shape-2.png" alt="img not found" />
-                  </div>
+                  </div> */}
                   <div className="row">
                      <div className="col-xxl-12">
                         <div className="cta__content text-center p-relative">
-                           <span>Coming June</span>
+                           <span>Coming Soon</span>
                            <h3 className="cta__title-2">Built to stand out.</h3>
                         </div>
                      </div>

@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const HeaderFour = () => {
 
-    const [menuOpen, setMenuOpen] = useState(false)
+    const [menuOpen, setMenuOpen] = useState(false);
 
     const router = useRouter()
     const [path, setPath] = useState("")

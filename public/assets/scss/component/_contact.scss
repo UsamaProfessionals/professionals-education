@@ -231,7 +231,7 @@
     &__item{
         padding: 50px 80px;
         padding-bottom: 62px;
-        background: var(--color-black);
+        // background: var(--color-black);
         @include border-radius(6px);
         @include box-shadow(0px 40px 50px 0px rgba(1, 11, 60, 0.08));
         position: relative;

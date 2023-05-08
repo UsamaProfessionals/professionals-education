@@ -11,7 +11,7 @@ class Course extends Component {
                <div className="row align-items-end">
                   <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
                      <div className="section__title-wrapper mb-60">
-                        <h2 className="section__title">Online<span className="yellow-bg"> Courses <img src="assets/img/shape/yellow-bg-2.png" alt="img not found" /></span> <br /> For anyone, anywhere 
+                        <h2 className="section__title hover-underline-animation">Online<span className="yellow-bg"> Courses </span> <br /> For anyone, anywhere 
                         </h2>
                         <p>You don't have to struggle alone, you've got our assistance and help.</p>
                      </div>
@@ -44,7 +44,7 @@ class Course extends Component {
                                     </div>
                                  </div>
                                  <div className="course__teacher-info">
-                                    <h6><Link href="/instructor-details"><a>Ahmed Khan</a></Link></h6>
+                                    <h6><Link href="/instructor-details"><a>Syed Hammad</a></Link></h6>
                                     <span>Product Designer</span>
                                  </div>
                               </div>
@@ -74,7 +74,7 @@ class Course extends Component {
                                     </div>
                                  </div>
                                  <div className="course__teacher-info">
-                                    <h6><Link href="/instructor-details"><a>JCraig Weber</a></Link></h6>
+                                    <h6><Link href="/instructor-details"><a>Junaid Ali</a></Link></h6>
                                     <span>UX Designer</span>
                                  </div>
                               </div>

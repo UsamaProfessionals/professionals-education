@@ -5,11 +5,15 @@ import BurgerMenus from './BurgerMenus';
 import Head from 'next/head';
 import Image from 'next/image';
 import HeaderSearch from './HeaderSearch';
+import ShopingCart from './ShopingCart';
+
 
 const HeaderStyleFive = () => {
 
     const [menuOpen, setMenuOpen] = useState(false)
     const [searchOpen, setSearchOpen] = useState(false)
+    const [shopOpen, setShopOpen] = useState(false)
+
 
     const router = useRouter()
     const [path, setPath] = useState("")
@@ -190,87 +194,140 @@ const HeaderStyleFive = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             </Head>
             <header>
-                <div id="header-sticky" className="header__area header__transparent header__padding-2">
-                    <div className="container">
+                <div id="header-sticky" className="header__area header__transparent header__padding">
+                    <div className="container-fluid">
                         <div className="row align-items-center">
-                            <div className="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
+                            <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-3 col-sm-6 col-8">
                                 <div className="header__left d-flex">
                                     <div className="logo">
                                         <Link href="/">
-                                            <a>
-                                                <img className="logo-white" src="assets/img/logo/PELogo.png" alt="logo" />
-                                                <img className="logo-black" src="assets/img/logo/PELogo.png" alt="logo" />
-                                            </a>
+                                            <a><img src="assets/img/logo/PELogo.png" alt="logo" /></a>
                                         </Link>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-xxl-5 col-xl-5 d-none d-xl-block">
-                                <div className="main-menu main-menu-3 d-none d-xl-block">
-                                    <nav id="mobile-menu" style={{ marginTop: "35px" }}>
-                                        <ul>
-                                            <li className="hs-dropdown">
-                                                <Link href="/"><a>Home</a></Link>
-                                                {/* <ul className="submenu">
-                                                    <li><Link href="/"><a>Home Style 1</a></Link></li>
-                                                    <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
-                                                    <li><Link href="/home-3"><a>Home Style 3</a></Link></li>
-                                                </ul> */}
-                                            </li>
-                                            <li className="has-dropdown">
-                                                <Link href="/course-grid"><a>Courses</a></Link>
-                                                <ul className="submenu">
-                                                    <li><Link href="/course-grid"><a>Courses</a></Link></li>
-                                                    <li><Link href="/course-list"><a>Courses List</a></Link></li>
-                                                    <li><Link href="/course-sidebar"><a>Courses Sidebar</a></Link></li>
-                                                    <li><Link href="/course-details"><a>Courses Details</a></Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="has-dropdown">
-                                                <Link href="/blog"><a>Blog</a></Link>
-                                                <ul className="submenu">
-                                                    <li><Link href="/blog"><a>Blog</a></Link></li>
-                                                    <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="has-dropdown">
-                                                <Link href="/course-grid"><a>Pages</a></Link>
-                                                <ul className="submenu">
-                                                    <li><Link href="/about"><a>About</a></Link></li>
-                                                    <li><Link href="/instructor"><a>Instructor</a></Link></li>
-                                                    <li><Link href="/instructor-details"><a>Instructor Details</a></Link></li>
-                                                    <li><Link href="/event-details"><a>Event Details</a></Link></li>
-                                                    <li><Link href="/cart"><a>My Cart</a></Link></li>
-                                                    <li><Link href="/wishlist"><a>My Wishlist</a></Link></li>
-                                                    <li><Link href="/checkout"><a>Checkout</a></Link></li>
-                                                    <li><Link href="/sign-in"><a>Sign In</a></Link></li>
-                                                    <li><Link href="/sign-up"><a>Sign Up</a></Link></li>
-                                                    <li><Link href="/error"><a>Error</a></Link></li>
-                                                </ul>
-                                            </li>
-                                            <li><Link href="/contact"><a>Contact</a></Link></li>
-                                            <li><a className="menu-item" id="theme" style={{ cursor: "pointer" }}>Theme</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-6 col-6">
-                                <div className="header__right d-flex justify-content-end align-items-center">
-                                    <div className="header__search-2">
-                                        <svg className="search-toggle" onClick={() => { setSearchOpen(!searchOpen) }} viewBox="0 0 584.4 584.4">
-                                            <g>
-                                                <g>
-                                                    <path className="st0" d="M565.7,474.9l-61.1-61.1c-3.8-3.8-8.8-5.9-13.9-5.9c-6.3,0-12.1,3-15.9,8.3c-16.3,22.4-36,42.1-58.4,58.4    c-4.8,3.5-7.8,8.8-8.3,14.5c-0.4,5.6,1.7,11.3,5.8,15.4l61.1,61.1c12.1,12.1,28.2,18.8,45.4,18.8c17.1,0,33.3-6.7,45.4-18.8    C590.7,540.6,590.7,499.9,565.7,474.9z" />
-                                                    <path className="st1" d="M254.6,509.1c140.4,0,254.5-114.2,254.5-254.5C509.1,114.2,394.9,0,254.6,0C114.2,0,0,114.2,0,254.5    C0,394.9,114.2,509.1,254.6,509.1z M254.6,76.4c98.2,0,178.1,79.9,178.1,178.1s-79.9,178.1-178.1,178.1S76.4,352.8,76.4,254.5    S156.3,76.4,254.6,76.4z" />
-                                                </g>
-                                            </g>
-                                        </svg>
+                                    <div className="header__category d-none d-lg-block active">
+                                        <nav >
+                                            <ul>
+                                                <li>
+                                                    <Link href="/course-grid"><a className="cat-menu d-flex align-items-center">
+                                                        <div className="cat-dot-icon d-inline-block">
+                                                            <svg viewBox="0 0 276.2 276.2">
+                                                                <g>
+                                                                    <g>
+                                                                        <path className="cat-dot" d="M33.1,2.5C15.3,2.5,0.9,17,0.9,34.8s14.5,32.3,32.3,32.3s32.3-14.5,32.3-32.3S51,2.5,33.1,2.5z" />
+                                                                        <path className="cat-dot" d="M137.7,2.5c-17.8,0-32.3,14.5-32.3,32.3s14.5,32.3,32.3,32.3c17.8,0,32.3-14.5,32.3-32.3S155.5,2.5,137.7,2.5    z" />
+                                                                        <path className="cat-dot" d="M243.9,67.1c17.8,0,32.3-14.5,32.3-32.3S261.7,2.5,243.9,2.5S211.6,17,211.6,34.8S226.1,67.1,243.9,67.1z" />
+                                                                        <path className="cat-dot" d="M32.3,170.5c17.8,0,32.3-14.5,32.3-32.3c0-17.8-14.5-32.3-32.3-32.3S0,120.4,0,138.2S14.5,170.5,32.3,170.5z" />
+                                                                        <path className="cat-dot" d="M136.8,170.5c17.8,0,32.3-14.5,32.3-32.3c0-17.8-14.5-32.3-32.3-32.3c-17.8,0-32.3,14.5-32.3,32.3    C104.5,156.1,119,170.5,136.8,170.5z" />
+                                                                        <path className="cat-dot" d="M243,170.5c17.8,0,32.3-14.5,32.3-32.3c0-17.8-14.5-32.3-32.3-32.3s-32.3,14.5-32.3,32.3    C210.7,156.1,225.2,170.5,243,170.5z" />
+                                                                        <path className="cat-dot" d="M33,209.1c-17.8,0-32.3,14.5-32.3,32.3c0,17.8,14.5,32.3,32.3,32.3s32.3-14.5,32.3-32.3S50.8,209.1,33,209.1z    " />
+                                                                        <path className="cat-dot" d="M137.6,209.1c-17.8,0-32.3,14.5-32.3,32.3c0,17.8,14.5,32.3,32.3,32.3c17.8,0,32.3-14.5,32.3-32.3    S155.4,209.1,137.6,209.1z" />
+                                                                        <path className="cat-dot" d="M243.8,209.1c-17.8,0-32.3,14.5-32.3,32.3c0,17.8,14.5,32.3,32.3,32.3c17.8,0,32.3-14.5,32.3-32.3    S261.6,209.1,243.8,209.1z" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                        </div>
+                                                        <span>Category</span>
+                                                    </a>
+                                                    </Link>
+                                                    <ul className="cat-submenu">
+                                                        <li><Link href="/course-grid"><a>English Learning</a></Link></li>
+                                                        <li><Link href="/course-grid"><a>Web Development</a></Link></li>
+                                                        <li><Link href="/course-grid"><a>Logo Design</a></Link></li>
+                                                        <li><Link href="/course-grid"><a>Motion Graphics</a></Link></li>
+                                                        <li><Link href="/course-grid"><a>Video Edition</a></Link></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
                                     </div>
-                                    <div className="header__btn header__btn-2 ml-30 d-none d-sm-block">
-                                        <Link href="/sign-up"><a className="e-btn">Sign Up</a></Link>
+                                </div>
+                            </div>
+                            <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-9 col-sm-6 col-4">
+                                <div className="header__right d-flex justify-content-end align-items-center">
+                                    <div className="main-menu d-none d-xl-block">
+                                        <nav id="mobile-menu">
+                                            <ul>
+                                                <li className="has-dropdown">
+                                                    <Link href="/"><a>Home</a></Link>
+                                                    <ul className="submenu">
+                                                        <li><Link href="/"><a>Home Style 1</a></Link></li>
+                                                        <li><Link href="/home-2"><a>Home Style 2</a></Link></li>
+                                                        <li><Link href="/home-3"><a>Home Style 3</a></Link></li>
+                                                    </ul>
+                                                </li>
+                                                <li className="has-dropdown">
+                                                    <Link href="/course-grid"><a>Courses</a></Link>
+                                                    <ul className="submenu">
+                                                        <li><Link href="/course-grid"><a>Courses</a></Link></li>
+                                                        <li><Link href="/course-list"><a>Courses List</a></Link></li>
+                                                        <li><Link href="/course-sidebar"><a>Courses Sidebar</a></Link></li>
+                                                        <li><Link href="/course-details"><a>Courses Details</a></Link></li>
+                                                    </ul>
+                                                </li>
+                                                <li className="has-dropdown">
+                                                    <Link href="/blog"><a>Blog</a></Link>
+                                                    <ul className="submenu">
+                                                        <li><Link href="/blog"><a>Blog</a></Link></li>
+                                                        <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
+                                                    </ul>
+                                                </li>
+                                                <li className="has-dropdown">
+                                                    <Link href="/course-grid"><a>Pages</a></Link>
+                                                    <ul className="submenu">
+                                                        <li><Link href="/about"><a>About</a></Link></li>
+                                                        <li><Link href="/instructor"><a>Instructor</a></Link></li>
+                                                        <li><Link href="/instructor-details"><a>Instructor Details</a></Link></li>
+                                                        <li><Link href="/event-details"><a>Event Details</a></Link></li>
+                                                        <li><Link href="/cart"><a>My Cart</a></Link></li>
+                                                        <li><Link href="/wishlist"><a>My Wishlist</a></Link></li>
+                                                        <li><Link href="/checkout"><a>Checkout</a></Link></li>
+                                                        <li><Link href="/sign-in"><a>Sign In</a></Link></li>
+                                                        <li><Link href="/sign-up"><a>Sign Up</a></Link></li>
+                                                        <li><Link href="/error"><a>Error</a></Link></li>
+                                                    </ul>
+                                                </li>
+                                                <li><Link href="/contact"><a>Contact</a></Link></li>
+                                                <li><a className="menu-item" id="theme" style={{ cursor: "pointer" }}>Theme</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div className="header__search p-relative ml-50 d-none d-md-block">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search..." />
+                                            <button type="submit"><i className="fas fa-search"></i></button>
+                                        </form>
+                                        <div className="header__cart">
+                                            <span className="cart-toggle-btn" onClick={() => { setShopOpen(!shopOpen) }}>
+                                                <div className="header__cart-icon">
+                                                    <svg viewBox="0 0 24 24">
+                                                        <circle className="st0" cx="9" cy="21" r="1" />
+                                                        <circle className="st0" cx="20" cy="21" r="1" />
+                                                        <path className="st0" d="M1,1h4l2.7,13.4c0.2,1,1,1.6,2,1.6h9.7c1,0,1.8-0.7,2-1.6L23,6H6" />
+                                                    </svg>
+                                                </div>
+                                                <span className="cart-item">2</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="header__cart header__cart--responsive">
+                                        <span className="cart-toggle-btn" onClick={() => { setShopOpen(!shopOpen) }}>
+                                            <div className="header__cart-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <circle className="st0" cx="9" cy="21" r="1" />
+                                                    <circle className="st0" cx="20" cy="21" r="1" />
+                                                    <path className="st0" d="M1,1h4l2.7,13.4c0.2,1,1,1.6,2,1.6h9.7c1,0,1.8-0.7,2-1.6L23,6H6" />
+                                                </svg>
+                                            </div>
+                                            <span className="cart-item">2</span>
+                                        </span>
+                                    </div>
+                                    <div className="header__btn ml-20 d-none d-sm-block">
+                                        <Link href="/contact"><a className="e-btn">Try for free</a></Link>
                                     </div>
                                     <div className="sidebar__menu d-xl-none">
-                                        <div className="sidebar-toggle-btn sidebar-toggle-btn-white ml-30" id="sidebar-toggle" onClick={() => { setMenuOpen(!menuOpen) }}>
+                                        <div className="sidebar-toggle-btn ml-30" id="sidebar-toggle" onClick={() => {
+                                            setMenuOpen(!menuOpen)
+                                        }}>
                                             <span className="line"></span>
                                             <span className="line"></span>
                                             <span className="line"></span>
@@ -291,30 +348,30 @@ const HeaderStyleFive = () => {
 
                         {/* <!-- ================ Font Size ==================================== --> */}
                         {/* <div class="font-size">
-                            <h4>Font Size</h4>
-                            <div>
-                                <h6>Aa</h6>
-                                <div class="choose-size">
-                                    <span class="font-size-1"></span>
-                                    <span class="font-size-2"></span>
-                                    <span class="font-size-3 active"></span>
-                                    <span class="font-size-4"></span>
-                                    <span class="font-size-5"></span>
-                                </div>
-                                <h3>Aa</h3>
-                            </div>
-                        </div> */}
+                     <h4>Font Size</h4>
+                     <div>
+                        <h6>Aa</h6>
+                        <div class="choose-size">
+                           <span class="font-size-1"></span>
+                           <span class="font-size-2"></span>
+                           <span class="font-size-3 active"></span>
+                           <span class="font-size-4"></span>
+                           <span class="font-size-5"></span>
+                        </div>
+                        <h3>Aa</h3>
+                     </div>
+                  </div> */}
 
                         {/* <div class="color">
-                            <h4>Color</h4>
-                            <div class="choose-color">
-                                <span class="color-1 active"></span>
-                                <span class="color-2"></span>
-                                <span class="color-3"></span>
-                                <span class="color-4"></span>
-                                <span class="color-5"></span>
-                            </div>
-                        </div> */}
+                     <h4>Color</h4>
+                     <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                     </div>
+                  </div> */}
 
                         {/* <!-- =================== Background Colors============================== --> */}
                         <div class="background">
@@ -345,8 +402,8 @@ const HeaderStyleFive = () => {
                 <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
                 <div onClick={() => setMenuOpen(false)} className={menuOpen ? "body-overlay show" : "body-overlay"}></div>
 
-                <HeaderSearch searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
-                <div onClick={() => setSearchOpen(false)} className={searchOpen ? "body-overlay show" : "body-overlay"}></div>
+                <ShopingCart shopOpen={shopOpen} setShopOpen={setShopOpen} />
+                <div onClick={() => setShopOpen(false)} className={shopOpen ? "body-overlay show" : "body-overlay"}></div>
 
             </header>
         </React.Fragment>

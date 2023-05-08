@@ -5,7 +5,7 @@ const FooterStyleTwo = () => {
 
     return (
         <footer>
-            <div className="footer__area grey-bg-2">
+            <div className="footer__area footer-bg grey-bg-2">
                <div className="footer__top pt-190 pb-40">
                   <div className="container">
                      <div className="row">
@@ -16,7 +16,7 @@ const FooterStyleTwo = () => {
                                     <Link href="/"><a><img src="assets/img/logo/PE-logo-white.png" alt="img not found" className='img-fluid' style={{maxWidth: "200px"}}/></a></Link>
                                  </div>
                               </div>
-                              <div className="footer__widget-body footer__widget-body-2">
+                              <div className="footer__widget-body">
                                  <p>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
 
                                  <div className="footer__social">
@@ -32,10 +32,10 @@ const FooterStyleTwo = () => {
                         <div className="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
                            <div className="footer__widget mb-50">
                               <div className="footer__widget-head mb-22">
-                                 <h3 className="footer__widget-title footer__widget-title-2">Company</h3>
+                                 <h3 className="footer__widget-title">Company</h3>
                               </div>
                               <div className="footer__widget-body">
-                                 <div className="footer__link footer__link-2">
+                                 <div className="footer__link">
                                     <ul>
                                        <li><Link href="/about"><a>About</a></Link></li>
                                        <li><Link href="/course-grid"><a>Courses</a></Link></li>
@@ -52,10 +52,10 @@ const FooterStyleTwo = () => {
                         <div className="col-xxl-2 col-xl-2 col-lg-2 offset-lg-0 col-md-3 offset-md-1 col-sm-6">
                            <div className="footer__widget mb-50">
                               <div className="footer__widget-head mb-22">
-                                 <h3 className="footer__widget-title footer__widget-title-2">Platform</h3>
+                                 <h3 className="footer__widget-title">Platform</h3>
                               </div>
                               <div className="footer__widget-body">
-                                 <div className="footer__link footer__link-2">
+                                 <div className="footer__link">
                                     <ul>
                                        <li><Link href="/instructor"><a>Browse Library</a></Link></li>
                                        <li><Link href="/instructor"><a>Library</a></Link></li>
@@ -71,10 +71,10 @@ const FooterStyleTwo = () => {
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-6">
                            <div className="footer__widget footer__pl-70 mb-50">
                               <div className="footer__widget-head mb-22">
-                                 <h3 className="footer__widget-title footer__widget-title-2">Subscribe</h3>
+                                 <h3 className="footer__widget-title">Subscribe</h3>
                               </div>
                               <div className="footer__widget-body">
-                                 <div className="footer__subscribe footer__subscribe-2">
+                                 <div className="footer__subscribe">
                                     <form action="#">
                                        <div className="footer__subscribe-input mb-15">
                                           <input type="email" placeholder="Your email address" />
@@ -96,7 +96,7 @@ const FooterStyleTwo = () => {
                   <div className="container">
                      <div className="row">
                         <div className="col-xxl-12">
-                           <div className="footer__copyright footer__copyright-2 text-center">
+                           <div className="footer__copyright text-center">
                               <p>© 2022 Educal, All Rights Reserved. Design By <Link href="/"><a>Theme Pure</a></Link></p>
                            </div>
                         </div>

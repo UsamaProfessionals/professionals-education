@@ -12,7 +12,7 @@ class Testimonial extends Component {
     render() {
 
         return (
-            <section className="testimonial__area testimonial__overlay pt-175 pb-170" style={{ backgroundImage:`url(${'assets/img/testimonial/testimonial-bg.png'})`}}>
+            <section className="testimonial__area testimonial__overlay pt-175 pb-170" style={{ backgroundImage:`url(${'assets/img/testimonial/testimonial-bg.jpg'})`, backgroundPosition: "center"}}>
             <div className="container">
                <div className="col-xxl-12">
                   <div className="testimonial__slider swiper-container">
@@ -44,13 +44,13 @@ class Testimonial extends Component {
                         <SwiperSlide>
                             <div className="testimonial__item text-center swiper-slide">
                             <div className="testimonial__thumb">
-                                <img src="assets/img/testimonial/testi-1.png" alt="img not found"/>
+                                <img src="assets/img/testimonial/home-3/test-1.png" alt="img not found"/>
                             </div>
                             <div className="testimonial__content">
                                 <p>“ Barmy loo sloshed porkiesdo with me down the pub say bubble and squeak. ”</p>
     
                                 <div className="testimonial__info">
-                                    <h4>Jason Response</h4>
+                                    <h4>Syed Hammad</h4>
                                     <span>UX Designer</span>
                                 </div>
                             </div>
@@ -59,13 +59,13 @@ class Testimonial extends Component {
                         <SwiperSlide>
                             <div className="testimonial__item text-center swiper-slide">
                             <div className="testimonial__thumb">
-                                <img src="assets/img/testimonial/testi-1.png" alt="img not found"/>
+                                <img src="assets/img/testimonial/home-3/test-2.png" alt="img not found"/>
                             </div>
                             <div className="testimonial__content">
                                 <p>“ Barmy loo sloshed porkiesdo with me down the pub say bubble and squeak. ”</p>
     
                                 <div className="testimonial__info">
-                                    <h4>Jason Response</h4>
+                                    <h4>Usman Ahmed</h4>
                                     <span>UX Designer</span>
                                 </div>
                             </div>
@@ -74,13 +74,13 @@ class Testimonial extends Component {
                         <SwiperSlide>
                             <div className="testimonial__item text-center swiper-slide">
                             <div className="testimonial__thumb">
-                                <img src="assets/img/testimonial/testi-1.png" alt="img not found"/>
+                                <img src="assets/img/testimonial/home-3/test-3.png" alt="img not found"/>
                             </div>
                             <div className="testimonial__content">
                                 <p>“ Barmy loo sloshed porkiesdo with me down the pub say bubble and squeak. ”</p>
     
                                 <div className="testimonial__info">
-                                    <h4>Jason Response</h4>
+                                    <h4>Junaid Ali</h4>
                                     <span>UX Designer</span>
                                 </div>
                             </div>
